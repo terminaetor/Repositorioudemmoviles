@@ -37,6 +37,11 @@ public class ACDexManager : MonoBehaviour
 
         GuardarDex();
 
+        foreach (var p in _acCriaturas.acCriaturas)
+        {
+            Debug.Log($"ID: {p.id}, Nombre: {p.nombre}, Atrapado: {p.atrapado}");
+        }
+
     }
     public void CargarDex()
     {
