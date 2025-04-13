@@ -20,10 +20,12 @@ public class ACDexManager : MonoBehaviour
         {
             string json = File.ReadAllText(_filePath);//si existe el archivo se lee la informacion
             _acCriaturas = JsonUtility.FromJson<ACCriaturas>(json);//Recoger info json
+            Debug.Log("Json existe");
         }
         else
         {
             _acCriaturas = new ACCriaturas();
+            Debug.Log("Json  no existe");
             GuardarDex();
         }
     }
@@ -32,5 +34,6 @@ public class ACDexManager : MonoBehaviour
     {
         string json = JsonUtility.ToJson(_acCriaturas, true);//Convertir informacion a json
         File.WriteAllText(_filePath, json);//Funcion que guarda el json
+        Debug.Log("Existiendo");
     }
 }
