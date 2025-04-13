@@ -402,6 +402,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d12792adef2944144b3f664fcf53afe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  criaturasExistentes:
+  - {fileID: 1958377671}
 --- !u!4 &1334096727
 Transform:
   m_ObjectHideFlags: 0
@@ -554,6 +556,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a10ac651a90814cbd726e1c6c6e2b7, type: 3}
+--- !u!1 &1958377671 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 303412647242841138, guid: 9feb4c0f0531b2f4cb21cb46c14d43e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1402720529}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

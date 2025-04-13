@@ -7,6 +7,7 @@ public class ACDexManager : MonoBehaviour
 {
     private string _filePath;
     public ACCriaturas _acCriaturas;
+    public List<GameObject> criaturasExistentes = new List<GameObject>();
 
     void Start()
     {
@@ -14,6 +15,14 @@ public class ACDexManager : MonoBehaviour
         CargarDex();
     }
 
+    public void SincronizarEscena()
+    {
+        foreach (GameObject go in criaturasExistentes)
+        {
+        
+        }
+
+    }
     public void CargarDex()
     {
         if(File.Exists(_filePath))
