@@ -6,21 +6,36 @@ using System.IO;
 public class ACDexManager : MonoBehaviour
 {
     private string _filePath;
-    public ACCriaturas _acCriaturas;
+    public ACCriaturas _acCriaturas = new ACCriaturas();
     public List<GameObject> criaturasExistentes = new List<GameObject>();
 
     void Start()
     {
         _filePath = Application.persistentDataPath + "/Dex.json";//Determina direccion en donde se guarda el json que tiene los datos guardados
         CargarDex();
+        SincronizarEscena();
     }
 
     public void SincronizarEscena()
     {
         foreach (GameObject go in criaturasExistentes)
         {
-        
+            if (go == null) continue;
+            ACCriatura criatura = go.GetComponent<ACCriatura>();
+
+            if (criatura != null)
+            {
+                ACDatos _datos = criatura.datos;
+                if (!_acCriaturas.acCriaturas.Exists(p => p.id == _datos.id))
+                {
+                    _acCriaturas.acCriaturas.Add(_datos);
+                    Debug.Log($"Se añadió {_datos.nombre} a la Pokédex.");
+                }
+            }
+
         }
+
+        GuardarDex();
 
     }
     public void CargarDex()
