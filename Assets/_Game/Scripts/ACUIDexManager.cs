@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class ACUIDexManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public ACCriaturas _acUICriaturas;
+    public ACDexManager _acDexManager;
+    public GameObject cajaPrefab;
+    public Transform contenedor;
+    private List<ACUICriaturaCaja> cajasCriaturas = new List<ACUICriaturaCaja>();
 
-    // Update is called once per frame
-    void Update()
+    void GenerarCajas()
     {
-        
+        foreach (var datos in _acDexManager._acCriaturas.acCriaturas)
+        {
+            GameObject nuevaCaja = Instantiate(cajaPrefab, contenedor);
+            ACUICriaturaCaja uiCaja = nuevaCaja.GetComponent<ACUICriaturaCaja>();
+            uiCaja.id = datos.id;
+            uiCaja.Mostrar(datos);
+            cajasCriaturas.Add(uiCaja);
+
+        }
     }
 }
+
+
