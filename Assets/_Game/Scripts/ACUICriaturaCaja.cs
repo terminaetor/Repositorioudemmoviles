@@ -10,6 +10,6 @@ public class ACUICriaturaCaja : MonoBehaviour
 
     public void Mostrar(ACDatos datos)
     {
-        nombreTexto.text = datos.atrapado ? datos.nombre : "???";
+        nombreTexto.text = datos.atrapado ? datos.nombre : datos.id.ToString();
     }
 }
