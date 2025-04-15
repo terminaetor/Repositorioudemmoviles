@@ -22,7 +22,7 @@ public class ACUIDexManager : MonoBehaviour
         {
             GameObject nuevaCaja = Instantiate(cajaPrefab, contenedor);
             ACUICriaturaCaja uiCaja = nuevaCaja.GetComponent<ACUICriaturaCaja>();
-            uiCaja.id = datos.id;
+            uiCaja.id = datos.id;//actualizar cajas
             uiCaja.Mostrar(datos);
             cajasCriaturas.Add(uiCaja);
 
