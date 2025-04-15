@@ -16,6 +16,8 @@ public class ACUIDexManager : MonoBehaviour
 
     void GenerarCajas()
     {
+        Debug.Log("Cantidad de criaturas en Dex: " + _acDexManager._acCriaturas.acCriaturas.Count);
+
         foreach (var datos in _acDexManager._acCriaturas.acCriaturas)
         {
             GameObject nuevaCaja = Instantiate(cajaPrefab, contenedor);

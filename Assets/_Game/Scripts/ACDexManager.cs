@@ -9,10 +9,16 @@ public class ACDexManager : MonoBehaviour
     public ACCriaturas _acCriaturas = new ACCriaturas();
     public List<GameObject> criaturasExistentes = new List<GameObject>();
 
-    void Start()
+    void Awake()
     {
         _filePath = Application.persistentDataPath + "/Dex.json";//Determina direccion en donde se guarda el json que tiene los datos guardados
         CargarDex();
+    }
+
+    void Start()
+    {
+       
+        //CargarDex();
         SincronizarEscena();
     }
 
