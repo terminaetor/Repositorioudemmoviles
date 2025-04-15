@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6036562008064100045
+--- !u!1 &6180579516475688930
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,22 +8,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7644750079719859348}
-  - component: {fileID: 4619209507130322354}
+  - component: {fileID: 9222370839901595525}
+  - component: {fileID: 5790874837026813381}
   m_Layer: 0
-  m_Name: Gallinazo
+  m_Name: Platanero
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7644750079719859348
+--- !u!4 &9222370839901595525
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6036562008064100045}
+  m_GameObject: {fileID: 6180579516475688930}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -32,19 +32,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4619209507130322354
+--- !u!114 &5790874837026813381
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6036562008064100045}
+  m_GameObject: {fileID: 6180579516475688930}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b53f59d0106f82741b587b72e3c6f626, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   datos:
-    id: 3
-    nombre: Gallinazo
+    id: 6
+    nombre: Platanero
     atrapado: 0
