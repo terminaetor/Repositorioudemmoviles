@@ -158,6 +158,7 @@ Transform:
   - {fileID: 2057780659}
   - {fileID: 1654148662}
   - {fileID: 652680907}
+  - {fileID: 1885519851}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &282894443 stripped
@@ -880,6 +881,7 @@ MonoBehaviour:
   - {fileID: 2057780658}
   - {fileID: 1654148661}
   - {fileID: 652680906}
+  - {fileID: 1885519850}
 --- !u!4 &1334096727
 Transform:
   m_ObjectHideFlags: 0
@@ -1071,6 +1073,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a10ac651a90814cbd726e1c6c6e2b7, type: 3}
+--- !u!1 &1885519850 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3236733419751907781, guid: 2d729aba8a2925b41aa546c7e9b48710,
+    type: 3}
+  m_PrefabInstance: {fileID: 8625868917753911343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1885519851 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3092131061969657539, guid: 2d729aba8a2925b41aa546c7e9b48710,
+    type: 3}
+  m_PrefabInstance: {fileID: 8625868917753911343}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1896032823
 GameObject:
   m_ObjectHideFlags: 0
@@ -1989,6 +2003,74 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70481a428b5185c4196b7989d1fa15a0, type: 3}
+--- !u!1001 &8625868917753911343
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 61756598}
+    m_Modifications:
+    - target: {fileID: 3092131061969657539, guid: 2d729aba8a2925b41aa546c7e9b48710,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3092131061969657539, guid: 2d729aba8a2925b41aa546c7e9b48710,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3092131061969657539, guid: 2d729aba8a2925b41aa546c7e9b48710,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3092131061969657539, guid: 2d729aba8a2925b41aa546c7e9b48710,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3092131061969657539, guid: 2d729aba8a2925b41aa546c7e9b48710,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3092131061969657539, guid: 2d729aba8a2925b41aa546c7e9b48710,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3092131061969657539, guid: 2d729aba8a2925b41aa546c7e9b48710,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3092131061969657539, guid: 2d729aba8a2925b41aa546c7e9b48710,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3092131061969657539, guid: 2d729aba8a2925b41aa546c7e9b48710,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3092131061969657539, guid: 2d729aba8a2925b41aa546c7e9b48710,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236733419751907781, guid: 2d729aba8a2925b41aa546c7e9b48710,
+        type: 3}
+      propertyPath: m_Name
+      value: MurcielagoDeSombrereteBlanquecino
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2d729aba8a2925b41aa546c7e9b48710, type: 3}
 --- !u!1001 &8668243452583258325
 PrefabInstance:
   m_ObjectHideFlags: 0
