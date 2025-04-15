@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class ACUIDexManager : MonoBehaviour
 {
-    public ACCriaturas _acUICriaturas;
     public ACDexManager _acDexManager;
     public GameObject cajaPrefab;
     public Transform contenedor;
     private List<ACUICriaturaCaja> cajasCriaturas = new List<ACUICriaturaCaja>();
+
+    void Start()
+    {
+        GenerarCajas();
+    }
 
     void GenerarCajas()
     {
