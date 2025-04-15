@@ -151,8 +151,21 @@ Transform:
   - {fileID: 2135219925}
   - {fileID: 2934933349049026893}
   - {fileID: 926886648}
+  - {fileID: 282894444}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &282894443 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7904294700429271967, guid: ec38b0955bd3e4142a7db1e227f3358c,
+    type: 3}
+  m_PrefabInstance: {fileID: 7025864885312051587}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &282894444 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6766546173838484890, guid: ec38b0955bd3e4142a7db1e227f3358c,
+    type: 3}
+  m_PrefabInstance: {fileID: 7025864885312051587}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &645225829
 GameObject:
   m_ObjectHideFlags: 0
@@ -818,6 +831,7 @@ MonoBehaviour:
   - {fileID: 2135219924}
   - {fileID: 2934933349049026894}
   - {fileID: 926886647}
+  - {fileID: 282894443}
 --- !u!4 &1334096727
 Transform:
   m_ObjectHideFlags: 0
@@ -1478,6 +1492,74 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0c29b2f99bb13c408d2298275a4485b, type: 3}
+--- !u!1001 &7025864885312051587
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 61756598}
+    m_Modifications:
+    - target: {fileID: 6766546173838484890, guid: ec38b0955bd3e4142a7db1e227f3358c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6766546173838484890, guid: ec38b0955bd3e4142a7db1e227f3358c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6766546173838484890, guid: ec38b0955bd3e4142a7db1e227f3358c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6766546173838484890, guid: ec38b0955bd3e4142a7db1e227f3358c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6766546173838484890, guid: ec38b0955bd3e4142a7db1e227f3358c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6766546173838484890, guid: ec38b0955bd3e4142a7db1e227f3358c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6766546173838484890, guid: ec38b0955bd3e4142a7db1e227f3358c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6766546173838484890, guid: ec38b0955bd3e4142a7db1e227f3358c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6766546173838484890, guid: ec38b0955bd3e4142a7db1e227f3358c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6766546173838484890, guid: ec38b0955bd3e4142a7db1e227f3358c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7904294700429271967, guid: ec38b0955bd3e4142a7db1e227f3358c,
+        type: 3}
+      propertyPath: m_Name
+      value: PicaflorVientreNegro
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ec38b0955bd3e4142a7db1e227f3358c, type: 3}
 --- !u!1001 &8668243452583258325
 PrefabInstance:
   m_ObjectHideFlags: 0
