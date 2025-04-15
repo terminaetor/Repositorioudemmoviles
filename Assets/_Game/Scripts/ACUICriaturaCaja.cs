@@ -1,18 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class ACUICriaturaCaja : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int id;
+    public TextMeshProUGUI nombreTexto;
 
-    // Update is called once per frame
-    void Update()
+    public void Mostrar(ACDatos datos)
     {
-        
+        nombreTexto.text = datos.atrapado ? datos.nombre : "???";
     }
 }
