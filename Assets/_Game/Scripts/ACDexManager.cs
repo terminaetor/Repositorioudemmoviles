@@ -6,8 +6,8 @@ using System.IO;
 public class ACDexManager : MonoBehaviour
 {
     private string _filePath;
-    public ACCriaturas _acCriaturas = new ACCriaturas();
-    public List<GameObject> criaturasExistentes = new List<GameObject>();
+    public ACCriaturas _acCriaturas = new ACCriaturas(); //Objeto que tiene la lista de datos
+    public List<GameObject> criaturasExistentes = new List<GameObject>();//lista de gameobjects para agregar las criaturas
 
     void Awake()
     {
@@ -22,17 +22,17 @@ public class ACDexManager : MonoBehaviour
         SincronizarEscena();
     }
 
-    public void SincronizarEscena()
+    public void SincronizarEscena()//Funcion que sincroniza información de los gameobjets de la lista criaturasExistentes para luego poder guardarlos
     {
         foreach (GameObject go in criaturasExistentes)
         {
-            if (go == null) continue;
+            if (go == null) continue;//si no hay objetos en la lista omite el proceso
             ACCriatura criatura = go.GetComponent<ACCriatura>();
 
             if (criatura != null)
             {
                 ACDatos _datos = criatura.datos;
-                if (!_acCriaturas.acCriaturas.Exists(p => p.id == _datos.id))
+                if (!_acCriaturas.acCriaturas.Exists(p => p.id == _datos.id))//Si no existe el elemento en la lista se añade
                 {
                     _acCriaturas.acCriaturas.Add(_datos);
                     Debug.Log($"Se añadió {_datos.nombre} a la Pokédex.");
@@ -45,7 +45,7 @@ public class ACDexManager : MonoBehaviour
 
         foreach (var p in _acCriaturas.acCriaturas)
         {
-            Debug.Log($"ID: {p.id}, Nombre: {p.nombre}, Atrapado: {p.atrapado}");
+            Debug.Log($"ID: {p.id}, Nombre: {p.nombre}, Atrapado: {p.atrapado}");//Debug para verificar datos guardados
         }
 
     }
