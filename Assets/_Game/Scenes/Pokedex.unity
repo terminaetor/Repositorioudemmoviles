@@ -1698,7 +1698,6 @@ GameObject:
   - component: {fileID: 1896032826}
   - component: {fileID: 1896032825}
   - component: {fileID: 1896032824}
-  - component: {fileID: 1896032828}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1791,23 +1790,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1896032828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896032823}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b193d3b9f7c4ec84bbf09ea7a22b377b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _acDexManager: {fileID: 0}
-  _criatura: {fileID: 0}
-  cajaPrefab: {fileID: 0}
-  contenedor: {fileID: 0}
-  cajasCriaturas: []
 --- !u!4 &1924030294 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8306251299984759814, guid: 5105c120bbff8da459ca06c1ea067faf,
@@ -2177,19 +2159,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2135219928
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2135219924}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07e9382ff518db5478207a145f2a758a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cubo: {fileID: 0}
 --- !u!54 &2135219929
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2280,7 +2249,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2850136961650613710, guid: 890b768f031481f40b548e0ea8d8dc3b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2348,7 +2318,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7588222155426851500, guid: 69dcea61d2b26ea45986767074cf98ff, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2416,7 +2387,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: GarrapateroMayor
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6427051763564058350, guid: ccf29446b37a1b542b425dcf568c2512, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2484,7 +2456,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1910369032452859570, guid: 733af4d1b4361014398640ddd8d35b56, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2552,7 +2525,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kinkaju
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3206806974198591272, guid: 686b324b0f16cc54cb430a6292d8627d, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2620,7 +2594,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: ComadrejaAndina
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6903414573175407315, guid: 5b8a6eb853fbabe4bb76e60ddcd808f5, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2688,7 +2663,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5790874837026813381, guid: 81ef7f2e70651284d9caa9719e6e8e81, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2756,7 +2732,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1335428476651987402, guid: 4c76bd099f95352499f68e17ca30370f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2824,7 +2801,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3088510625170358568, guid: 5105c120bbff8da459ca06c1ea067faf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2892,7 +2870,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4135646248979614574, guid: 6e67da0f789b1714c93ff3b850e8b8df, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2960,7 +2939,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cica
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4016394957247497387, guid: 5beb2395f2dbbf542af85a22f5733444, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3028,7 +3008,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: GavilanPollero
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1223289187874932916, guid: ca4a8a6828956a3458eaf638b61b41a1, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3102,7 +3083,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Guayabo
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8620613214549969287, guid: 6febf8a3be93c21459efaf42dd63519c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3170,7 +3152,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4451934920682037254, guid: 5d4c9d521fe245c4db9ce086572dcf25, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3238,7 +3221,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: MosqueritoSilbon
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5512088321458303388, guid: e6015e6f91208db45ab2d44b6098734a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3306,7 +3290,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: YucaGigante
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 387774218915920343, guid: 1fd5338afadc77d4ea140fa0dd16661a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3374,7 +3359,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: ConejoBrasileno
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5485233390876479426, guid: 1df1d2d6b3e478145a39a32c6370d4e3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3442,7 +3428,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Limonero
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1728305873685106044, guid: 1b15101fb5113db4da56f8ec14142225, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3510,7 +3497,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cambulo
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1374707157945216341, guid: aff8f9aeb528ce6498c6565e346ec3fb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3578,7 +3566,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: CotorritaDeAnteojos
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5489036131143974753, guid: 5791c49802cdadf43aeb3f078689ef39, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3651,7 +3640,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PicaflorVientreNegro
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1705555580555188914, guid: ec38b0955bd3e4142a7db1e227f3358c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3719,7 +3709,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2591779781759627895, guid: 70481a428b5185c4196b7989d1fa15a0, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3787,7 +3778,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 265197890535545270, guid: aa56eea4c0ddc4a49a64205487abff8b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3855,7 +3847,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1307362709396602653, guid: 88dd7e4d09531934a984cc06b2249aea, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3923,7 +3916,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: MurcielagoDeSombrereteBlanquecino
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2181572176352376529, guid: 2d729aba8a2925b41aa546c7e9b48710, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3991,7 +3985,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: GavilanMaromero
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4611661620965000566, guid: 6c44e331a07e66a4f9eeb3df3a95d167, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -3999,10 +3994,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2135219927}
-    - targetCorrespondingSourceObject: {fileID: 6935963030467419587, guid: 6c44e331a07e66a4f9eeb3df3a95d167,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2135219928}
     - targetCorrespondingSourceObject: {fileID: 6935963030467419587, guid: 6c44e331a07e66a4f9eeb3df3a95d167,
         type: 3}
       insertIndex: -1
@@ -4071,7 +4062,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: JacarandaAzul
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6496364994351465892, guid: 4e3391c6c6891a7438ea802c73141839, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4139,7 +4131,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4468827509961789469, guid: 8b7c688e0a9986943a82b7fb25708724, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
