@@ -18,7 +18,7 @@ MonoBehaviour:
     prefab: {fileID: 6243772395542237736, guid: 47d8165626b41a243b1a0222655960b7,
       type: 3}
     img: {fileID: 21300000, guid: 7848e4071413c514eb4686e53b4b0bf0, type: 3}
-    nivel: 2
+    nivel: 1
     tipo: 2
   - nombre: mons
     id: 1
