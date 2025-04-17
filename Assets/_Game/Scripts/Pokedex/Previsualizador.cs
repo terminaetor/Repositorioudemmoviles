@@ -19,6 +19,7 @@ public class Previsualizador : MonoBehaviour
         if (criatura != null)
         {
             creado = Instantiate(criatura.prefab, transform.position, transform.rotation);
+            Debug.Log($"[{criatura.nombre}] Nivel: {criatura.nivel}, Tipo: {criatura.tipo}, Vida: {criatura.vida}, Daño: {criatura.ataque}");
         }
 
     }

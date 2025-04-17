@@ -39,6 +39,37 @@ public class Criatura
     public Sprite img;
     public int nivel;
     public Tipo tipo;
+
+    public int vida => CalcularVida();
+    public int ataque => CalcularAtaque();
+
+    private int CalcularVida()
+    {
+        // Por defecto, vida = nivel
+        int vida = nivel;
+
+        // Si es tipo planta, suma 1 adicional
+        if (tipo == Tipo.planta)
+        {
+            vida += 1;
+        }
+
+        return vida;
+    }
+
+    private int CalcularAtaque()
+    {
+        // Por defecto, daño = nivel
+        int ataque = nivel;
+
+        // Si es tipo animal, suma 1 adicional
+        if (tipo == Tipo.animal)
+        {
+            ataque += 1;
+        }
+
+        return ataque;
+    }
 }
 public enum Tipo
 {
