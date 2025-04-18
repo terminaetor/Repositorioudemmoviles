@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Capturados : MonoBehaviour
 {
@@ -8,6 +10,8 @@ public class Capturados : MonoBehaviour
     public static Capturados singleton;
     public int nivelJugador;
     public int nivelAnterior;
+    public TextMeshProUGUI nivel;
+    public GameObject panelNuevoNivel;
 
     private void Awake()
     {
@@ -23,6 +27,11 @@ public class Capturados : MonoBehaviour
             Capturar(0);
         }
         ActualizarNivelJugador();
+    }
+
+    private void Start()
+    {
+        panelNuevoNivel.SetActive(false);
     }
 
     public void Capturar(int id)
@@ -51,6 +60,9 @@ public class Capturados : MonoBehaviour
         if(nivelJugador > nivelAnterior && !(nivelJugador == 1))
         {
             Debug.Log("Aumentaste de nivel Nuevo nivel: " + nivelJugador);
+            panelNuevoNivel.SetActive(true);
+            nivel.text = nivelJugador.ToString();
+
         }
     }
 
