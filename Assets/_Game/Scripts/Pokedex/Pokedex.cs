@@ -40,10 +40,10 @@ public class Criatura
     public int nivel;
     public Tipo tipo;
 
-    public int vida => CalcularVida();
-    public int ataque => CalcularAtaque();
+    public int vida => CalcularVida(nivel);
+    public int ataque => CalcularAtaque(nivel);
 
-    private int CalcularVida()
+    public int CalcularVida(int nivel)
     {
         // Por defecto, vida = nivel
         int vida = nivel;
@@ -57,7 +57,7 @@ public class Criatura
         return vida;
     }
 
-    private int CalcularAtaque()
+    public int CalcularAtaque(int nivel)
     {
         // Por defecto, daño = nivel
         int ataque = nivel;
