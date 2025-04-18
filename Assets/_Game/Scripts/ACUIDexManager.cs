@@ -40,6 +40,7 @@ public class ACUIDexManager : MonoBehaviour
         {
             ACUICriaturaCaja uiCaja = criaturaCaja.GetComponent<ACUICriaturaCaja>();
             uiCaja.Mostrar(criaturaCaja.criatura);
+            Capturados.singleton.ActualizarNivelJugador();
         }
     }
 }

@@ -22,7 +22,7 @@ public class Capturados : MonoBehaviour
             capturas = new Capturas();
             Capturar(0);
         }
-        nivelJugador = Mathf.RoundToInt(Mathf.Ceil(capturas.capturas.Count / 4f));
+        ActualizarNivelJugador();
     }
 
     public void Capturar(int id)
@@ -42,6 +42,16 @@ public class Capturados : MonoBehaviour
     public void Guardar()
     {
         PlayerPrefs.SetString("capturas", JsonUtility.ToJson(capturas));
+    }
+
+    public void ActualizarNivelJugador()
+    {
+        nivelAnterior = nivelJugador;
+        nivelJugador = Mathf.RoundToInt(Mathf.Ceil(capturas.capturas.Count / 4f));
+        if(nivelJugador > nivelAnterior && !(nivelJugador == 1))
+        {
+            Debug.Log("Aumentaste de nivel Nuevo nivel: " + nivelJugador);
+        }
     }
 
 }
