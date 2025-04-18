@@ -13,6 +13,7 @@ public class Pruebas_Editor : Editor
         {
             Pruebas p = (Pruebas)target;
             p.Capturar();
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
         if (GUILayout.Button("borrar capturas"))

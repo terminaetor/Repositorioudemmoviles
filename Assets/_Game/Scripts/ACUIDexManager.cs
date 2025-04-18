@@ -9,6 +9,12 @@ public class ACUIDexManager : MonoBehaviour
     public GameObject cajaPrefab; //Variable para añadir caja base donde va a estar los datos de criatura
     public Transform contenedor;// transform donde se van a instanciar en la escena las cajas
     private List<ACUICriaturaCaja> cajasCriaturas = new List<ACUICriaturaCaja>();//Lista donde se añaden todas las cajas
+    public static ACUIDexManager singleton;
+
+    private void Awake()
+    {
+        singleton = this;
+    }
 
     void Start()
     {
@@ -25,6 +31,15 @@ public class ACUIDexManager : MonoBehaviour
             ACUICriaturaCaja uiCaja = nuevaCaja.GetComponent<ACUICriaturaCaja>();//Obtiene el script atachado de cada caja
             uiCaja.Mostrar(criatura);//actualizar informacion cajas
             cajasCriaturas.Add(uiCaja);
+        }
+    }
+
+    public void ActualizarCajas()
+    {
+        foreach (ACUICriaturaCaja criaturaCaja in cajasCriaturas)
+        {
+            ACUICriaturaCaja uiCaja = criaturaCaja.GetComponent<ACUICriaturaCaja>();
+            uiCaja.Mostrar(criaturaCaja.criatura);
         }
     }
 }

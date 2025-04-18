@@ -7,6 +7,7 @@ public class Capturados : MonoBehaviour
     public Capturas capturas;
     public static Capturados singleton;
     public int nivelJugador;
+    public int nivelAnterior;
 
     private void Awake()
     {
@@ -27,6 +28,7 @@ public class Capturados : MonoBehaviour
     public void Capturar(int id)
     {
         capturas.Capturar(id);
+        ACUIDexManager.singleton.ActualizarCajas();
         Guardar();
     }
 
