@@ -9,8 +9,8 @@ public class CriaturaInstanciada : MonoBehaviour
     Pokedex pokedex;
     public int nivel;
     public int id;
-    /*public int vida => baseDatos.CalcularVida(nivel);
-    public int ataque => baseDatos.CalcularAtaque(nivel);*/
+    public int vida => baseDatos.CalcularVida(nivel);
+    public int ataque => baseDatos.CalcularAtaque(nivel);
 
     public void Awake()
     {
