@@ -20,11 +20,5 @@ public class Pruebas_Editor : Editor
             PlayerPrefs.SetString("capturas", "");
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
-
-        if (GUILayout.Button("Capturar criatura"))
-        {
-            Pruebas p = (Pruebas)target;
-            p.CapturarEnCombate();
-        }
     }
 }
