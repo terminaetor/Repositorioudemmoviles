@@ -6,6 +6,7 @@ public class ControladorCaptura : MonoBehaviour
 {
     public Pokedex pokedex; // Asigna el ScriptableObject desde el inspector
     public Transform puntoSpawn;
+    public Capturados nivelJ;
     public int id;
     private Criatura criaturaActual;
     private GameObject criaturaInstanciada;
@@ -39,7 +40,7 @@ public class ControladorCaptura : MonoBehaviour
             return;
         }
 
-        bool capturada = criaturaActual.IntentarCaptura(Capturados.singleton.nivelJugador);
+        bool capturada = criaturaActual.IntentarCaptura(nivelJ.nivelJugador);
         if (capturada)
         {
             Debug.Log($"¡Has capturado a {criaturaActual.nombre}!");

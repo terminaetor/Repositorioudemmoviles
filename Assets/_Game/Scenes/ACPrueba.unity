@@ -246,6 +246,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1335964623}
   - component: {fileID: 1335964622}
+  - component: {fileID: 1335964624}
+  - component: {fileID: 1335964625}
   m_Layer: 0
   m_Name: Controlador
   m_TagString: Untagged
@@ -267,6 +269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pokedex: {fileID: 11400000, guid: c77926fab31477544851a3962d841445, type: 2}
   puntoSpawn: {fileID: 1353924391}
+  nivelJ: {fileID: 1335964625}
   id: 1
 --- !u!4 &1335964623
 Transform:
@@ -283,6 +286,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1335964624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335964621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cb79ce74c4c1cc42b917626949c1706, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idCapturar: 0
+--- !u!114 &1335964625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335964621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8945e0828cb65649b61ee02b44df063, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  capturas:
+    capturas: 
+  nivelJugador: 0
+  nivelAnterior: 0
+  nivel: {fileID: 0}
+  panelNuevoNivel: {fileID: 0}
 --- !u!1 &1353924390
 GameObject:
   m_ObjectHideFlags: 0
