@@ -5,8 +5,8 @@ using UnityEngine;
 public class ControladorCaptura : MonoBehaviour
 {
     public Pokedex pokedex; // Asigna el ScriptableObject desde el inspector
-    public Transform puntoSpawn;
-    public Capturados nivelJ;
+    public Transform puntoSpawn; //punto donde va aparecer la criatura
+    public Capturados nivelJ; // para traer el nivel del jugador
     public int id;
     private Criatura criaturaActual;
     private GameObject criaturaInstanciada;
@@ -18,7 +18,7 @@ public class ControladorCaptura : MonoBehaviour
         singleton = this;
     }
 
-    public void PrepararCaptura(int idCriatura)
+    public void PrepararCaptura(int idCriatura)// llama criatura desde la pokedex y la instancia
     {
         // Carga la criatura por ID desde la pokedex
         criaturaActual = pokedex.GetCriaturaPorID(idCriatura);
@@ -32,7 +32,7 @@ public class ControladorCaptura : MonoBehaviour
         criaturaInstanciada = Instantiate(criaturaActual.prefab, puntoSpawn.position, Quaternion.identity);
     }
 
-    public void IntentarCapturar()
+    public void IntentarCapturar()//funcion que tiene toda la logica de captura
     {
         if (criaturaActual == null)
         {
@@ -40,7 +40,7 @@ public class ControladorCaptura : MonoBehaviour
             return;
         }
 
-        bool capturada = criaturaActual.IntentarCaptura(nivelJ.nivelJugador);
+        bool capturada = criaturaActual.IntentarCaptura(nivelJ.nivelJugador);// se llama la funcion intentarcaptura para ver si retorna true o false
         if (capturada)
         {
             Debug.Log($"¡Has capturado a {criaturaActual.nombre}!");

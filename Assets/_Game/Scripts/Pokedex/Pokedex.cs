@@ -42,22 +42,25 @@ public class Criatura
     public int nivel;
     public Tipo tipo;
 
+    //Logica ara calcular probabilidad de captura
+
     public bool IntentarCaptura(int nivelJugador)
     {
         float probabilidad = CalcularProbabilidadCaptura(nivelJugador);
-        float random = Random.Range(0f, 1f);
-        return random <= probabilidad;
+        Debug.Log(probabilidad);
+        float random = Random.Range(0f, 1f);//lanza un valor aleatorio
+        return random <= probabilidad;// si el valor aleatorio es menor o igual a la probabilidad retornara a true, o si no a false
     }
 
     public float CalcularProbabilidadCaptura(int nivelJugador)
     {
-        float baseProbabilidad = 0.5f;
-        float dificultadPorNivel = 0.03f;
-        float ventajaPorJugador = 0.02f;
+        float baseProbabilidad = 0.95f;//variable que representa el porcentaje base de captura
+        float dificultadPorNivel = 0.17f;// variable que aumenta dificultad de atrapar el pokemon
+        float ventajaPorJugador = 0.03f;// variable que segun el nivel de jugador es mas facil capturar
 
-        float probabilidad = baseProbabilidad - (nivel * dificultadPorNivel) + (nivelJugador * ventajaPorJugador);
+        float probabilidad = baseProbabilidad - (nivel * dificultadPorNivel) + (nivelJugador * ventajaPorJugador);//valor que se da al operar con todas las variables
 
-        return Mathf.Clamp(probabilidad, 0.05f, 0.95f);
+        return Mathf.Clamp(probabilidad, 0.05f, 0.95f);//impide que los valores vayan mas alla de 0.5% Y 95%
     }
 }
 public enum Tipo
