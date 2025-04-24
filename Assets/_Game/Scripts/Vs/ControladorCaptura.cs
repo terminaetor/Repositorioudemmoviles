@@ -9,10 +9,12 @@ public class ControladorCaptura : MonoBehaviour
     public int id;
     private Criatura criaturaActual;
     private GameObject criaturaInstanciada;
+    public static ControladorCaptura singleton;
 
     private void Start()
     {
         PrepararCaptura(id);
+        singleton = this;
     }
 
     public void PrepararCaptura(int idCriatura)
@@ -27,5 +29,26 @@ public class ControladorCaptura : MonoBehaviour
 
         // Instancia el prefab en la escena
         criaturaInstanciada = Instantiate(criaturaActual.prefab, puntoSpawn.position, Quaternion.identity);
+    }
+
+    public void IntentarCapturar()
+    {
+        if (criaturaActual == null)
+        {
+            Debug.LogWarning("No hay criatura para capturar.");
+            return;
+        }
+
+        bool capturada = criaturaActual.IntentarCaptura(Capturados.singleton.nivelJugador);
+        if (capturada)
+        {
+            Debug.Log($"¡Has capturado a {criaturaActual.nombre}!");
+            Capturados.singleton.Capturar(id);
+            // Aquí puedes agregar a la pokedex del jugador o eliminar de la escena
+        }
+        else
+        {
+            Debug.Log($"{criaturaActual.nombre} se ha escapado...");
+        }
     }
 }

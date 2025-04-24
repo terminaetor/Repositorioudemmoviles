@@ -29,6 +29,8 @@ public class Pokedex : ScriptableObject
 
         return criaturas[_id];
     }
+
+    
 }
 [System.Serializable]
 public class Criatura
@@ -40,35 +42,22 @@ public class Criatura
     public int nivel;
     public Tipo tipo;
 
-    public int vida => CalcularVida(nivel);
-    public int ataque => CalcularAtaque(nivel);
-
-    public int CalcularVida(int nivel)
+    public bool IntentarCaptura(int nivelJugador)
     {
-        // Por defecto, vida = nivel
-        int vida = nivel;
-
-        // Si es tipo planta, suma 1 adicional
-        if (tipo == Tipo.planta)
-        {
-            vida += 1;
-        }
-
-        return vida;
+        float probabilidad = CalcularProbabilidadCaptura(nivelJugador);
+        float random = Random.Range(0f, 1f);
+        return random <= probabilidad;
     }
 
-    public int CalcularAtaque(int nivel)
+    public float CalcularProbabilidadCaptura(int nivelJugador)
     {
-        // Por defecto, daño = nivel
-        int ataque = nivel;
+        float baseProbabilidad = 0.5f;
+        float dificultadPorNivel = 0.03f;
+        float ventajaPorJugador = 0.02f;
 
-        // Si es tipo animal, suma 1 adicional
-        if (tipo == Tipo.animal)
-        {
-            ataque += 1;
-        }
+        float probabilidad = baseProbabilidad - (nivel * dificultadPorNivel) + (nivelJugador * ventajaPorJugador);
 
-        return ataque;
+        return Mathf.Clamp(probabilidad, 0.05f, 0.95f);
     }
 }
 public enum Tipo

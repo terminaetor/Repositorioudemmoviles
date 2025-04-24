@@ -9,4 +9,9 @@ public class Pruebas : MonoBehaviour
     {
         Capturados.singleton.Capturar(idCapturar);
     }
+
+    public void CapturarEnCombate()
+    {
+        ControladorCaptura.singleton.IntentarCapturar();
+    }
 }
