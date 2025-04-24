@@ -18,7 +18,7 @@ public class CombatBehaviour : MonoBehaviour
         
     }
 
-    /*void AtaquePlayer() Termporalmente comentalizado
+    void AtaquePlayer()
     {
         if(_playerCriatura.vida > 0)
         {
@@ -31,7 +31,7 @@ public class CombatBehaviour : MonoBehaviour
                 CombateSecuenciaEnemy();
             }
         }
-    }*/
+    }
 
     void CombateSecuenciaPlayer()
     {
