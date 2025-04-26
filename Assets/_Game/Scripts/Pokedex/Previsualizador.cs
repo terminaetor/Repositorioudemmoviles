@@ -31,6 +31,7 @@ public class Previsualizador : MonoBehaviour
     {
         if (creado != null)
         {
+            nombreCriaturaTexto.text = "Este Udemon esta bloqueado";
             Destroy(creado);
         }
     }
