@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
 
 public class Previsualizador : MonoBehaviour
 {
     public GameObject creado;
     public Pokedex pokedex;
+    public TextMeshProUGUI nombreCriaturaTexto;
     public static Previsualizador singleton;
 
     private void Awake()
@@ -19,6 +22,7 @@ public class Previsualizador : MonoBehaviour
         if (criatura != null)
         {
             creado = Instantiate(criatura.prefab, transform.position, transform.rotation);
+            nombreCriaturaTexto.text = criatura.nombre;
         }
 
     }
