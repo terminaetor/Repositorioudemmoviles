@@ -153,7 +153,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 201.06, y: 0}
+  m_AnchoredPosition: {x: 220.06001, y: 0.99999064}
   m_SizeDelta: {x: 44.175, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &8985279
@@ -499,7 +499,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -67.912, y: 0}
+  m_AnchoredPosition: {x: -48.911995, y: 0.99999064}
   m_SizeDelta: {x: 44.175, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &450398179
@@ -730,7 +730,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.0025024414}
+  m_AnchoredPosition: {x: 0, y: 0.0024414062}
   m_SizeDelta: {x: 0, y: -0.0048828}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &653028201
@@ -817,6 +817,8 @@ MonoBehaviour:
   cajaPrefab: {fileID: 3710251063694529629, guid: 26708f574f8cae240884ab576f016732,
     type: 3}
   contenedor: {fileID: 2070138808}
+  nTotal: {fileID: 8985279}
+  nAtrapados: {fileID: 450398179}
 --- !u!4 &714848106 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2641134719694372030, guid: aff8f9aeb528ce6498c6565e346ec3fb,
@@ -871,7 +873,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000030517578, y: -946}
+  m_AnchoredPosition: {x: 0, y: -946}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &801693634
@@ -937,7 +939,7 @@ GameObject:
   - component: {fileID: 809366420}
   - component: {fileID: 809366419}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: PaneldeNombre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1880,7 +1882,9 @@ MonoBehaviour:
   nivelJugador: 0
   nivelAnterior: 0
   nivel: {fileID: 1234474284}
+  nAtrapados: {fileID: 450398179}
   panelNuevoNivel: {fileID: 1242757019}
+  cantidadObtenida: 0
 --- !u!114 &1334096729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2018,7 +2022,7 @@ GameObject:
   - component: {fileID: 1527327811}
   - component: {fileID: 1527327810}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Estadisticas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2061,7 +2065,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2254,7 +2258,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 125, y: 0}
+  m_AnchoredPosition: {x: 144.00002, y: 0.99999064}
   m_SizeDelta: {x: 107.946, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1626400746
@@ -2602,7 +2606,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 29, y: 0}
+  m_AnchoredPosition: {x: 48.000008, y: 0.99999064}
   m_SizeDelta: {x: 38.104, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2015086733
@@ -2822,7 +2826,7 @@ GameObject:
   - component: {fileID: 2103040976}
   - component: {fileID: 2103040975}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Udemonpedia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2920,7 +2924,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -190, y: 0}
+  m_AnchoredPosition: {x: -171, y: 1}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2104552695
@@ -3059,7 +3063,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -16, y: 0.03466797}
+  m_AnchoredPosition: {x: -16, y: 0.0008544922}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &2134837497

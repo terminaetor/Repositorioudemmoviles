@@ -23,6 +23,13 @@ public class ACUICriaturaCaja : MonoBehaviour //script que va en la caja de cada
             imgCriatura.color = Color.black;
         }
         nombreTexto.text = criatura.nombre;
+
+        
+
+
+        
+
+
     }
 
     public void Previsualizar()

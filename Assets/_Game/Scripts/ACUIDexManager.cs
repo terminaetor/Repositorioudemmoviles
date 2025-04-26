@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class ACUIDexManager : MonoBehaviour
 {
@@ -10,6 +11,10 @@ public class ACUIDexManager : MonoBehaviour
     public Transform contenedor;// transform donde se van a instanciar en la escena las cajas
     private List<ACUICriaturaCaja> cajasCriaturas = new List<ACUICriaturaCaja>();//Lista donde se añaden todas las cajas
     public static ACUIDexManager singleton;
+    private int cantidadTotal;
+    public TextMeshProUGUI nTotal;
+    public TextMeshProUGUI nAtrapados;
+    
 
     private void Awake()
     {
@@ -19,6 +24,8 @@ public class ACUIDexManager : MonoBehaviour
     void Start()
     {
         GenerarCajas();
+        cantidadTotal = pokedex.criaturas.Count;
+        nTotal.text = cantidadTotal.ToString();
     }
 
     void GenerarCajas()//Funcion que instancia, la caja y la informacion de cada criatura
