@@ -11,7 +11,9 @@ public class Capturados : MonoBehaviour
     public int nivelJugador;
     public int nivelAnterior;
     public TextMeshProUGUI nivel;
+    public TextMeshProUGUI nAtrapados;
     public GameObject panelNuevoNivel;
+    public int cantidadObtenida;
 
     private void Awake()
     {
@@ -27,6 +29,8 @@ public class Capturados : MonoBehaviour
             Capturar(0);
         }
         ActualizarNivelJugador();
+        cantidadObtenida = capturas.capturas.Count;
+        nAtrapados.text = cantidadObtenida.ToString();
     }
 
     private void Start()
@@ -45,6 +49,8 @@ public class Capturados : MonoBehaviour
     {
         if (capturas == null || capturas.capturas == null || capturas.capturas.Count < 1)
             return false;
+        cantidadObtenida = capturas.capturas.Count;
+        nAtrapados.text = cantidadObtenida.ToString();
         return capturas.capturas.Contains(id);
     }
 

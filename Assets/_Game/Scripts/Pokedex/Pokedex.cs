@@ -41,6 +41,7 @@ public class Criatura
     public Sprite img;
     public int nivel;
     public Tipo tipo;
+    public string descripcion;
 
     //Logica ara calcular probabilidad de captura
 
@@ -54,13 +55,13 @@ public class Criatura
         {
             vida += 1;
         }
-
+        Debug.Log(vida);
         return vida;
     }
 
     public int CalcularAtaque(int nivel)
     {
-        // Por defecto, da�o = nivel
+        // Por defecto, dano = nivel
         int ataque = nivel;
 
         // Si es tipo animal, suma 1 adicional
@@ -68,7 +69,7 @@ public class Criatura
         {
             ataque += 1;
         }
-
+        Debug.Log(ataque);
         return ataque;
     }
 }
