@@ -6,10 +6,19 @@ public class CombatBehaviour : MonoBehaviour
 {
     public CriaturaInstanciada _playerCriatura;
     public CriaturaInstanciada _enemyCriatura;
+    public Pokedex pokedex;
+    public int id;
+    public GameObject _ScenePlayer;
     // Start is called before the first frame update
+    
     void Start()
     {
-        
+        //_playerCriatura.criaturaBase;
+
+        if (_playerCriatura != null && _playerCriatura.criaturaBase != null)
+        {
+            _ScenePlayer = Instantiate(_playerCriatura.criaturaBase.prefab, transform.position, transform.rotation);
+        }
     }
 
     // Update is called once per frame
@@ -35,7 +44,7 @@ public class CombatBehaviour : MonoBehaviour
 
     void CombateSecuenciaPlayer()
     {
-        //_enemyCriatura.vida = _enemyCriatura - _playerCriatura;
+        //_enemyCriatura.baseDatos.CalcularVida = _enemyCriatura.vida - Random.Range(2, 4);
     }
 
     void CombateSecuenciaEnemy()
