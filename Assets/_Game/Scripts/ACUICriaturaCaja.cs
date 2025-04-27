@@ -24,12 +24,6 @@ public class ACUICriaturaCaja : MonoBehaviour //script que va en la caja de cada
         }
         nombreTexto.text = criatura.nombre;
 
-        
-
-
-        
-
-
     }
 
     public void Previsualizar()

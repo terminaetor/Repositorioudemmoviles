@@ -7,13 +7,21 @@ using UnityEngine.UI;
 public class Previsualizador : MonoBehaviour
 {
     public GameObject creado;
+    public GameObject btnInformacion;
     public Pokedex pokedex;
     public TextMeshProUGUI nombreCriaturaTexto;
     public static Previsualizador singleton;
+    private Button boton;
+    private int idSeleccionado;
 
     private void Awake()
     {
         singleton = this;
+    }
+
+    private void Start()
+    {
+        boton = btnInformacion.GetComponent<Button>();
     }
     public void Previsualizar(int id)
     {
@@ -23,6 +31,12 @@ public class Previsualizador : MonoBehaviour
         {
             creado = Instantiate(criatura.prefab, transform.position, transform.rotation);
             nombreCriaturaTexto.text = criatura.nombre;
+
+            btnInformacion.SetActive(true);
+            idSeleccionado = id;
+            boton.onClick.AddListener(() => MenuDetalles.singleton.MostrarDetalles(idSeleccionado));
+            
+            
         }
 
     }
