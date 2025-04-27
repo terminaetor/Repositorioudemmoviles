@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
 
 public class Menudetalles : MonoBehaviour
 {
-    public static MenuDetalles singleton;
+    public static Menudetalles singleton;
 
     public GameObject panelDetalles;
     public TextMeshProUGUI nombreTexto;

@@ -34,7 +34,7 @@ public class Previsualizador : MonoBehaviour
 
             btnInformacion.SetActive(true);
             idSeleccionado = id;
-            boton.onClick.AddListener(() => MenuDetalles.singleton.MostrarDetalles(idSeleccionado));
+            boton.onClick.AddListener(() => Menudetalles.singleton.MostrarDetalles(idSeleccionado));
             
             
         }
