@@ -4,45 +4,53 @@ using UnityEngine;
 
 public class SVPersonalizacion : MonoBehaviour
 {
-    public Transform headSlot;
-    public Transform bodySlot;
-    public Transform hairSlot;
-    public Transform accessoriesSlot;
+    public GameObject[] cabezas;
+    public GameObject[] cuerpos;
+    public GameObject[] cabellos;
+    public GameObject[] espadas;
 
-    public GameObject[] headOptions;
-    public GameObject[] bodyOptions;
-    public GameObject[] hairOptions;
-    public GameObject[] accessoriesOptions;
+    int cabezaActual = 0;
+    int cuerpoActual = 0;
+    int cabelloActual = 0;
+    int espadaActual = 0;
 
-    public void EquipHead(int index)
+    void Start()
     {
-        ClearSlot(headSlot);
-        Instantiate(headOptions[index], headSlot);
+        ActivarParte(cabezas, cabezaActual);
+        ActivarParte(cuerpos, cuerpoActual);
+        ActivarParte(cabellos, cabelloActual);
+        ActivarParte(espadas, espadaActual);
     }
 
-    public void EquipBody(int index)
+    void ActivarParte(GameObject[] partes, int indiceActivo)
     {
-        ClearSlot(bodySlot);
-        Instantiate(bodyOptions[index], bodySlot);
-    }
-
-    public void EquipHair(int index)
-    {
-        ClearSlot(hairSlot);
-        Instantiate(hairOptions[index], hairSlot);
-    }
-
-    public void EquipAccessories(int index)
-    {
-        ClearSlot(accessoriesSlot);
-        Instantiate(accessoriesOptions[index], accessoriesSlot);
-    }
-
-    private void ClearSlot(Transform slot)
-    {
-        foreach (Transform child in slot)
+        for (int i = 0; i < partes.Length; i++)
         {
-            Destroy(child.gameObject);
+            partes[i].SetActive(i == indiceActivo);
         }
+    }
+
+    public void CambiarCabeza()
+    {
+        cabezaActual = (cabezaActual + 1) % cabezas.Length;
+        ActivarParte(cabezas, cabezaActual);
+    }
+
+    public void CambiarCuerpo()
+    {
+        cuerpoActual = (cuerpoActual + 1) % cuerpos.Length;
+        ActivarParte(cuerpos, cuerpoActual);
+    }
+
+    public void CambiarCabello()
+    {
+        cabelloActual = (cabelloActual + 1) % cabellos.Length;
+        ActivarParte(cabellos, cabelloActual);
+    }
+
+    public void CambiarEspada()
+    {
+        espadaActual = (espadaActual + 1) % espadas.Length;
+        ActivarParte(espadas, espadaActual);
     }
 }

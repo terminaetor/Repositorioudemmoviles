@@ -129,7 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 105835725}
   m_Layer: 0
-  m_Name: BodySlot
+  m_Name: Cuerpos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -279,7 +279,7 @@ GameObject:
   m_Component:
   - component: {fileID: 791434674}
   m_Layer: 0
-  m_Name: HeadSlot
+  m_Name: Cabezas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -350,20 +350,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36846c5c534de2d40a93cd4b81f4375b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  headSlot: {fileID: 791434674}
-  bodySlot: {fileID: 105835725}
-  hairSlot: {fileID: 1988024072}
-  accessoriesSlot: {fileID: 1498025735}
-  headOptions:
+  cabezas:
   - {fileID: 9170225060235265930}
   - {fileID: 4575276276188745129}
-  bodyOptions:
+  cuerpos:
   - {fileID: 5849183154247492926}
   - {fileID: 1243144574581716940}
-  hairOptions:
+  cabellos:
   - {fileID: 6713916193166538166}
   - {fileID: 3147344241942817397}
-  accessoriesOptions:
+  espadas:
   - {fileID: 1617160306490544435}
   - {fileID: 4966199470510732172}
 --- !u!1 &1498025734
@@ -376,7 +372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1498025735}
   m_Layer: 0
-  m_Name: AccesoriesSlot
+  m_Name: Espadas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -546,7 +542,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1988024072}
   m_Layer: 0
-  m_Name: HairSlot
+  m_Name: Cabellos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
