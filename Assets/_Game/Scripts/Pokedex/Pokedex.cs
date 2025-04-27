@@ -42,10 +42,14 @@ public class Criatura
     public int nivel;
     public Tipo tipo;
     public string descripcion;
+    public int vida;
+    public float ataque;
+
+
 
     //Logica ara calcular probabilidad de captura
 
-    public int CalcularVida(int nivel)
+    /*public int CalcularVida(int nivel)
     {
         // Por defecto, vida = nivel
         int vida = nivel;
@@ -71,7 +75,9 @@ public class Criatura
         }
         Debug.Log(ataque);
         return ataque;
-    }
+    }*/
+
+
 }
 public enum Tipo
 {
