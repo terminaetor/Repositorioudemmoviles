@@ -4,15 +4,45 @@ using UnityEngine;
 
 public class SVPersonalizacion : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Transform headSlot;
+    public Transform bodySlot;
+    public Transform hairSlot;
+    public Transform accessoriesSlot;
+
+    public GameObject[] headOptions;
+    public GameObject[] bodyOptions;
+    public GameObject[] hairOptions;
+    public GameObject[] accessoriesOptions;
+
+    public void EquipHead(int index)
     {
-        
+        ClearSlot(headSlot);
+        Instantiate(headOptions[index], headSlot);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void EquipBody(int index)
     {
-        
+        ClearSlot(bodySlot);
+        Instantiate(bodyOptions[index], bodySlot);
+    }
+
+    public void EquipHair(int index)
+    {
+        ClearSlot(hairSlot);
+        Instantiate(hairOptions[index], hairSlot);
+    }
+
+    public void EquipAccessories(int index)
+    {
+        ClearSlot(accessoriesSlot);
+        Instantiate(accessoriesOptions[index], accessoriesSlot);
+    }
+
+    private void ClearSlot(Transform slot)
+    {
+        foreach (Transform child in slot)
+        {
+            Destroy(child.gameObject);
+        }
     }
 }
