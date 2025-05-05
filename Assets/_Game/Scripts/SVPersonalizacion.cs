@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SVPersonalizacion : MonoBehaviour
@@ -9,48 +7,92 @@ public class SVPersonalizacion : MonoBehaviour
     public GameObject[] cabellos;
     public GameObject[] espadas;
 
-    int cabezaActual = 0;
-    int cuerpoActual = 0;
-    int cabelloActual = 0;
-    int espadaActual = 0;
+    private int indiceCabeza = 0;
+    private int indiceCuerpo = 0;
+    private int indiceCabello = 0;
+    private int indiceEspada = 0;
 
     void Start()
     {
-        ActivarParte(cabezas, cabezaActual);
-        ActivarParte(cuerpos, cuerpoActual);
-        ActivarParte(cabellos, cabelloActual);
-        ActivarParte(espadas, espadaActual);
-    }
+        
+        indiceCabeza = PlayerPrefs.GetInt("CabezaSeleccionada", 0);
+        indiceCuerpo = PlayerPrefs.GetInt("CuerpoSeleccionado", 0);
+        indiceCabello = PlayerPrefs.GetInt("CabelloSeleccionado", 0);
+        indiceEspada = PlayerPrefs.GetInt("EspadaSeleccionada", 0);
 
-    void ActivarParte(GameObject[] partes, int indiceActivo)
-    {
-        for (int i = 0; i < partes.Length; i++)
-        {
-            partes[i].SetActive(i == indiceActivo);
-        }
+        // MOSTRAR EN CONSOLA QUE SE CARGÓ
+        Debug.Log("CARGADO DESDE PlayerPrefs => " +
+            "Cabeza: " + indiceCabeza +
+            ", Cuerpo: " + indiceCuerpo +
+            ", Cabello: " + indiceCabello +
+            ", Espada: " + indiceEspada);
+
+        // Activar partes guardadas
+        ActivarSoloEste(cabezas, indiceCabeza);
+        ActivarSoloEste(cuerpos, indiceCuerpo);
+        ActivarSoloEste(cabellos, indiceCabello);
+        ActivarSoloEste(espadas, indiceEspada);
     }
 
     public void CambiarCabeza()
     {
-        cabezaActual = (cabezaActual + 1) % cabezas.Length;
-        ActivarParte(cabezas, cabezaActual);
+        indiceCabeza = (indiceCabeza + 1) % cabezas.Length;
+        ActivarSoloEste(cabezas, indiceCabeza);
+        PlayerPrefs.SetInt("CabezaSeleccionada", indiceCabeza);
+        PlayerPrefs.Save();
+        Debug.Log("Guardado: Cabeza => " + indiceCabeza);
     }
 
     public void CambiarCuerpo()
     {
-        cuerpoActual = (cuerpoActual + 1) % cuerpos.Length;
-        ActivarParte(cuerpos, cuerpoActual);
+        indiceCuerpo = (indiceCuerpo + 1) % cuerpos.Length;
+        ActivarSoloEste(cuerpos, indiceCuerpo);
+        PlayerPrefs.SetInt("CuerpoSeleccionado", indiceCuerpo);
+        PlayerPrefs.Save();
+        Debug.Log("Guardado: Cuerpo => " + indiceCuerpo);
     }
 
     public void CambiarCabello()
     {
-        cabelloActual = (cabelloActual + 1) % cabellos.Length;
-        ActivarParte(cabellos, cabelloActual);
+        indiceCabello = (indiceCabello + 1) % cabellos.Length;
+        ActivarSoloEste(cabellos, indiceCabello);
+        PlayerPrefs.SetInt("CabelloSeleccionado", indiceCabello);
+        PlayerPrefs.Save();
+        Debug.Log("Guardado: Cabello => " + indiceCabello);
     }
 
     public void CambiarEspada()
     {
-        espadaActual = (espadaActual + 1) % espadas.Length;
-        ActivarParte(espadas, espadaActual);
+        indiceEspada = (indiceEspada + 1) % espadas.Length;
+        ActivarSoloEste(espadas, indiceEspada);
+        PlayerPrefs.SetInt("EspadaSeleccionada", indiceEspada);
+        PlayerPrefs.Save();
+        Debug.Log("Guardado: Espada => " + indiceEspada);
+    }
+
+    private void ActivarSoloEste(GameObject[] objetos, int indice)
+    {
+        for (int i = 0; i < objetos.Length; i++)
+        {
+            objetos[i].SetActive(i == indice);
+        }
+    }
+
+    // Para borrar la personalización guardada
+    public void BorrarPersonalizacion()
+    {
+        PlayerPrefs.DeleteAll();
+        PlayerPrefs.Save();
+        Debug.Log("Personalización borrada.");
+
+        indiceCabeza = 0;
+        indiceCuerpo = 0;
+        indiceCabello = 0;
+        indiceEspada = 0;
+
+        ActivarSoloEste(cabezas, indiceCabeza);
+        ActivarSoloEste(cuerpos, indiceCuerpo);
+        ActivarSoloEste(cabellos, indiceCabello);
+        ActivarSoloEste(espadas, indiceEspada);
     }
 }
