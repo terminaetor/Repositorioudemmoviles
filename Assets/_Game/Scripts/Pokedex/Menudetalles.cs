@@ -21,7 +21,7 @@ public class Menudetalles : MonoBehaviour
     {
         Criatura criatura = Previsualizador.singleton.pokedex.GetCriaturaPorID(id);
 
-        if (criatura != null)
+        if (criatura != null && Previsualizador.singleton.creado != null)
         {
             panelDetalles.SetActive(true);
             nombreTexto.text = criatura.nombre;
