@@ -4,51 +4,68 @@ using UnityEngine;
 
 public class CombatBehaviour : MonoBehaviour
 {
-    public CriaturaInstanciada _playerCriatura;
-    public CriaturaInstanciada _enemyCriatura;
+    public Criatura _playerCriatura;
+    public Criatura _enemyCriatura;
     public Pokedex pokedex;
-    public int id;
-    public GameObject _ScenePlayer;
-    // Start is called before the first frame update
-    
-    void Start()
-    {
-        //_playerCriatura.criaturaBase;
+    public float vidaenemigo;
+    public float vidaplayer;
+    public int idcreatura;
+    public Transform _ScenePlayer;
+    public Transform _sceneEnemy;
+    public int idenemy;
+    bool _combatiendo = true;
 
-        if (_playerCriatura != null && _playerCriatura.criaturaBase != null)
-        {
-            _ScenePlayer = Instantiate(_playerCriatura.criaturaBase.prefab, transform.position, transform.rotation);
+    private void Awake() {
+        _playerCriatura = pokedex.GetCriaturaPorID(idcreatura);
+        _enemyCriatura = pokedex.GetCriaturaPorID(idenemy);
+        vidaenemigo = _enemyCriatura.vida;
+        vidaplayer = _playerCriatura.vida;
+    }
+
+    private void Start() {
+        StartCoroutine(Combate());
+        //Instantiate(_playerCriatura.prefab )
+    }
+
+    public IEnumerator Combate() {
+        bool _turnoJugador = Random.Range(0, 100) < 50;
+        while (_combatiendo) {
+            if (_turnoJugador) {
+                AtaqueJugador();
+            } else {
+                AtaqueEnemigo();
+            }
+            _turnoJugador = !_turnoJugador;
+            yield return new WaitForSeconds(3);
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    void AtaquePlayer()
-    {
-        if(_playerCriatura.vida > 0)
-        {
-            if(_enemyCriatura.vida <= _playerCriatura.ataque)
-            {
-                CombateSecuenciaPlayer();
-            }
-            else if(_enemyCriatura.ataque >= _playerCriatura.vida)
-            {
-                CombateSecuenciaEnemy();
-            }
+    void AtaqueJugador() {
+        float d = Random.Range(_playerCriatura.ataque.x,_playerCriatura.ataque.y);
+        vidaenemigo -= d;
+        print(">> Le cause " + d + " de daño, queda en " + vidaenemigo);
+        if (vidaenemigo <= 0) {
+            Victoria();
+            _combatiendo = false;
         }
     }
 
-    void CombateSecuenciaPlayer()
-    {
-        //_enemyCriatura.baseDatos.CalcularVida = _enemyCriatura.vida - Random.Range(2, 4);
+    void AtaqueEnemigo() {
+        float d = Random.Range(_enemyCriatura.ataque.x, _enemyCriatura.ataque.y);
+        vidaplayer -= d;
+        print("---> Te causaron " + d + "de daño, queda en " + vidaplayer);
+        if (vidaplayer <= 0) {
+            Derrota();
+            _combatiendo = false;
+        }
     }
 
-    void CombateSecuenciaEnemy()
-    {
-        //_enemyCriatura.vida = _enemyCriatura - _playerCriatura;
+    void Victoria() {
+        Debug.Log("GANASTE");
     }
+
+    void Derrota() {
+        print("perdiste");
+    }
+
 }

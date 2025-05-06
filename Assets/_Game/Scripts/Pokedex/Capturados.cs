@@ -1,0 +1,91 @@
+using System.Collections;
+using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class Capturados : MonoBehaviour
+{
+    public Capturas capturas;
+    public static Capturados singleton;
+    public int nivelJugador;
+    public int nivelAnterior;
+    public TextMeshProUGUI nivel;
+    public TextMeshProUGUI nAtrapados;
+    public GameObject panelNuevoNivel;
+    public int cantidadObtenida;
+
+    private void Awake()
+    {
+        singleton = this;
+        string guardado = PlayerPrefs.GetString("capturas");
+        if (guardado.Length > 3)
+        {
+            capturas = JsonUtility.FromJson<Capturas>(guardado);
+        }
+        else
+        {
+            capturas = new Capturas();
+            Capturar(1);
+        }
+        ActualizarNivelJugador();
+        cantidadObtenida = capturas.capturas.Count;
+        nAtrapados.text = cantidadObtenida.ToString();
+    }
+
+    private void Start()
+    {
+        panelNuevoNivel.SetActive(false);
+    }
+
+    public void Capturar(int id)
+    {
+        capturas.Capturar(id);
+        ACUIDexManager.singleton.ActualizarCajas();
+        MensajeCaptura.singleton.MostrarMensaje(id);
+
+        Guardar();
+    }
+
+    public bool VerificarCaptura(int id)
+    {
+        if (capturas == null || capturas.capturas == null || capturas.capturas.Count < 1)
+            return false;
+        cantidadObtenida = capturas.capturas.Count;
+        nAtrapados.text = cantidadObtenida.ToString();
+        return capturas.capturas.Contains(id);
+    }
+
+    public void Guardar()
+    {
+        PlayerPrefs.SetString("capturas", JsonUtility.ToJson(capturas));
+    }
+
+    public void ActualizarNivelJugador()
+    {
+        nivelAnterior = nivelJugador;
+        nivelJugador = Mathf.RoundToInt(Mathf.Ceil(capturas.capturas.Count / 4f));
+        if(nivelJugador > nivelAnterior && !(nivelJugador == 1))
+        {
+            Debug.Log("Aumentaste de nivel Nuevo nivel: " + nivelJugador);
+            panelNuevoNivel.SetActive(true);
+            nivel.text = nivelJugador.ToString();
+
+        }
+    }
+
+}
+[System.Serializable]
+public class Capturas
+{
+    public List<int> capturas = new List<int>();
+    public void Capturar(int id)
+    {
+        if (!capturas.Contains(id))
+        {
+            capturas.Add(id);
+        }
+    }
+
+   
+}
