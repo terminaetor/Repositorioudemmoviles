@@ -36,6 +36,7 @@ public class Pokedex : ScriptableObject
 public class Criatura
 {
     public string nombre;
+    public Vector3 ubicacion;
     public int id;
     public GameObject prefab;
     public Sprite img;

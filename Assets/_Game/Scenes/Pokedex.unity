@@ -2558,12 +2558,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1175136687}
   m_CullTransparentMesh: 1
---- !u!4 &1181517692 stripped
+--- !u!4 &1181517692
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 4316098312689688020, guid: 4e3391c6c6891a7438ea802c73141839,
     type: 3}
   m_PrefabInstance: {fileID: 8670445673304145795}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751508023}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 61756598}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1230344251 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 198171191340614311, guid: 6febf8a3be93c21459efaf42dd63519c,
@@ -3802,6 +3812,23 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1444488031710241629}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1751508023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7620249235789826976, guid: 4e3391c6c6891a7438ea802c73141839,
+    type: 3}
+  m_PrefabInstance: {fileID: 8670445673304145795}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1181517692}
+  m_Layer: 0
+  m_Name: JacarandaAzul
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1773528888
 GameObject:
   m_ObjectHideFlags: 0
