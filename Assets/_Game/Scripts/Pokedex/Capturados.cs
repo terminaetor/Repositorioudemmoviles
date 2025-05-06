@@ -26,7 +26,7 @@ public class Capturados : MonoBehaviour
         else
         {
             capturas = new Capturas();
-            Capturar(0);
+            Capturar(1);
         }
         ActualizarNivelJugador();
         cantidadObtenida = capturas.capturas.Count;
@@ -42,6 +42,8 @@ public class Capturados : MonoBehaviour
     {
         capturas.Capturar(id);
         ACUIDexManager.singleton.ActualizarCajas();
+        MensajeCaptura.singleton.MostrarMensaje(id);
+
         Guardar();
     }
 
