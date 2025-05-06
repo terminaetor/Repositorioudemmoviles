@@ -68,10 +68,19 @@ public class Capturados : MonoBehaviour
         if(nivelJugador > nivelAnterior && !(nivelJugador == 1))
         {
             Debug.Log("Aumentaste de nivel Nuevo nivel: " + nivelJugador);
-            panelNuevoNivel.SetActive(true);
             nivel.text = nivelJugador.ToString();
+            StartCoroutine(MensajeNuevoNivel(5f));
 
         }
+    }
+
+    IEnumerator MensajeNuevoNivel(float time) 
+    {
+        
+        panelNuevoNivel.SetActive(true);
+        
+        yield return new WaitForSeconds(time);
+        panelNuevoNivel.SetActive(false);
     }
 
 }
