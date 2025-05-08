@@ -36,16 +36,21 @@ public class Pokedex : ScriptableObject
 public class Criatura
 {
     public string nombre;
+    public Vector3 ubicacion;
     public int id;
     public GameObject prefab;
     public Sprite img;
     public int nivel;
     public Tipo tipo;
     public string descripcion;
+    public int vida;
+    public float ataque;
+
+
 
     //Logica ara calcular probabilidad de captura
 
-    public int CalcularVida(int nivel)
+    /*public int CalcularVida(int nivel)
     {
         // Por defecto, vida = nivel
         int vida = nivel;
@@ -71,7 +76,9 @@ public class Criatura
         }
         Debug.Log(ataque);
         return ataque;
-    }
+    }*/
+
+
 }
 public enum Tipo
 {

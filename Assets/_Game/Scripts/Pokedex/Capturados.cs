@@ -26,7 +26,7 @@ public class Capturados : MonoBehaviour
         else
         {
             capturas = new Capturas();
-            Capturar(0);
+            Capturar(1);
         }
         ActualizarNivelJugador();
         cantidadObtenida = capturas.capturas.Count;
@@ -42,6 +42,8 @@ public class Capturados : MonoBehaviour
     {
         capturas.Capturar(id);
         ACUIDexManager.singleton.ActualizarCajas();
+        MensajeCaptura.singleton.MostrarMensaje(id);
+
         Guardar();
     }
 
@@ -66,10 +68,19 @@ public class Capturados : MonoBehaviour
         if(nivelJugador > nivelAnterior && !(nivelJugador == 1))
         {
             Debug.Log("Aumentaste de nivel Nuevo nivel: " + nivelJugador);
-            panelNuevoNivel.SetActive(true);
             nivel.text = nivelJugador.ToString();
+            StartCoroutine(MensajeNuevoNivel(5f));
 
         }
+    }
+
+    IEnumerator MensajeNuevoNivel(float time) 
+    {
+        
+        panelNuevoNivel.SetActive(true);
+        
+        yield return new WaitForSeconds(time);
+        panelNuevoNivel.SetActive(false);
     }
 
 }

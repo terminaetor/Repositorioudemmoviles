@@ -21,11 +21,11 @@ public class Menudetalles : MonoBehaviour
     {
         Criatura criatura = Previsualizador.singleton.pokedex.GetCriaturaPorID(id);
 
-        if (criatura != null)
+        if (criatura != null && Previsualizador.singleton.creado != null)
         {
             panelDetalles.SetActive(true);
             nombreTexto.text = criatura.nombre;
-            descripcionTexto.text = "Tipo: " + criatura.tipo + "\n\n" + "Nivel: " + criatura.nivel + "\n\n" + "Vida: " + criatura.CalcularVida(criatura.nivel) + "\n\n" + "Ataque: " + criatura.CalcularAtaque(criatura.nivel) + "\n\n" + criatura.nombre + " " + criatura.descripcion;
+            descripcionTexto.text = "Tipo: " + criatura.tipo + "\n\n" + "Nivel: " + criatura.nivel + "\n\n" + "Vida: " + criatura.vida + "\n\n" + "Ataque: " + criatura.ataque + "\n\n" + criatura.nombre + " " + criatura.descripcion;
         }
     }
 
