@@ -24,7 +24,8 @@ public class CombatBehaviour : MonoBehaviour
 
     private void Start() {
         StartCoroutine(Combate());
-        //Instantiate(_playerCriatura.prefab )
+        Instantiate(_playerCriatura.prefab, _ScenePlayer.position, _ScenePlayer.rotation);
+        Instantiate(_enemyCriatura.prefab, _sceneEnemy.position, _sceneEnemy.rotation);
     }
 
     public IEnumerator Combate() {
