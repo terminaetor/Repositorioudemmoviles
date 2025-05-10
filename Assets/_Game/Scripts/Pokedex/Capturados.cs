@@ -15,7 +15,7 @@ public class Capturados : MonoBehaviour
     public GameObject panelNuevoNivel;
     public int cantidadObtenida;
 
-    private void Awake()
+    public void Awake()
     {
         singleton = this;
         string guardado = PlayerPrefs.GetString("capturas");

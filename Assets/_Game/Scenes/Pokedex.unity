@@ -2909,6 +2909,9 @@ MonoBehaviour:
   mensajeAtrapado: {fileID: 716815101}
   pokedexUI: {fileID: 653028199}
   nombreTexto: {fileID: 954883010}
+  pokedex: {fileID: 11400000, guid: c77926fab31477544851a3962d841445, type: 2}
+  caja: {fileID: 6318323848666443569, guid: 26708f574f8cae240884ab576f016732, type: 3}
+  _creado: {fileID: 0}
 --- !u!1001 &879389123
 PrefabInstance:
   m_ObjectHideFlags: 0

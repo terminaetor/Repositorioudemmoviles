@@ -47,8 +47,16 @@ public class ACUIDexManager : MonoBehaviour
         {
             ACUICriaturaCaja uiCaja = criaturaCaja.GetComponent<ACUICriaturaCaja>();
             uiCaja.Mostrar(criaturaCaja.criatura);
-            Capturados.singleton.ActualizarNivelJugador();
+            Capturados.singleton.ActualizarNivelJugador();    
+            //StartCoroutine(AntesDeMensaje(id));
         }
+    }
+
+    IEnumerator AntesDeMensaje(int id)
+    {
+        
+        yield return new WaitForSeconds(2f);
+        MensajeCaptura.singleton.MostrarMensaje(id);
     }
 }
 
