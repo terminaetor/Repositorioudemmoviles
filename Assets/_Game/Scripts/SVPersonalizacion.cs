@@ -14,7 +14,7 @@ public class Personalizacion : MonoBehaviour
 
     void Start()
     {
-        // Cargar personalización guardada desde PlayerPrefs
+        
         indiceCabello = PlayerPrefs.GetInt("CabelloSeleccionado", 0);
         indiceCamisa = PlayerPrefs.GetInt("CamisaSeleccionada", 0);
         indicePantalon = PlayerPrefs.GetInt("PantalonSeleccionado", 0);
@@ -26,7 +26,7 @@ public class Personalizacion : MonoBehaviour
             ", Pantalón: " + indicePantalon +
             ", Zapato: " + indiceZapato);
 
-        // Activar partes guardadas
+        
         ActivarSoloEste(cabellos, indiceCabello);
         ActivarSoloEste(camisas, indiceCamisa);
         ActivarSoloEste(pantalones, indicePantalon);
@@ -77,7 +77,7 @@ public class Personalizacion : MonoBehaviour
         }
     }
 
-    // Opcional: para borrar la personalización guardada
+    
     public void BorrarPersonalizacion()
     {
         PlayerPrefs.DeleteAll();
