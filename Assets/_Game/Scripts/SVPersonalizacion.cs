@@ -1,55 +1,36 @@
 using UnityEngine;
 
-public class SVPersonalizacion : MonoBehaviour
+public class Personalizacion : MonoBehaviour
 {
-    public GameObject[] cabezas;
-    public GameObject[] cuerpos;
     public GameObject[] cabellos;
-    public GameObject[] espadas;
+    public GameObject[] camisas;
+    public GameObject[] pantalones;
+    public GameObject[] zapatos;
 
-    private int indiceCabeza = 0;
-    private int indiceCuerpo = 0;
     private int indiceCabello = 0;
-    private int indiceEspada = 0;
+    private int indiceCamisa = 0;
+    private int indicePantalon = 0;
+    private int indiceZapato = 0;
 
     void Start()
     {
-        
-        indiceCabeza = PlayerPrefs.GetInt("CabezaSeleccionada", 0);
-        indiceCuerpo = PlayerPrefs.GetInt("CuerpoSeleccionado", 0);
+        // Cargar personalización guardada desde PlayerPrefs
         indiceCabello = PlayerPrefs.GetInt("CabelloSeleccionado", 0);
-        indiceEspada = PlayerPrefs.GetInt("EspadaSeleccionada", 0);
+        indiceCamisa = PlayerPrefs.GetInt("CamisaSeleccionada", 0);
+        indicePantalon = PlayerPrefs.GetInt("PantalonSeleccionado", 0);
+        indiceZapato = PlayerPrefs.GetInt("ZapatoSeleccionado", 0);
 
-        // MOSTRAR EN CONSOLA QUE SE CARGÓ
         Debug.Log("CARGADO DESDE PlayerPrefs => " +
-            "Cabeza: " + indiceCabeza +
-            ", Cuerpo: " + indiceCuerpo +
-            ", Cabello: " + indiceCabello +
-            ", Espada: " + indiceEspada);
+            "Cabello: " + indiceCabello +
+            ", Camisa: " + indiceCamisa +
+            ", Pantalón: " + indicePantalon +
+            ", Zapato: " + indiceZapato);
 
         // Activar partes guardadas
-        ActivarSoloEste(cabezas, indiceCabeza);
-        ActivarSoloEste(cuerpos, indiceCuerpo);
         ActivarSoloEste(cabellos, indiceCabello);
-        ActivarSoloEste(espadas, indiceEspada);
-    }
-
-    public void CambiarCabeza()
-    {
-        indiceCabeza = (indiceCabeza + 1) % cabezas.Length;
-        ActivarSoloEste(cabezas, indiceCabeza);
-        PlayerPrefs.SetInt("CabezaSeleccionada", indiceCabeza);
-        PlayerPrefs.Save();
-        Debug.Log("Guardado: Cabeza => " + indiceCabeza);
-    }
-
-    public void CambiarCuerpo()
-    {
-        indiceCuerpo = (indiceCuerpo + 1) % cuerpos.Length;
-        ActivarSoloEste(cuerpos, indiceCuerpo);
-        PlayerPrefs.SetInt("CuerpoSeleccionado", indiceCuerpo);
-        PlayerPrefs.Save();
-        Debug.Log("Guardado: Cuerpo => " + indiceCuerpo);
+        ActivarSoloEste(camisas, indiceCamisa);
+        ActivarSoloEste(pantalones, indicePantalon);
+        ActivarSoloEste(zapatos, indiceZapato);
     }
 
     public void CambiarCabello()
@@ -61,13 +42,31 @@ public class SVPersonalizacion : MonoBehaviour
         Debug.Log("Guardado: Cabello => " + indiceCabello);
     }
 
-    public void CambiarEspada()
+    public void CambiarCamisa()
     {
-        indiceEspada = (indiceEspada + 1) % espadas.Length;
-        ActivarSoloEste(espadas, indiceEspada);
-        PlayerPrefs.SetInt("EspadaSeleccionada", indiceEspada);
+        indiceCamisa = (indiceCamisa + 1) % camisas.Length;
+        ActivarSoloEste(camisas, indiceCamisa);
+        PlayerPrefs.SetInt("CamisaSeleccionada", indiceCamisa);
         PlayerPrefs.Save();
-        Debug.Log("Guardado: Espada => " + indiceEspada);
+        Debug.Log("Guardado: Camisa => " + indiceCamisa);
+    }
+
+    public void CambiarPantalon()
+    {
+        indicePantalon = (indicePantalon + 1) % pantalones.Length;
+        ActivarSoloEste(pantalones, indicePantalon);
+        PlayerPrefs.SetInt("PantalonSeleccionado", indicePantalon);
+        PlayerPrefs.Save();
+        Debug.Log("Guardado: Pantalón => " + indicePantalon);
+    }
+
+    public void CambiarZapato()
+    {
+        indiceZapato = (indiceZapato + 1) % zapatos.Length;
+        ActivarSoloEste(zapatos, indiceZapato);
+        PlayerPrefs.SetInt("ZapatoSeleccionado", indiceZapato);
+        PlayerPrefs.Save();
+        Debug.Log("Guardado: Zapato => " + indiceZapato);
     }
 
     private void ActivarSoloEste(GameObject[] objetos, int indice)
@@ -78,21 +77,21 @@ public class SVPersonalizacion : MonoBehaviour
         }
     }
 
-    // Para borrar la personalización guardada
+    // Opcional: para borrar la personalización guardada
     public void BorrarPersonalizacion()
     {
         PlayerPrefs.DeleteAll();
         PlayerPrefs.Save();
         Debug.Log("Personalización borrada.");
 
-        indiceCabeza = 0;
-        indiceCuerpo = 0;
         indiceCabello = 0;
-        indiceEspada = 0;
+        indiceCamisa = 0;
+        indicePantalon = 0;
+        indiceZapato = 0;
 
-        ActivarSoloEste(cabezas, indiceCabeza);
-        ActivarSoloEste(cuerpos, indiceCuerpo);
         ActivarSoloEste(cabellos, indiceCabello);
-        ActivarSoloEste(espadas, indiceEspada);
+        ActivarSoloEste(camisas, indiceCamisa);
+        ActivarSoloEste(pantalones, indicePantalon);
+        ActivarSoloEste(zapatos, indiceZapato);
     }
 }
