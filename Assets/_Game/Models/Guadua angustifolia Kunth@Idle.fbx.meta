@@ -1,19 +1,9 @@
 fileFormatVersion: 2
-guid: 77eb262cab2dfc94f8cd39595ccfd633
+guid: 454d98936f7ed634f9c683eea16042ed
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: 0f43bbad2d5703741aac2cc4b5465a7a, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: GradienteDeColores3
-    second: {fileID: 2800000, guid: 3f1fe7392a7d8434ea343a097ee970cb, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

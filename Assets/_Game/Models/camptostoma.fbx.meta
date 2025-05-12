@@ -8,17 +8,22 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material
-    second: {fileID: 2100000, guid: 6e2c2617804c34e45bfa28986acabe17, type: 2}
+    second: {fileID: 2100000, guid: cd092e171c2f0a944b5f96d101e5fdfb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.001
-    second: {fileID: 2100000, guid: cc43667274f05bc439724496ad77a945, type: 2}
+    second: {fileID: 2100000, guid: dbc40a947eff9e84eb6cfc68d440ff81, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.008
-    second: {fileID: 2100000, guid: 5c934e79fddda3b4ba275191903dec66, type: 2}
+    second: {fileID: 2100000, guid: 546b2f92439ddd64883c1c03aee4f6a5, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GradienteDeColores3
+    second: {fileID: 2800000, guid: d5df9b135ce63ab4fb465314bb9a489b, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
