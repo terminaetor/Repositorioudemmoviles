@@ -61,7 +61,7 @@ MonoBehaviour:
   - nombre: Tero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 5
-    prefab: {fileID: 2895248250188348940, guid: fe549c3ae3ca39d4f82ccae00eafc008,
+    prefab: {fileID: 2279696326053243446, guid: 8b7c688e0a9986943a82b7fb25708724,
       type: 3}
     img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
     nivel: 1
