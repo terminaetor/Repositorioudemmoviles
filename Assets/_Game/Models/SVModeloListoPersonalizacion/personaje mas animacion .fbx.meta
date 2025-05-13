@@ -3,7 +3,217 @@ guid: cb1ad9513f5a8004db7bbd7e97404b3a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 0febff0b48c4aa449abb0766c1cadc58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: a39374dae824b1840a90c670f9443927, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 415e0b8d7f16ff34fa843b01e8db7cb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: 05fb986c39fae1b47893486b6b2c4ad1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.007
+    second: {fileID: 2100000, guid: 5ebdede57aa7cf242be88d21d560a7d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.008
+    second: {fileID: 2100000, guid: 5cf4411ea5afe7c4b9cb3059010e724f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cabello 3 color_
+    second: {fileID: 2100000, guid: 09a2db0a0635f5b4d995b5588554cb94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cabello 5 + bennie_
+    second: {fileID: 2100000, guid: 406e7ab55f594bf49b26a767d7799b44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cabello 6 color_
+    second: {fileID: 2100000, guid: 5ebdede57aa7cf242be88d21d560a7d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cabello1
+    second: {fileID: 2100000, guid: 0febff0b48c4aa449abb0766c1cadc58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: camisa 3 color_
+    second: {fileID: 2100000, guid: da1799f65fa21fe4dafe463286cc9307, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: camisa2 color_
+    second: {fileID: 2100000, guid: df9bf9334e21f3641b12c325e2655290, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cejas color_
+    second: {fileID: 2100000, guid: 797f215a155724b4ab4a0aad5be1a38f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cuerpo color_
+    second: {fileID: 2100000, guid: 12c513031aea1a549a9fe3144f569ab5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: falda color_
+    second: {fileID: 2100000, guid: cdc10c821de87674b81fe070f1b1513c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ojos color .001
+    second: {fileID: 2100000, guid: d2ff771a5a583f74b9024d8e953ec171, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: overol_
+    second: {fileID: 2100000, guid: 4e8a8fde61e0fd3488a58b29b3aabcf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pantalon color_
+    second: {fileID: 2100000, guid: 4f82a3c1ad8555b41a48cb78f0a675aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wrap cabeza_
+    second: {fileID: 2100000, guid: 145e5e85239154f43852b0a93b77c19c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wrap short1
+    second: {fileID: 2100000, guid: 5cf44a71b06d69046b4a74c9c82a3b99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zapatos 2
+    second: {fileID: 2100000, guid: 4a5a15b5fb87f6047bd643f067342960, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 'aretes y manillas '
+    second: {fileID: 2800000, guid: 85456a1332f1c444c99387b989bb1f26, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cabello 5 color ac.001
+    second: {fileID: 2800000, guid: 939d3895a558d8c4cbfd5cdb9342384c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 'cabello 5 colorac2 '
+    second: {fileID: 2800000, guid: 7514ca6ef92660247ac030785d193172, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 'cabello 6 color '
+    second: {fileID: 2800000, guid: 0018d14e8703272419ebd3a64e332c1a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 'cabello1 color '
+    second: {fileID: 2800000, guid: d5b77aea08e3c7d458dbddf4c105aa80, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 'camisa 3 color '
+    second: {fileID: 2800000, guid: 83b5ecff73d2f1f47a6a5f97012b3a7b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 'camisa1 color '
+    second: {fileID: 2800000, guid: 56d683631999e794b9d41166e7f83323, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 'camisa2 color '
+    second: {fileID: 2800000, guid: 7fbeadab75599db409e8d61ea6220d10, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 'cejas color '
+    second: {fileID: 2800000, guid: 002f867086bdb47448aa0fdabdbef1ae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cuerpo 1
+    second: {fileID: 2800000, guid: 1fa67d7da6ed2ae44ace8e31d3d6057a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 'falda color '
+    second: {fileID: 2800000, guid: 55f582d9990aab043ba68800534383bc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 'maya cabeza color '
+    second: {fileID: 2800000, guid: 1ebdce84ad62d4a459a7aac64e293cb1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ojossssssss
+    second: {fileID: 2800000, guid: 79e44a7f086cffb4d986e6bf3facc570, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 'overol color '
+    second: {fileID: 2800000, guid: 81f5642964f325544bc598d61095204b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pantalon color ac1
+    second: {fileID: 2800000, guid: 44abfae4395c8fb40ae0456db0877442, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: short 2 color ac
+    second: {fileID: 2800000, guid: 9b87f5de84fff984aac9910075ce4e59, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 'short1 coloor '
+    second: {fileID: 2800000, guid: c70b883a16ea2db4081041ac963f1ee5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: zapatos 3
+    second: {fileID: 2800000, guid: 9a86222b6c496314eae74af1dfac272a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: zapatos 4
+    second: {fileID: 2800000, guid: 398126113585a9c4d95764201bcf9bea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 'zapatos1 color '
+    second: {fileID: 2800000, guid: 437905417e8f40e4591b32a6e5ba8ad6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: zapatos2
+    second: {fileID: 2800000, guid: 6cc32188993f9e5499954700cdcf6795, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
