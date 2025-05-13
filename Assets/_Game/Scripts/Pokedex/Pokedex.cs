@@ -43,8 +43,8 @@ public class Criatura
     public int nivel;
     public Tipo tipo;
     public string descripcion;
-    public float vida;
-    public Vector2 ataque;
+    public int vida;
+    public float ataque;
 
 
 

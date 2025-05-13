@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/_Game/Scenes/Combate.unity.meta
 guid: b968c916d1ed81244a210275e3cb97ba
 DefaultImporter:
+========
+guid: 908dcf7e46ebbf44fa59e234c7db9f1a
+NativeFormatImporter:
+>>>>>>>> origin/Poke6:Assets/_Game/Materials/GRADIENT.mat.meta
   externalObjects: {}
+  mainObjectFileID: 2100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 

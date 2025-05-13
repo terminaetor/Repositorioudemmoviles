@@ -23,8 +23,8 @@ MonoBehaviour:
     tipo: 2
     descripcion: Este monstruo es una criatura de prueba para luego seguir describiendo
       ooooooooooodkkkkkkkkkkk
-    vida: 10
-    ataque: {x: 3, y: 5}
+    vida: 0
+    ataque: 0
   - nombre: "Gavil\xE1n maromero"
     ubicacion: {x: 0, y: 0, z: 0}
     id: 2
@@ -35,18 +35,18 @@ MonoBehaviour:
     tipo: 2
     descripcion: Lo mismo este
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
   - nombre: "Gavil\xE1n Pollero"
     ubicacion: {x: 0, y: 0, z: 0}
     id: 3
     prefab: {fileID: 2895248250188348940, guid: fe549c3ae3ca39d4f82ccae00eafc008,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: f7896340bf31a75468309b2f718ca050, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 15
-    ataque: {x: 3, y: 5}
+    vida: 0
+    ataque: 0
   - nombre: Picaflor Vientre Negro
     ubicacion: {x: 0, y: 0, z: 0}
     id: 4
@@ -57,29 +57,29 @@ MonoBehaviour:
     tipo: 2
     descripcion: 
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
   - nombre: Tero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 5
-    prefab: {fileID: 2895248250188348940, guid: fe549c3ae3ca39d4f82ccae00eafc008,
+    prefab: {fileID: 2279696326053243446, guid: 8b7c688e0a9986943a82b7fb25708724,
       type: 3}
     img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
   - nombre: Garrapatero Mayor
     ubicacion: {x: 0, y: 0, z: 0}
     id: 6
-    prefab: {fileID: 2895248250188348940, guid: fe549c3ae3ca39d4f82ccae00eafc008,
+    prefab: {fileID: 5605443589492128866, guid: ccf29446b37a1b542b425dcf568c2512,
       type: 3}
     img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
   - nombre: Platanero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 7
@@ -90,7 +90,7 @@ MonoBehaviour:
     tipo: 2
     descripcion: 
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
   - nombre: Semillero Volatinero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 8
@@ -101,7 +101,7 @@ MonoBehaviour:
     tipo: 2
     descripcion: 
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
   - nombre: Mosquerito Silbon
     ubicacion: {x: 0, y: 0, z: 0}
     id: 9
@@ -112,7 +112,7 @@ MonoBehaviour:
     tipo: 2
     descripcion: 
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
   - nombre: Cotorrita De Anteojos
     ubicacion: {x: 0, y: 0, z: 0}
     id: 10
@@ -123,7 +123,7 @@ MonoBehaviour:
     tipo: 2
     descripcion: 
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
   - nombre: "Murcielago mastin com\xFAn"
     ubicacion: {x: 0, y: 0, z: 0}
     id: 11
@@ -133,7 +133,7 @@ MonoBehaviour:
     tipo: 2
     descripcion: 
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
   - nombre: Murcielago De Sombrerete Blanquecino
     ubicacion: {x: 0, y: 0, z: 0}
     id: 12
@@ -144,7 +144,7 @@ MonoBehaviour:
     tipo: 2
     descripcion: 
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
   - nombre: Comadreja Andina
     ubicacion: {x: 0, y: 0, z: 0}
     id: 13
@@ -155,7 +155,7 @@ MonoBehaviour:
     tipo: 2
     descripcion: 
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
   - nombre: "Kinkaj\xFA"
     ubicacion: {x: 0, y: 0, z: 0}
     id: 14
@@ -166,7 +166,7 @@ MonoBehaviour:
     tipo: 2
     descripcion: 
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
   - nombre: "Conejo Brasile\xF1o"
     ubicacion: {x: 0, y: 0, z: 0}
     id: 15
@@ -177,7 +177,7 @@ MonoBehaviour:
     tipo: 2
     descripcion: 
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
   - nombre: "Rat\xF3n"
     ubicacion: {x: 0, y: 0, z: 0}
     id: 16
@@ -188,7 +188,7 @@ MonoBehaviour:
     tipo: 2
     descripcion: 
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
   - nombre: 'Mango '
     ubicacion: {x: 0, y: 0, z: 0}
     id: 17
@@ -199,7 +199,7 @@ MonoBehaviour:
     tipo: 2
     descripcion: 
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
   - nombre: Palmera
     ubicacion: {x: 0, y: 0, z: 0}
     id: 18
@@ -209,7 +209,7 @@ MonoBehaviour:
     tipo: 2
     descripcion: 
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
   - nombre: Yuca Gigante
     ubicacion: {x: 0, y: 0, z: 0}
     id: 19
@@ -220,7 +220,7 @@ MonoBehaviour:
     tipo: 2
     descripcion: 
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
   - nombre: Gualanday
     ubicacion: {x: 0, y: 0, z: 0}
     id: 20
@@ -231,7 +231,7 @@ MonoBehaviour:
     tipo: 2
     descripcion: 
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
   - nombre: Palo de rosa
     ubicacion: {x: 0, y: 0, z: 0}
     id: 21
@@ -242,7 +242,7 @@ MonoBehaviour:
     tipo: 2
     descripcion: 
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
   - nombre: Cica
     ubicacion: {x: 0, y: 0, z: 0}
     id: 22
@@ -253,7 +253,7 @@ MonoBehaviour:
     tipo: 2
     descripcion: 
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
   - nombre: Cambulo
     ubicacion: {x: 0, y: 0, z: 0}
     id: 23
@@ -264,7 +264,7 @@ MonoBehaviour:
     tipo: 2
     descripcion: 
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
   - nombre: banaba
     ubicacion: {x: 0, y: 0, z: 0}
     id: 24
@@ -275,7 +275,7 @@ MonoBehaviour:
     tipo: 2
     descripcion: 
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
   - nombre: Guayabo
     ubicacion: {x: 0, y: 0, z: 0}
     id: 25
@@ -285,7 +285,7 @@ MonoBehaviour:
     tipo: 2
     descripcion: 
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
   - nombre: Guadua
     ubicacion: {x: 0, y: 0, z: 0}
     id: 26
@@ -296,7 +296,7 @@ MonoBehaviour:
     tipo: 2
     descripcion: 
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
   - nombre: Limonero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 27
@@ -307,7 +307,7 @@ MonoBehaviour:
     tipo: 2
     descripcion: 
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
   - nombre: Zorro Perro
     ubicacion: {x: 0, y: 0, z: 0}
     id: 28
@@ -318,4 +318,4 @@ MonoBehaviour:
     tipo: 2
     descripcion: 
     vida: 0
-    ataque: {x: 0, y: 0}
+    ataque: 0
