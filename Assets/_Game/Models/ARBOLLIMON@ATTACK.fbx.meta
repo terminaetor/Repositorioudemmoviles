@@ -3,7 +3,22 @@ guid: 1dacd5e4fdd9f9649af0784836b854ce
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gradiente
+    second: {fileID: 2100000, guid: 908dcf7e46ebbf44fa59e234c7db9f1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gradiente.001
+    second: {fileID: 2100000, guid: 908dcf7e46ebbf44fa59e234c7db9f1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Limon
+    second: {fileID: 2100000, guid: 908dcf7e46ebbf44fa59e234c7db9f1a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
