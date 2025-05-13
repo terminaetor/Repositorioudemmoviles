@@ -16,6 +16,8 @@ public class CombatBehaviour : MonoBehaviour
     bool _combatiendo = true;
 
     private void Awake() {
+        idcreatura = PlayerPrefs.GetInt("P0", 0);
+        idenemy = PlayerPrefs.GetInt("P1", 1);
         _playerCriatura = pokedex.GetCriaturaPorID(idcreatura);
         _enemyCriatura = pokedex.GetCriaturaPorID(idenemy);
         vidaenemigo = _enemyCriatura.vida;
