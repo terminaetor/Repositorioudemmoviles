@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8c851bb5779781b4db121752033f9fbb
+guid: 75221575a54dcae48bcd41a5da93764a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,8 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: GRADIENT
-    second: {fileID: 2100000, guid: 908dcf7e46ebbf44fa59e234c7db9f1a, type: 2}
+      name: Gradiente
+    second: {fileID: 2100000, guid: 9902263ac21da8649b9026949155e021, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: b1768ed096914514e93f6b92c260f525, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -34,36 +39,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: idle|idle|idle|MAJORIDLE
-      takeName: idle|idle|idle|MAJORIDLE
-      internalID: -6837425491501008318
-      firstFrame: 0
-      lastFrame: 170
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 0
   meshes:
     lODScreenPercentages: []

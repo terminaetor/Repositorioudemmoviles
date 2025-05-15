@@ -18,7 +18,7 @@ MonoBehaviour:
     id: 1
     prefab: {fileID: 6243772395542237736, guid: 47d8165626b41a243b1a0222655960b7,
       type: 3}
-    img: {fileID: 21300000, guid: 7848e4071413c514eb4686e53b4b0bf0, type: 3}
+    img: {fileID: 21300000, guid: e6bb2e1203209e04694c7548f967c052, type: 3}
     nivel: 1
     tipo: 2
     descripcion: Este monstruo es una criatura de prueba para luego seguir describiendo
@@ -85,7 +85,7 @@ MonoBehaviour:
     id: 7
     prefab: {fileID: 6180579516475688930, guid: 81ef7f2e70651284d9caa9719e6e8e81,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: 1d82107cdb05bb241944d510757a9126, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
@@ -139,7 +139,7 @@ MonoBehaviour:
     id: 12
     prefab: {fileID: 3236733419751907781, guid: 2d729aba8a2925b41aa546c7e9b48710,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: 56889290ea19177458b0be9e97c6e21b, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
@@ -161,7 +161,7 @@ MonoBehaviour:
     id: 14
     prefab: {fileID: 5373449809097105722, guid: 686b324b0f16cc54cb430a6292d8627d,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: bfa884de118682842b3d7f15ad25ebaf, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
@@ -204,7 +204,7 @@ MonoBehaviour:
     ubicacion: {x: 0, y: 0, z: 0}
     id: 18
     prefab: {fileID: 904219321301456793, guid: 5d4c9d521fe245c4db9ce086572dcf25, type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: b7e7d4f704f781044959637965e7b28e, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
@@ -215,7 +215,7 @@ MonoBehaviour:
     id: 19
     prefab: {fileID: 7341128527512164842, guid: 1fd5338afadc77d4ea140fa0dd16661a,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: d9363b12e92601b458a3ffb1ded8556d, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
@@ -237,7 +237,7 @@ MonoBehaviour:
     id: 21
     prefab: {fileID: 1050295315506128213, guid: 6e67da0f789b1714c93ff3b850e8b8df,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: c0cccf80b7dac394b81b9624d258a62f, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
@@ -259,7 +259,7 @@ MonoBehaviour:
     id: 23
     prefab: {fileID: 7856444023175183905, guid: aff8f9aeb528ce6498c6565e346ec3fb,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: ecfbca008e65d1e458bd6ad0e5455e62, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
