@@ -74,6 +74,7 @@ public class Personalizacion : MonoBehaviour
         for (int i = 0; i < objetos.Length; i++)
         {
             objetos[i].SetActive(i == indice);
+            Debug.Log("Objeto: " + objetos[i].name + " -> " + (i == indice ? "ACTIVADO" : "Desactivado"));
         }
     }
 

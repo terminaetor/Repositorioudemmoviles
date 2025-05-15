@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2625858118716976412}
-  - component: {fileID: 5512088321458303388}
   m_Layer: 0
   m_Name: MosqueritoSilbon
   m_TagString: Untagged
@@ -29,22 +28,133 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 540809495863040577}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5512088321458303388
-MonoBehaviour:
+--- !u!1001 &3358056598371754
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2625858118716976412}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: a048f67c14062f94d8a0067cb8029fd7,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.12
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a048f67c14062f94d8a0067cb8029fd7,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.12
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a048f67c14062f94d8a0067cb8029fd7,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.12
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a048f67c14062f94d8a0067cb8029fd7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a048f67c14062f94d8a0067cb8029fd7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a048f67c14062f94d8a0067cb8029fd7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a048f67c14062f94d8a0067cb8029fd7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a048f67c14062f94d8a0067cb8029fd7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a048f67c14062f94d8a0067cb8029fd7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a048f67c14062f94d8a0067cb8029fd7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a048f67c14062f94d8a0067cb8029fd7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a048f67c14062f94d8a0067cb8029fd7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a048f67c14062f94d8a0067cb8029fd7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a048f67c14062f94d8a0067cb8029fd7,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a048f67c14062f94d8a0067cb8029fd7,
+        type: 3}
+      propertyPath: m_Name
+      value: camptostoma
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a048f67c14062f94d8a0067cb8029fd7,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8105816893915453655}
+  m_SourcePrefab: {fileID: 100100000, guid: a048f67c14062f94d8a0067cb8029fd7, type: 3}
+--- !u!4 &540809495863040577 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a048f67c14062f94d8a0067cb8029fd7,
+    type: 3}
+  m_PrefabInstance: {fileID: 3358056598371754}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &921698554158989563 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a048f67c14062f94d8a0067cb8029fd7,
+    type: 3}
+  m_PrefabInstance: {fileID: 3358056598371754}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &8105816893915453655
+Animator:
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6611137293045913539}
+  m_GameObject: {fileID: 921698554158989563}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b53f59d0106f82741b587b72e3c6f626, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  datos:
-    id: 8
-    nombre: "Mosquerito silb\xF3n"
-    atrapado: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cab5418dbf4424c448d1d1404ccf97fc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
