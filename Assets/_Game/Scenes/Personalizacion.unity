@@ -3113,7 +3113,7 @@ PrefabInstance:
         type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 4f82a3c1ad8555b41a48cb78f0a675aa, type: 2}
+      objectReference: {fileID: 2100000, guid: 7c41a3fdffa2be44399a06bf7bd991aa, type: 2}
     - target: {fileID: 4952879051120652801, guid: 444af391099c4ce4c8070a8d2f381f0a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3557,6 +3557,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: camisa3
       objectReference: {fileID: 0}
+    - target: {fileID: 4356866899059482341, guid: 6b6ab21e5ff62a045ba7cd24ad094c56,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5707297237881497004, guid: 6b6ab21e5ff62a045ba7cd24ad094c56,
         type: 3}
       propertyPath: m_RootBone
@@ -3731,7 +3736,7 @@ PrefabInstance:
         type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 3bb6e7d7139af5e4088b8d13534b2caa, type: 2}
+      objectReference: {fileID: 2100000, guid: da1799f65fa21fe4dafe463286cc9307, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4045,6 +4050,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cabello 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 579426208049618796, guid: 1c969db81d01f6d4ea1bf64a15a9b928,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4844315616529517497, guid: 1c969db81d01f6d4ea1bf64a15a9b928,
         type: 3}
@@ -4628,6 +4638,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: falda
       objectReference: {fileID: 0}
+    - target: {fileID: 1480678033311529003, guid: 7e36c822f1201aa40a8dbe2f6aaf52e5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2528753132006468374, guid: 7e36c822f1201aa40a8dbe2f6aaf52e5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4848,6 +4863,11 @@ PrefabInstance:
       propertyPath: 'm_Bones.Array.data[32]'
       value: 
       objectReference: {fileID: 5174923859503308063}
+    - target: {fileID: 3061320256216554313, guid: 7e36c822f1201aa40a8dbe2f6aaf52e5,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5cf4411ea5afe7c4b9cb3059010e724f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5579,6 +5599,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: camisa2
       objectReference: {fileID: 0}
+    - target: {fileID: 6270466485998885186, guid: daa627ecf22bb0843a0260c75fb2a028,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6092,7 +6117,7 @@ PrefabInstance:
     - target: {fileID: 4896023018764189304, guid: 9db038c370df7314a813d12a82311ae8,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6728788420846805057, guid: 9db038c370df7314a813d12a82311ae8,
         type: 3}
@@ -6268,7 +6293,7 @@ PrefabInstance:
         type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: da1799f65fa21fe4dafe463286cc9307, type: 2}
+      objectReference: {fileID: 2100000, guid: 6979e023417bbf944b5dc776b839c469, type: 2}
     - target: {fileID: 7843997917971352509, guid: 9db038c370df7314a813d12a82311ae8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7194,6 +7219,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pantalon
       objectReference: {fileID: 0}
+    - target: {fileID: 3481363420946569369, guid: 5606cb4b01f6d2b44b9fe162c42f2772,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7130326183857976455, guid: 5606cb4b01f6d2b44b9fe162c42f2772,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7862,6 +7892,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cabello6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964576018586552988, guid: c0036a757bb0ba74e8d5bfa12852f5a1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8704,7 +8739,7 @@ PrefabInstance:
         type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 4a5a15b5fb87f6047bd643f067342960, type: 2}
+      objectReference: {fileID: 2100000, guid: a39374dae824b1840a90c670f9443927, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
