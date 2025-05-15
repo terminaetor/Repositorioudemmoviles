@@ -36,8 +36,8 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: idle|MAJORIDLE
-      takeName: idle|MAJORIDLE
+      name: idle|idle|idle|MAJORIDLE
+      takeName: idle|idle|idle|MAJORIDLE
       internalID: -6837425491501008318
       firstFrame: 0
       lastFrame: 170
