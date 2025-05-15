@@ -3560,7 +3560,7 @@ PrefabInstance:
     - target: {fileID: 4356866899059482341, guid: 6b6ab21e5ff62a045ba7cd24ad094c56,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5707297237881497004, guid: 6b6ab21e5ff62a045ba7cd24ad094c56,
         type: 3}
@@ -4867,7 +4867,7 @@ PrefabInstance:
         type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 5cf4411ea5afe7c4b9cb3059010e724f, type: 2}
+      objectReference: {fileID: 2100000, guid: cdc10c821de87674b81fe070f1b1513c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4951,6 +4951,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: shor default
+      objectReference: {fileID: 0}
+    - target: {fileID: 3217579278662766848, guid: 96345c483b7e78343a18f1c3e0004e89,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3274725049357434794, guid: 96345c483b7e78343a18f1c3e0004e89,
         type: 3}
@@ -5126,7 +5131,7 @@ PrefabInstance:
         type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 4f82a3c1ad8555b41a48cb78f0a675aa, type: 2}
+      objectReference: {fileID: 2100000, guid: 5cf44a71b06d69046b4a74c9c82a3b99, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5705,6 +5710,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'overol '
       objectReference: {fileID: 0}
+    - target: {fileID: 265627189473175224, guid: 1a06bad6f4e7f2140bb058a94d771401,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1065291660900535958, guid: 1a06bad6f4e7f2140bb058a94d771401,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6117,7 +6127,7 @@ PrefabInstance:
     - target: {fileID: 4896023018764189304, guid: 9db038c370df7314a813d12a82311ae8,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6728788420846805057, guid: 9db038c370df7314a813d12a82311ae8,
         type: 3}
@@ -6547,7 +6557,7 @@ PrefabInstance:
         type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 4a5a15b5fb87f6047bd643f067342960, type: 2}
+      objectReference: {fileID: 2100000, guid: 5cf4411ea5afe7c4b9cb3059010e724f, type: 2}
     - target: {fileID: 3384492987438905440, guid: 4a488c60761b4a34ba3f1fc25009cd2a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6606,7 +6616,7 @@ PrefabInstance:
     - target: {fileID: 6335985367754974163, guid: 4a488c60761b4a34ba3f1fc25009cd2a,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6625,6 +6635,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: zapatos3
+      objectReference: {fileID: 0}
+    - target: {fileID: 40214398969140923, guid: 68fc69441a0af9b4197667f6c3287dd5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1348591496446836785, guid: 68fc69441a0af9b4197667f6c3287dd5,
         type: 3}
@@ -6850,7 +6865,7 @@ PrefabInstance:
         type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 4a5a15b5fb87f6047bd643f067342960, type: 2}
+      objectReference: {fileID: 2100000, guid: f7a6061144d20ed4289b5bba6f0842c7, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7222,7 +7237,7 @@ PrefabInstance:
     - target: {fileID: 3481363420946569369, guid: 5606cb4b01f6d2b44b9fe162c42f2772,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7130326183857976455, guid: 5606cb4b01f6d2b44b9fe162c42f2772,
         type: 3}
@@ -7932,6 +7947,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: zapatos2
       objectReference: {fileID: 0}
+    - target: {fileID: 3211541410455199336, guid: 520a080aceade05418562677edb19258,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4911963038838508136, guid: 520a080aceade05418562677edb19258,
         type: 3}
       propertyPath: m_RootBone
@@ -8513,7 +8533,7 @@ PrefabInstance:
     - target: {fileID: 1078838778815498286, guid: 59aed08148bcd5748976aa63155f6757,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3853287022680876109, guid: 59aed08148bcd5748976aa63155f6757,
         type: 3}
