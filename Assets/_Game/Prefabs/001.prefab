@@ -225,11 +225,15 @@ MonoBehaviour:
   nombreTexto: {fileID: 7563638961307477521}
   criatura:
     nombre: 
+    ubicacion: {x: 0, y: 0, z: 0}
     id: 0
     prefab: {fileID: 0}
     img: {fileID: 0}
     nivel: 0
     tipo: 0
+    descripcion: 
+    vida: 0
+    ataque: 0
   imgCriatura: {fileID: 1940904543113753541}
 --- !u!1 &4515233151018935440
 GameObject:
@@ -571,8 +575,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 1467753920, guid: c92bfe080ecd7724f8b9745634e1ce92, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
