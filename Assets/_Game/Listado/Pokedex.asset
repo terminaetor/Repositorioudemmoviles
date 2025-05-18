@@ -25,7 +25,7 @@ MonoBehaviour:
       ooooooooooodkkkkkkkkkkk
     vida: 0
     ataque: 0
-  - nombre: "Gavil\xE1n maromero"
+  - nombre: Maromero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 2
     prefab: {fileID: 6935963030467419587, guid: 6c44e331a07e66a4f9eeb3df3a95d167,
@@ -47,7 +47,7 @@ MonoBehaviour:
     descripcion: 
     vida: 0
     ataque: 0
-  - nombre: Picaflor Vientre Negro
+  - nombre: Picaflor
     ubicacion: {x: 0, y: 0, z: 0}
     id: 4
     prefab: {fileID: 7904294700429271967, guid: ec38b0955bd3e4142a7db1e227f3358c,
@@ -69,7 +69,7 @@ MonoBehaviour:
     descripcion: 
     vida: 0
     ataque: 0
-  - nombre: Garrapatero Mayor
+  - nombre: Garrapatero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 6
     prefab: {fileID: 5605443589492128866, guid: ccf29446b37a1b542b425dcf568c2512,
@@ -91,7 +91,7 @@ MonoBehaviour:
     descripcion: 
     vida: 0
     ataque: 0
-  - nombre: Semillero Volatinero
+  - nombre: Volatinero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 8
     prefab: {fileID: 1829884057294870062, guid: 890b768f031481f40b548e0ea8d8dc3b,
@@ -102,7 +102,7 @@ MonoBehaviour:
     descripcion: 
     vida: 0
     ataque: 0
-  - nombre: Mosquerito Silbon
+  - nombre: Silbon
     ubicacion: {x: 0, y: 0, z: 0}
     id: 9
     prefab: {fileID: 6611137293045913539, guid: e6015e6f91208db45ab2d44b6098734a,
@@ -113,7 +113,7 @@ MonoBehaviour:
     descripcion: 
     vida: 0
     ataque: 0
-  - nombre: Cotorrita De Anteojos
+  - nombre: Cotorrita
     ubicacion: {x: 0, y: 0, z: 0}
     id: 10
     prefab: {fileID: 3259115315419882806, guid: 5791c49802cdadf43aeb3f078689ef39,
@@ -124,7 +124,7 @@ MonoBehaviour:
     descripcion: 
     vida: 0
     ataque: 0
-  - nombre: "Murcielago mastin com\xFAn"
+  - nombre: "mastin com\xFAn"
     ubicacion: {x: 0, y: 0, z: 0}
     id: 11
     prefab: {fileID: 359135718638746113, guid: 70481a428b5185c4196b7989d1fa15a0, type: 3}
@@ -134,7 +134,7 @@ MonoBehaviour:
     descripcion: 
     vida: 0
     ataque: 0
-  - nombre: Murcielago De Sombrerete Blanquecino
+  - nombre: 'Sombrerete '
     ubicacion: {x: 0, y: 0, z: 0}
     id: 12
     prefab: {fileID: 3236733419751907781, guid: 2d729aba8a2925b41aa546c7e9b48710,
@@ -167,7 +167,7 @@ MonoBehaviour:
     descripcion: 
     vida: 0
     ataque: 0
-  - nombre: "Conejo Brasile\xF1o"
+  - nombre: "Brasile\xF1o"
     ubicacion: {x: 0, y: 0, z: 0}
     id: 15
     prefab: {fileID: 6046123237022790454, guid: 1df1d2d6b3e478145a39a32c6370d4e3,
@@ -210,7 +210,7 @@ MonoBehaviour:
     descripcion: 
     vida: 0
     ataque: 0
-  - nombre: Yuca Gigante
+  - nombre: Yuca
     ubicacion: {x: 0, y: 0, z: 0}
     id: 19
     prefab: {fileID: 7341128527512164842, guid: 1fd5338afadc77d4ea140fa0dd16661a,
@@ -232,7 +232,7 @@ MonoBehaviour:
     descripcion: 
     vida: 0
     ataque: 0
-  - nombre: Palo de rosa
+  - nombre: Rosa
     ubicacion: {x: 0, y: 0, z: 0}
     id: 21
     prefab: {fileID: 1050295315506128213, guid: 6e67da0f789b1714c93ff3b850e8b8df,
@@ -265,7 +265,7 @@ MonoBehaviour:
     descripcion: 
     vida: 0
     ataque: 0
-  - nombre: banaba
+  - nombre: Banaba
     ubicacion: {x: 0, y: 0, z: 0}
     id: 24
     prefab: {fileID: 1362603210010550059, guid: 88dd7e4d09531934a984cc06b2249aea,
