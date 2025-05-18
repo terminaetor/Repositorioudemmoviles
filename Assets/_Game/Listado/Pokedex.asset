@@ -28,7 +28,7 @@ MonoBehaviour:
   - nombre: "Gavil\xE1n maromero"
     ubicacion: {x: 0, y: 0, z: 0}
     id: 2
-    prefab: {fileID: 2895248250188348940, guid: fe549c3ae3ca39d4f82ccae00eafc008,
+    prefab: {fileID: 6935963030467419587, guid: 6c44e331a07e66a4f9eeb3df3a95d167,
       type: 3}
     img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
     nivel: 1
@@ -319,3 +319,4 @@ MonoBehaviour:
     descripcion: 
     vida: 0
     ataque: 0
+  criaturaActivaID: -1

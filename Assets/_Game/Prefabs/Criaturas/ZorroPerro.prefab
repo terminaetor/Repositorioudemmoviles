@@ -28,6 +28,135 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2005725413414502143}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2044491154748479764
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8306251299984759814}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 791be1b6bb64a344b8f39fba7e5a45a9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 791be1b6bb64a344b8f39fba7e5a45a9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 791be1b6bb64a344b8f39fba7e5a45a9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.79
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 791be1b6bb64a344b8f39fba7e5a45a9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9929138
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 791be1b6bb64a344b8f39fba7e5a45a9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 791be1b6bb64a344b8f39fba7e5a45a9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.11883721
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 791be1b6bb64a344b8f39fba7e5a45a9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 791be1b6bb64a344b8f39fba7e5a45a9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 791be1b6bb64a344b8f39fba7e5a45a9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -13.65
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 791be1b6bb64a344b8f39fba7e5a45a9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1853094968961178454, guid: 791be1b6bb64a344b8f39fba7e5a45a9,
+        type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1853094968961178454, guid: 791be1b6bb64a344b8f39fba7e5a45a9,
+        type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1853094968961178454, guid: 791be1b6bb64a344b8f39fba7e5a45a9,
+        type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1853094968961178454, guid: 791be1b6bb64a344b8f39fba7e5a45a9,
+        type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 791be1b6bb64a344b8f39fba7e5a45a9,
+        type: 3}
+      propertyPath: m_Name
+      value: Cerdocyon thous(ZorroPerruno)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 65702495048144492, guid: 791be1b6bb64a344b8f39fba7e5a45a9, type: 3}
+    - {fileID: -8700617353114198275, guid: 791be1b6bb64a344b8f39fba7e5a45a9, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 791be1b6bb64a344b8f39fba7e5a45a9,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8149503874000659341}
+  m_SourcePrefab: {fileID: 100100000, guid: 791be1b6bb64a344b8f39fba7e5a45a9, type: 3}
+--- !u!1 &1197416602987603013 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 791be1b6bb64a344b8f39fba7e5a45a9,
+    type: 3}
+  m_PrefabInstance: {fileID: 2044491154748479764}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &8149503874000659341
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197416602987603013}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 37c8b530fff7ba54c9068351856ef56f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &2005725413414502143 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 791be1b6bb64a344b8f39fba7e5a45a9,
+    type: 3}
+  m_PrefabInstance: {fileID: 2044491154748479764}
+  m_PrefabAsset: {fileID: 0}
