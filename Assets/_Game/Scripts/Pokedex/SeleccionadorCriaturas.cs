@@ -5,21 +5,28 @@ using UnityEngine;
 public class SeleccionadorCriaturas : MonoBehaviour
 {
     public Pokedex pokedex; // Para traer pokedex
+    public int idActivo;
+    public static SeleccionadorCriaturas singleton;
+
+    private void Awake()
+    {
+        singleton = this;
+    }
 
     public void Start()
     {
         Debug.Log(pokedex.criaturaActivaID);
     }
 
-    public void SeleccionarCriaturaPorID(int id)
+    public void SeleccionarCriaturaPorID()
     {
         // Guarda el ID en PlayerPrefs
-        PlayerPrefs.SetInt("CriaturaActivaID", id);
+        PlayerPrefs.SetInt("CriaturaActivaID", idActivo);
         PlayerPrefs.Save();
 
         // Actualiza la pokedex si ya está cargada
-        pokedex.criaturaActivaID = id;
+        pokedex.criaturaActivaID = idActivo;
 
-        Debug.Log("¡Criatura seleccionada con ID: " + id + "!");
+        Debug.Log("¡Criatura seleccionada con ID: " + idActivo + "!");
     }
 }
