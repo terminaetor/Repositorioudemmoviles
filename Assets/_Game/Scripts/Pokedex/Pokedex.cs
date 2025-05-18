@@ -6,6 +6,8 @@ public class Pokedex : ScriptableObject
 {
     public List<Criatura> criaturas = new List<Criatura>();
 
+    public int criaturaActivaID = -1;
+
     public int GetPorID(int id)
     {
         int _id = -1;
@@ -28,6 +30,14 @@ public class Pokedex : ScriptableObject
         }
 
         return criaturas[_id];
+    }
+
+    public Criatura GetCriaturaActiva()
+    {
+        if (criaturaActivaID == -1)
+            return null;
+
+        return GetCriaturaPorID(criaturaActivaID);
     }
 
     
