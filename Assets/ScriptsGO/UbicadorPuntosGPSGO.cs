@@ -7,6 +7,7 @@ public class UbicadorPuntosGPSGO : MonoBehaviour
     public Vector3 referencia;
     public float escala;
 
+
     public Vector3 GetPosUnity(float lat, float lon)
     {
         Vector3 gpsPos = new Vector3(lat, 0, lon);
@@ -15,4 +16,5 @@ public class UbicadorPuntosGPSGO : MonoBehaviour
         return transform.position + diferencia;
     }
 
+    
 }
