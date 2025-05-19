@@ -8,6 +8,8 @@ public class Pokedex : ScriptableObject
 
     public int criaturaActivaID = -1;
 
+    public int criaturaEnemigaActivaID = -1;
+
     public int GetPorID(int id)
     {
         int _id = -1;
@@ -38,6 +40,14 @@ public class Pokedex : ScriptableObject
             return null;
 
         return GetCriaturaPorID(criaturaActivaID);
+    }
+
+    public Criatura GetCriaturaEnemiga()
+    {
+        if (criaturaEnemigaActivaID == -1)
+            return null;
+
+        return GetCriaturaPorID(criaturaEnemigaActivaID);
     }
 
     
