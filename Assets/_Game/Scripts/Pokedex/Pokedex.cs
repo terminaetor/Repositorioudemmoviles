@@ -6,6 +6,10 @@ public class Pokedex : ScriptableObject
 {
     public List<Criatura> criaturas = new List<Criatura>();
 
+    public int criaturaActivaID = -1;
+
+    public int criaturaEnemigaActivaID = -1;
+
     public int GetPorID(int id)
     {
         int _id = -1;
@@ -30,6 +34,27 @@ public class Pokedex : ScriptableObject
         return criaturas[_id];
     }
 
+    public Criatura GetCriaturaActiva()
+    {
+        if (criaturaActivaID == -1)
+            return null;
+
+        return GetCriaturaPorID(criaturaActivaID);
+    }
+
+    public Criatura GetCriaturaEnemiga()
+    {
+        if (criaturaEnemigaActivaID == -1)
+            return null;
+
+        return GetCriaturaPorID(criaturaEnemigaActivaID);
+    }
+
+    public void CargarDesdePlayerPrefs()
+    {
+        criaturaEnemigaActivaID = PlayerPrefs.GetInt("CriaturaEnemigaActivaID", -1);
+    }
+
     
 }
 [System.Serializable]
@@ -43,40 +68,39 @@ public class Criatura
     public int nivel;
     public Tipo tipo;
     public string descripcion;
-    public int vida;
-    public float ataque;
+    public int vida => CalcularVida();
+    public Vector2 ataque => CalcularAtaque();
 
 
 
     //Logica ara calcular probabilidad de captura
 
-    /*public int CalcularVida(int nivel)
+    public int CalcularVida()
     {
         // Por defecto, vida = nivel
-        int vida = nivel;
+        int vida = nivel + 6;
 
         // Si es tipo planta, suma 1 adicional
         if (tipo == Tipo.planta)
         {
-            vida += 1;
+            vida += 3;
         }
         Debug.Log(vida);
         return vida;
     }
 
-    public int CalcularAtaque(int nivel)
+    private Vector2 CalcularAtaque()
     {
-        // Por defecto, dano = nivel
-        int ataque = nivel;
+        float min = nivel - nivel + 1;
+        float max = nivel - 2;
 
-        // Si es tipo animal, suma 1 adicional
         if (tipo == Tipo.animal)
         {
-            ataque += 1;
+            max += 2; // Ejemplo: animales tienen más ataque máximo
         }
-        Debug.Log(ataque);
-        return ataque;
-    }*/
+
+        return new Vector2(min, max);
+    }
 
 
 }

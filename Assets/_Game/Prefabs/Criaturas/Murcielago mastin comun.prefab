@@ -93,12 +93,16 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e82e7e68fdfd60e49832c443dfb912a3,
         type: 3}
       propertyPath: m_Name
-      value: Molossus molossus@Idle
+      value: anim
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e82e7e68fdfd60e49832c443dfb912a3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1190602284424316945}
   m_SourcePrefab: {fileID: 100100000, guid: e82e7e68fdfd60e49832c443dfb912a3, type: 3}
 --- !u!4 &8621881566415230022 stripped
 Transform:
@@ -106,3 +110,31 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8083304819123975085}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &9001784392021659388 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e82e7e68fdfd60e49832c443dfb912a3,
+    type: 3}
+  m_PrefabInstance: {fileID: 8083304819123975085}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1190602284424316945
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9001784392021659388}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 589c11148b62af54e9ce7326ff54cc61, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

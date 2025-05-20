@@ -18,58 +18,48 @@ MonoBehaviour:
     id: 1
     prefab: {fileID: 6243772395542237736, guid: 47d8165626b41a243b1a0222655960b7,
       type: 3}
-    img: {fileID: 21300000, guid: 7848e4071413c514eb4686e53b4b0bf0, type: 3}
+    img: {fileID: 21300000, guid: e6bb2e1203209e04694c7548f967c052, type: 3}
     nivel: 1
     tipo: 2
     descripcion: Este monstruo es una criatura de prueba para luego seguir describiendo
       ooooooooooodkkkkkkkkkkk
-    vida: 0
-    ataque: 0
-  - nombre: "Gavil\xE1n maromero"
+  - nombre: Maromero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 2
-    prefab: {fileID: 2895248250188348940, guid: fe549c3ae3ca39d4f82ccae00eafc008,
+    prefab: {fileID: 6935963030467419587, guid: 6c44e331a07e66a4f9eeb3df3a95d167,
       type: 3}
     img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
     nivel: 1
     tipo: 2
     descripcion: Lo mismo este
-    vida: 0
-    ataque: 0
   - nombre: "Gavil\xE1n Pollero"
     ubicacion: {x: 0, y: 0, z: 0}
     id: 3
-    prefab: {fileID: 2895248250188348940, guid: fe549c3ae3ca39d4f82ccae00eafc008,
+    prefab: {fileID: 9075596173643432991, guid: ca4a8a6828956a3458eaf638b61b41a1,
       type: 3}
-    img: {fileID: 21300000, guid: f7896340bf31a75468309b2f718ca050, type: 3}
+    img: {fileID: 21300000, guid: bc4203410ce3b804aa62009c12e6d3ce, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
-  - nombre: Picaflor Vientre Negro
+  - nombre: Picaflor
     ubicacion: {x: 0, y: 0, z: 0}
     id: 4
-    prefab: {fileID: 2895248250188348940, guid: fe549c3ae3ca39d4f82ccae00eafc008,
+    prefab: {fileID: 7904294700429271967, guid: ec38b0955bd3e4142a7db1e227f3358c,
       type: 3}
     img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
     nivel: 4
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Tero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 5
     prefab: {fileID: 2279696326053243446, guid: 8b7c688e0a9986943a82b7fb25708724,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: fe8f353336a091344801c607ef269c2a, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
-  - nombre: Garrapatero Mayor
+  - nombre: Garrapatero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 6
     prefab: {fileID: 5605443589492128866, guid: ccf29446b37a1b542b425dcf568c2512,
@@ -78,42 +68,34 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Platanero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 7
     prefab: {fileID: 6180579516475688930, guid: 81ef7f2e70651284d9caa9719e6e8e81,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: 1d82107cdb05bb241944d510757a9126, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
-  - nombre: Semillero Volatinero
+  - nombre: Volatinero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 8
     prefab: {fileID: 1829884057294870062, guid: 890b768f031481f40b548e0ea8d8dc3b,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: 5e5b48298637f3545b7fde4b992229b4, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
-  - nombre: Mosquerito Silbon
+  - nombre: Silbon
     ubicacion: {x: 0, y: 0, z: 0}
     id: 9
     prefab: {fileID: 6611137293045913539, guid: e6015e6f91208db45ab2d44b6098734a,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: a425dc4a804593548a4d2e7528c9313b, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
-  - nombre: Cotorrita De Anteojos
+  - nombre: Cotorrita
     ubicacion: {x: 0, y: 0, z: 0}
     id: 10
     prefab: {fileID: 3259115315419882806, guid: 5791c49802cdadf43aeb3f078689ef39,
@@ -122,52 +104,42 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
-  - nombre: "Murcielago mastin com\xFAn"
+  - nombre: "mastin com\xFAn"
     ubicacion: {x: 0, y: 0, z: 0}
     id: 11
     prefab: {fileID: 359135718638746113, guid: 70481a428b5185c4196b7989d1fa15a0, type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: 383df32e0c7a0ae44b0fdb273da3f825, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
-  - nombre: Murcielago De Sombrerete Blanquecino
+  - nombre: 'Sombrerete '
     ubicacion: {x: 0, y: 0, z: 0}
     id: 12
     prefab: {fileID: 3236733419751907781, guid: 2d729aba8a2925b41aa546c7e9b48710,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: 56889290ea19177458b0be9e97c6e21b, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Comadreja Andina
     ubicacion: {x: 0, y: 0, z: 0}
     id: 13
     prefab: {fileID: 7076986963321752202, guid: 5b8a6eb853fbabe4bb76e60ddcd808f5,
       type: 3}
     img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
-    nivel: 1
+    nivel: 5
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: "Kinkaj\xFA"
     ubicacion: {x: 0, y: 0, z: 0}
     id: 14
     prefab: {fileID: 5373449809097105722, guid: 686b324b0f16cc54cb430a6292d8627d,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: bfa884de118682842b3d7f15ad25ebaf, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
-  - nombre: "Conejo Brasile\xF1o"
+  - nombre: "Brasile\xF1o"
     ubicacion: {x: 0, y: 0, z: 0}
     id: 15
     prefab: {fileID: 6046123237022790454, guid: 1df1d2d6b3e478145a39a32c6370d4e3,
@@ -176,8 +148,6 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: "Rat\xF3n"
     ubicacion: {x: 0, y: 0, z: 0}
     id: 16
@@ -187,62 +157,50 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: 'Mango '
     ubicacion: {x: 0, y: 0, z: 0}
     id: 17
     prefab: {fileID: 2032029764501809807, guid: 69dcea61d2b26ea45986767074cf98ff,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: 5efb7dfbb019544479fb9408893c232e, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Palmera
     ubicacion: {x: 0, y: 0, z: 0}
     id: 18
     prefab: {fileID: 904219321301456793, guid: 5d4c9d521fe245c4db9ce086572dcf25, type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: b7e7d4f704f781044959637965e7b28e, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
-  - nombre: Yuca Gigante
+  - nombre: Yuca
     ubicacion: {x: 0, y: 0, z: 0}
     id: 19
     prefab: {fileID: 7341128527512164842, guid: 1fd5338afadc77d4ea140fa0dd16661a,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
-    nivel: 1
+    img: {fileID: 21300000, guid: d9363b12e92601b458a3ffb1ded8556d, type: 3}
+    nivel: 3
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Gualanday
     ubicacion: {x: 0, y: 0, z: 0}
     id: 20
     prefab: {fileID: 9047516162159825090, guid: 3b3ad79f17d04bc459c20fea6265c4f1,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: 1124ee283fb39f34aa50bd281b22f841, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
-  - nombre: Palo de rosa
+  - nombre: Rosa
     ubicacion: {x: 0, y: 0, z: 0}
     id: 21
     prefab: {fileID: 1050295315506128213, guid: 6e67da0f789b1714c93ff3b850e8b8df,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: c0cccf80b7dac394b81b9624d258a62f, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Cica
     ubicacion: {x: 0, y: 0, z: 0}
     id: 22
@@ -252,20 +210,16 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Cambulo
     ubicacion: {x: 0, y: 0, z: 0}
     id: 23
     prefab: {fileID: 7856444023175183905, guid: aff8f9aeb528ce6498c6565e346ec3fb,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
-    nivel: 1
+    img: {fileID: 21300000, guid: ecfbca008e65d1e458bd6ad0e5455e62, type: 3}
+    nivel: 2
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
-  - nombre: banaba
+  - nombre: Banaba
     ubicacion: {x: 0, y: 0, z: 0}
     id: 24
     prefab: {fileID: 1362603210010550059, guid: 88dd7e4d09531934a984cc06b2249aea,
@@ -274,8 +228,6 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Guayabo
     ubicacion: {x: 0, y: 0, z: 0}
     id: 25
@@ -284,19 +236,15 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Guadua
     ubicacion: {x: 0, y: 0, z: 0}
     id: 26
     prefab: {fileID: 1161142193061363993, guid: aa56eea4c0ddc4a49a64205487abff8b,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: ea0cc8a7d677c374c849f0ed1f15107a, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Limonero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 27
@@ -306,8 +254,6 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Zorro Perro
     ubicacion: {x: 0, y: 0, z: 0}
     id: 28
@@ -317,5 +263,5 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
+  criaturaActivaID: 23
+  criaturaEnemigaActivaID: 24

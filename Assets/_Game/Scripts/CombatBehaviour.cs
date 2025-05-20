@@ -12,12 +12,16 @@ public class CombatBehaviour : MonoBehaviour
     public int idcreatura;
     public Transform _ScenePlayer;
     public Transform _sceneEnemy;
+    private Animator anim1;
+    private Animator anim2;
     public int idenemy;
     bool _combatiendo = true;
+    private GameObject instanciaPlayer;
+    private GameObject instanciaEnemy;
 
     private void Awake() {
-        idcreatura = PlayerPrefs.GetInt("P0", 0);
-        idenemy = PlayerPrefs.GetInt("P1", 1);
+        idcreatura = pokedex.criaturaActivaID;
+        idenemy = pokedex.criaturaEnemigaActivaID;
         _playerCriatura = pokedex.GetCriaturaPorID(idcreatura);
         _enemyCriatura = pokedex.GetCriaturaPorID(idenemy);
         vidaenemigo = _enemyCriatura.vida;
@@ -25,9 +29,23 @@ public class CombatBehaviour : MonoBehaviour
     }
 
     private void Start() {
+        
+        instanciaPlayer = Instantiate(_playerCriatura.prefab, _ScenePlayer.position, _ScenePlayer.rotation);
+        instanciaEnemy = Instantiate(_enemyCriatura.prefab, _sceneEnemy.position, _sceneEnemy.rotation);
+        Transform playerAnim = instanciaPlayer.transform.Find("anim");
+        Transform enemyAnim = instanciaEnemy.transform.Find("anim");
+
+        if (playerAnim != null)
+            anim1 = playerAnim.GetComponent<Animator>();
+        else
+            Debug.LogWarning("No se encontrÃ³ 'anim' en el prefab del jugador");
+
+        if (enemyAnim != null)
+            anim2 = enemyAnim.GetComponent<Animator>();
+        else
+            Debug.LogWarning("No se encontrÃ³ 'anim' en el prefab del enemigo");
+        
         StartCoroutine(Combate());
-        Instantiate(_playerCriatura.prefab, _ScenePlayer.position, _ScenePlayer.rotation);
-        Instantiate(_enemyCriatura.prefab, _sceneEnemy.position, _sceneEnemy.rotation);
     }
 
     public IEnumerator Combate() {
@@ -46,7 +64,9 @@ public class CombatBehaviour : MonoBehaviour
     void AtaqueJugador() {
         float d = Random.Range(_playerCriatura.ataque.x,_playerCriatura.ataque.y);
         vidaenemigo -= d;
-        print(">> Le cause " + d + " de daño, queda en " + vidaenemigo);
+        anim2.SetBool("isAttack", false);
+        anim1.SetBool("isAttack", true);
+        print(">> Le cause " + d + " de daï¿½o, queda en " + vidaenemigo);
         if (vidaenemigo <= 0) {
             Victoria();
             _combatiendo = false;
@@ -56,8 +76,11 @@ public class CombatBehaviour : MonoBehaviour
     void AtaqueEnemigo() {
         float d = Random.Range(_enemyCriatura.ataque.x, _enemyCriatura.ataque.y);
         vidaplayer -= d;
-        print("---> Te causaron " + d + "de daño, queda en " + vidaplayer);
+        anim1.SetBool("isAttack", false);
+        anim2.SetBool("isAttack", true);
+        print("---> Te causaron " + d + "de daï¿½o, queda en " + vidaplayer);
         if (vidaplayer <= 0) {
+
             Derrota();
             _combatiendo = false;
         }
@@ -65,10 +88,13 @@ public class CombatBehaviour : MonoBehaviour
 
     void Victoria() {
         Debug.Log("GANASTE");
+        anim1.SetBool("isAttack", false);
+        Capturados.singleton.Capturar(idenemy);
     }
 
     void Derrota() {
         print("perdiste");
+        anim2.SetBool("isAttack", false);
     }
 
 }

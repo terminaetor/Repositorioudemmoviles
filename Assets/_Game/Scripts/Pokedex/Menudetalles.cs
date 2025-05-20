@@ -21,6 +21,8 @@ public class Menudetalles : MonoBehaviour
     {
         Criatura criatura = Previsualizador.singleton.pokedex.GetCriaturaPorID(id);
 
+        Debug.Log(SeleccionadorCriaturas.singleton.idActivo = id);//Aqui asigno el valor del id del pokemon detallado para que el boton funcione
+
         if (criatura != null && Previsualizador.singleton.creado != null)
         {
             panelDetalles.SetActive(true);
