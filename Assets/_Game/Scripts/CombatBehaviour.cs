@@ -89,6 +89,7 @@ public class CombatBehaviour : MonoBehaviour
     void Victoria() {
         Debug.Log("GANASTE");
         anim1.SetBool("isAttack", false);
+        Capturados.singleton.Capturar(idenemy);
     }
 
     void Derrota() {
