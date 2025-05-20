@@ -17,5 +17,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Game/Scenes/Personalizacion.unity
     guid: 26b280afb0a941249b6ac56a4339b662
+  - enabled: 1
+    path: Assets/_Game/Scenes/Combate.unity
+    guid: 53af0ff59fe4ca146a6388124d056aa4
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

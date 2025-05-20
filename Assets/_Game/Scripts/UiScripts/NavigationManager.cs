@@ -6,6 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class NavigationManager : MonoBehaviour
 {
+    public static NavigationManager singleton;
+
+    private void Awake()
+    {
+        singleton = this;
+    }
     public void GoToRealidadAumentada()
     {
         SceneManager.LoadScene("realidadAumentada");
