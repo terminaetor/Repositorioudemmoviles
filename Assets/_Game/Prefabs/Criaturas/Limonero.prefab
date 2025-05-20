@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 456220758935696022}
+  - component: {fileID: 8987311611825689334}
+  - component: {fileID: 3022668933580122786}
   m_Layer: 0
   m_Name: Limonero
   m_TagString: Untagged
@@ -32,6 +34,42 @@ Transform:
   - {fileID: 3026255418698725266}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8987311611825689334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2465937070147434795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b48d7772db28d48987a36060226ba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idClick: 0
+--- !u!136 &3022668933580122786
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2465937070147434795}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.4
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.46, z: 0}
 --- !u!1001 &3347813042449420409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -123,14 +161,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 990465040906296989}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ff8d9a7861696fc46a011fd55c180ccb,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2761862750723758061}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ff8d9a7861696fc46a011fd55c180ccb,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2282639891002937471}
   m_SourcePrefab: {fileID: 100100000, guid: ff8d9a7861696fc46a011fd55c180ccb, type: 3}
 --- !u!1 &2500830299908418856 stripped
 GameObject:
@@ -160,42 +190,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2761862750723758061
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2500830299908418856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48b48d7772db28d48987a36060226ba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  idClick: 0
---- !u!136 &2282639891002937471
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2500830299908418856}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &3026255418698725266 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ff8d9a7861696fc46a011fd55c180ccb,

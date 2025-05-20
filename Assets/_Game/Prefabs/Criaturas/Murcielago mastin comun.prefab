@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7055933453129729352}
+  - component: {fileID: 6623642852504589964}
+  - component: {fileID: 6706255400065183624}
   m_Layer: 0
   m_Name: Murcielago mastin comun
   m_TagString: Untagged
@@ -32,6 +34,42 @@ Transform:
   - {fileID: 8621881566415230022}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6623642852504589964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359135718638746113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b48d7772db28d48987a36060226ba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idClick: 0
+--- !u!136 &6706255400065183624
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359135718638746113}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.4
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.46, z: 0}
 --- !u!1001 &8083304819123975085
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -103,14 +141,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1190602284424316945}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e82e7e68fdfd60e49832c443dfb912a3,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 645761079676347021}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e82e7e68fdfd60e49832c443dfb912a3,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8240176500222505398}
   m_SourcePrefab: {fileID: 100100000, guid: e82e7e68fdfd60e49832c443dfb912a3, type: 3}
 --- !u!4 &8621881566415230022 stripped
 Transform:
@@ -146,39 +176,3 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &645761079676347021
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9001784392021659388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48b48d7772db28d48987a36060226ba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  idClick: 0
---- !u!136 &8240176500222505398
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9001784392021659388}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
