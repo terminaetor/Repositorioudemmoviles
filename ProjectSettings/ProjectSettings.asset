@@ -42,7 +42,7 @@ PlayerSettings:
   m_SplashScreenLogos:
   - logo: {fileID: -1686995762, guid: 90cbada905d6b3f499556e435ee5a1cb, type: 3}
     duration: 2
-  - logo: {fileID: 1864328593, guid: 11c29fe99fd837343adcc1d8ac488f53, type: 3}
+  - logo: {fileID: -100193093, guid: e3fb2ed0c6edcd74d80e7f204035a179, type: 3}
     duration: 5
   - logo: {fileID: 10404, guid: 0000000000000000f000000000000000, type: 0}
     duration: 2
