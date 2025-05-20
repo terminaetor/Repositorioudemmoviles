@@ -13,7 +13,7 @@ public class NavigationManager : MonoBehaviour
 
     public void GoToPokedex()
     {
-        SceneManager.LoadScene("pokedex");
+        SceneManager.LoadScene("Pokedex");
     }
 
     public void GoToPersonalizacion()
@@ -28,7 +28,7 @@ public class NavigationManager : MonoBehaviour
 
     public void GoToNavegacion()
     {
-        SceneManager.LoadScene("navegacion");
+        SceneManager.LoadScene("Navegacion");
     }
 
 }

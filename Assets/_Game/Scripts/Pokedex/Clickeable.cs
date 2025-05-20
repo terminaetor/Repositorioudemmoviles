@@ -10,6 +10,6 @@ public class Clickeable : MonoBehaviour
         SeleccionadorEnemigo.singleton.idIndicado = PuntoGPS.singleton.id;
         Debug.Log("Acabo de tocar a " + SeleccionadorEnemigo.singleton.idIndicado);
         SeleccionadorEnemigo.singleton.SeleccionarCriaturaPorID();
-
+        
     }
 }
