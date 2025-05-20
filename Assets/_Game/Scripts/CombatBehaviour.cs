@@ -30,8 +30,10 @@ public class CombatBehaviour : MonoBehaviour
         StartCoroutine(Combate());
         Instantiate(_playerCriatura.prefab, _ScenePlayer.position, _ScenePlayer.rotation);
         Instantiate(_enemyCriatura.prefab, _sceneEnemy.position, _sceneEnemy.rotation);
-        anim1 = _playerCriatura.prefab.GetComponentInChildren<Animator>();
-        anim2 = _enemyCriatura.prefab.GetComponentInChildren<Animator>();
+        GameObject playerCriatura = _playerCriatura.prefab.transform.Find("anim").gameObject;
+        GameObject enemyCriatura = _enemyCriatura.prefab.transform.Find("anim").gameObject;
+        anim1 = playerCriatura.GetComponent<Animator>();
+        anim2 = enemyCriatura.GetComponent<Animator>();
         
     }
 
