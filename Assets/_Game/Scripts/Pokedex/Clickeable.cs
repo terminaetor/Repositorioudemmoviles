@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class Clickeable : MonoBehaviour
 {
+    public int idClick;
     void OnMouseDown()
     {
-        Debug.Log("¡Haz hecho clic sobre " + gameObject.name + "!");
+        SeleccionadorEnemigo.singleton.idIndicado = PuntoGPS.singleton.id;
+        Debug.Log("Acabo de tocar a " + SeleccionadorEnemigo.singleton.idIndicado);
+        SeleccionadorEnemigo.singleton.SeleccionarCriaturaPorID();
+
     }
 }
