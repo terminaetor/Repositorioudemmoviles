@@ -48,6 +48,7 @@ public class CombatBehaviour : MonoBehaviour
         vidaenemigo -= d;
         print(">> Le cause " + d + " de da�o, queda en " + vidaenemigo);
         if (vidaenemigo <= 0) {
+
             Victoria();
             _combatiendo = false;
         }
@@ -58,6 +59,7 @@ public class CombatBehaviour : MonoBehaviour
         vidaplayer -= d;
         print("---> Te causaron " + d + "de da�o, queda en " + vidaplayer);
         if (vidaplayer <= 0) {
+            
             Derrota();
             _combatiendo = false;
         }
