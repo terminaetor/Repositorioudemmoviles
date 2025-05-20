@@ -73,12 +73,12 @@ public class Criatura
     public int CalcularVida()
     {
         // Por defecto, vida = nivel
-        int vida = nivel;
+        int vida = nivel + 6;
 
         // Si es tipo planta, suma 1 adicional
         if (tipo == Tipo.planta)
         {
-            vida += 1;
+            vida += 3;
         }
         Debug.Log(vida);
         return vida;

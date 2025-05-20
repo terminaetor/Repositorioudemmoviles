@@ -29,7 +29,7 @@ public class CombatBehaviour : MonoBehaviour
     }
 
     private void Start() {
-        StartCoroutine(Combate());
+        
         instanciaPlayer = Instantiate(_playerCriatura.prefab, _ScenePlayer.position, _ScenePlayer.rotation);
         instanciaEnemy = Instantiate(_enemyCriatura.prefab, _sceneEnemy.position, _sceneEnemy.rotation);
         Transform playerAnim = instanciaPlayer.transform.Find("anim");
@@ -44,6 +44,8 @@ public class CombatBehaviour : MonoBehaviour
             anim2 = enemyAnim.GetComponent<Animator>();
         else
             Debug.LogWarning("No se encontró 'anim' en el prefab del enemigo");
+        
+        StartCoroutine(Combate());
     }
 
     public IEnumerator Combate() {
@@ -62,9 +64,9 @@ public class CombatBehaviour : MonoBehaviour
     void AtaqueJugador() {
         float d = Random.Range(_playerCriatura.ataque.x,_playerCriatura.ataque.y);
         vidaenemigo -= d;
+        anim1.SetBool("isAttack", true);
         print(">> Le cause " + d + " de da�o, queda en " + vidaenemigo);
         if (vidaenemigo <= 0) {
-            anim1.SetBool("isAttack", true);
             Victoria();
             _combatiendo = false;
         }
