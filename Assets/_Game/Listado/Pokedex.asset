@@ -23,8 +23,6 @@ MonoBehaviour:
     tipo: 2
     descripcion: Este monstruo es una criatura de prueba para luego seguir describiendo
       ooooooooooodkkkkkkkkkkk
-    vida: 0
-    ataque: 0
   - nombre: Maromero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 2
@@ -34,8 +32,6 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: Lo mismo este
-    vida: 0
-    ataque: 0
   - nombre: "Gavil\xE1n Pollero"
     ubicacion: {x: 0, y: 0, z: 0}
     id: 3
@@ -45,8 +41,6 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Picaflor
     ubicacion: {x: 0, y: 0, z: 0}
     id: 4
@@ -56,8 +50,6 @@ MonoBehaviour:
     nivel: 4
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Tero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 5
@@ -67,8 +59,6 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Garrapatero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 6
@@ -78,8 +68,6 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Platanero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 7
@@ -89,8 +77,6 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Volatinero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 8
@@ -100,8 +86,6 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Silbon
     ubicacion: {x: 0, y: 0, z: 0}
     id: 9
@@ -111,8 +95,6 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Cotorrita
     ubicacion: {x: 0, y: 0, z: 0}
     id: 10
@@ -122,8 +104,6 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: "mastin com\xFAn"
     ubicacion: {x: 0, y: 0, z: 0}
     id: 11
@@ -132,8 +112,6 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: 'Sombrerete '
     ubicacion: {x: 0, y: 0, z: 0}
     id: 12
@@ -143,19 +121,15 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Comadreja Andina
     ubicacion: {x: 0, y: 0, z: 0}
     id: 13
     prefab: {fileID: 7076986963321752202, guid: 5b8a6eb853fbabe4bb76e60ddcd808f5,
       type: 3}
     img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
-    nivel: 1
+    nivel: 5
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: "Kinkaj\xFA"
     ubicacion: {x: 0, y: 0, z: 0}
     id: 14
@@ -165,8 +139,6 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: "Brasile\xF1o"
     ubicacion: {x: 0, y: 0, z: 0}
     id: 15
@@ -176,8 +148,6 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: "Rat\xF3n"
     ubicacion: {x: 0, y: 0, z: 0}
     id: 16
@@ -187,8 +157,6 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: 'Mango '
     ubicacion: {x: 0, y: 0, z: 0}
     id: 17
@@ -198,8 +166,6 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Palmera
     ubicacion: {x: 0, y: 0, z: 0}
     id: 18
@@ -208,19 +174,15 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Yuca
     ubicacion: {x: 0, y: 0, z: 0}
     id: 19
     prefab: {fileID: 7341128527512164842, guid: 1fd5338afadc77d4ea140fa0dd16661a,
       type: 3}
     img: {fileID: 21300000, guid: d9363b12e92601b458a3ffb1ded8556d, type: 3}
-    nivel: 1
+    nivel: 3
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Gualanday
     ubicacion: {x: 0, y: 0, z: 0}
     id: 20
@@ -230,8 +192,6 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Rosa
     ubicacion: {x: 0, y: 0, z: 0}
     id: 21
@@ -241,8 +201,6 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Cica
     ubicacion: {x: 0, y: 0, z: 0}
     id: 22
@@ -252,8 +210,6 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Cambulo
     ubicacion: {x: 0, y: 0, z: 0}
     id: 23
@@ -263,8 +219,6 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Banaba
     ubicacion: {x: 0, y: 0, z: 0}
     id: 24
@@ -274,8 +228,6 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Guayabo
     ubicacion: {x: 0, y: 0, z: 0}
     id: 25
@@ -284,8 +236,6 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Guadua
     ubicacion: {x: 0, y: 0, z: 0}
     id: 26
@@ -295,8 +245,6 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Limonero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 27
@@ -306,8 +254,6 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   - nombre: Zorro Perro
     ubicacion: {x: 0, y: 0, z: 0}
     id: 28
@@ -317,7 +263,5 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-    vida: 0
-    ataque: 0
   criaturaActivaID: 5
   criaturaEnemigaActivaID: 19
