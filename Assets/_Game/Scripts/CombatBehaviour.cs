@@ -12,6 +12,8 @@ public class CombatBehaviour : MonoBehaviour
     public int idcreatura;
     public Transform _ScenePlayer;
     public Transform _sceneEnemy;
+    private Animator anim1;
+    private Animator anim2;
     public int idenemy;
     bool _combatiendo = true;
 
@@ -28,6 +30,9 @@ public class CombatBehaviour : MonoBehaviour
         StartCoroutine(Combate());
         Instantiate(_playerCriatura.prefab, _ScenePlayer.position, _ScenePlayer.rotation);
         Instantiate(_enemyCriatura.prefab, _sceneEnemy.position, _sceneEnemy.rotation);
+        anim1 = _playerCriatura.prefab.GetComponentInChildren<Animator>();
+        anim2 = _enemyCriatura.prefab.GetComponentInChildren<Animator>();
+        
     }
 
     public IEnumerator Combate() {
@@ -48,7 +53,7 @@ public class CombatBehaviour : MonoBehaviour
         vidaenemigo -= d;
         print(">> Le cause " + d + " de da�o, queda en " + vidaenemigo);
         if (vidaenemigo <= 0) {
-
+            anim1.SetBool("isAttack", true);
             Victoria();
             _combatiendo = false;
         }
@@ -59,7 +64,7 @@ public class CombatBehaviour : MonoBehaviour
         vidaplayer -= d;
         print("---> Te causaron " + d + "de da�o, queda en " + vidaplayer);
         if (vidaplayer <= 0) {
-            
+
             Derrota();
             _combatiendo = false;
         }
@@ -67,6 +72,7 @@ public class CombatBehaviour : MonoBehaviour
 
     void Victoria() {
         Debug.Log("GANASTE");
+        anim1.SetBool("isAttack", false);
     }
 
     void Derrota() {

@@ -65,7 +65,6 @@ public class Criatura
     public string descripcion;
     public int vida;
     public Vector2 ataque;
-    public Animator anim;
 
 
 
