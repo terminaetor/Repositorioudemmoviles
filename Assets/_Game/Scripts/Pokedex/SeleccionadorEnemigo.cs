@@ -11,11 +11,12 @@ public class SeleccionadorEnemigo : MonoBehaviour
     private void Awake()
     {
         singleton = this;
+
     }
 
     public void Start()
     {
-        Debug.Log(pokedex.criaturaEnemigaActivaID);
+        pokedex.CargarDesdePlayerPrefs();
     }
 
     public void SeleccionarCriaturaPorID()
@@ -28,5 +29,12 @@ public class SeleccionadorEnemigo : MonoBehaviour
         pokedex.criaturaEnemigaActivaID = idIndicado;
 
         Debug.Log("¡Criatura seleccionada con ID: " + idIndicado + "!");
+    }
+
+    public void Limpiar()
+    {
+        idIndicado = -1;
+        PlayerPrefs.SetInt("CriaturaEnemigaActivaID", idIndicado);
+        PlayerPrefs.Save();
     }
 }

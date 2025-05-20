@@ -263,5 +263,5 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-  criaturaActivaID: 5
-  criaturaEnemigaActivaID: 19
+  criaturaActivaID: 13
+  criaturaEnemigaActivaID: 3

@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 41463434}
   - component: {fileID: 41463433}
   - component: {fileID: 41463432}
+  - component: {fileID: 41463437}
   m_Layer: 0
   m_Name: entradajunin
   m_TagString: Untagged
@@ -242,6 +243,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &41463437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41463431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b48d7772db28d48987a36060226ba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntoGPS: {fileID: 41463432}
 --- !u!1 &131862948
 GameObject:
   m_ObjectHideFlags: 0
@@ -255,6 +269,7 @@ GameObject:
   - component: {fileID: 131862951}
   - component: {fileID: 131862950}
   - component: {fileID: 131862949}
+  - component: {fileID: 131862954}
   m_Layer: 0
   m_Name: Nativos
   m_TagString: Untagged
@@ -365,6 +380,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &131862954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131862948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b48d7772db28d48987a36060226ba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntoGPS: {fileID: 131862949}
 --- !u!1 &185923739
 GameObject:
   m_ObjectHideFlags: 0
@@ -378,6 +406,8 @@ GameObject:
   - component: {fileID: 185923742}
   - component: {fileID: 185923741}
   - component: {fileID: 185923740}
+  - component: {fileID: 185923745}
+  - component: {fileID: 185923746}
   m_Layer: 0
   m_Name: porteria2
   m_TagString: Untagged
@@ -399,7 +429,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   punto: {x: 6.23182, y: 0, z: 75.6099}
   ubicador: {fileID: 282850461}
-  id: 19
+  id: 20
 --- !u!135 &185923741
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -488,6 +518,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &185923745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185923739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b48d7772db28d48987a36060226ba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntoGPS: {fileID: 185923740}
+--- !u!114 &185923746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185923739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b48d7772db28d48987a36060226ba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntoGPS: {fileID: 185923740}
 --- !u!1 &195096651
 GameObject:
   m_ObjectHideFlags: 0
@@ -501,6 +557,7 @@ GameObject:
   - component: {fileID: 195096654}
   - component: {fileID: 195096653}
   - component: {fileID: 195096652}
+  - component: {fileID: 195096657}
   m_Layer: 0
   m_Name: puenteCancha
   m_TagString: Untagged
@@ -611,6 +668,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &195096657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195096651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b48d7772db28d48987a36060226ba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntoGPS: {fileID: 195096652}
 --- !u!1 &282850460
 GameObject:
   m_ObjectHideFlags: 0
@@ -1152,6 +1222,7 @@ GameObject:
   - component: {fileID: 705667576}
   - component: {fileID: 705667575}
   - component: {fileID: 705667574}
+  - component: {fileID: 705667579}
   m_Layer: 0
   m_Name: "kioscocomunicaci\xF3n"
   m_TagString: Untagged
@@ -1262,6 +1333,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &705667579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705667573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b48d7772db28d48987a36060226ba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntoGPS: {fileID: 705667574}
 --- !u!1 &782814100
 GameObject:
   m_ObjectHideFlags: 0
@@ -1587,6 +1671,7 @@ GameObject:
   - component: {fileID: 1281324011}
   - component: {fileID: 1281324010}
   - component: {fileID: 1281324009}
+  - component: {fileID: 1281324014}
   m_Layer: 0
   m_Name: porteria1
   m_TagString: Untagged
@@ -1697,6 +1782,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1281324014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281324008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b48d7772db28d48987a36060226ba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntoGPS: {fileID: 1281324009}
 --- !u!1 &1327641026
 GameObject:
   m_ObjectHideFlags: 0
@@ -1710,6 +1808,7 @@ GameObject:
   - component: {fileID: 1327641029}
   - component: {fileID: 1327641028}
   - component: {fileID: 1327641027}
+  - component: {fileID: 1327641032}
   m_Layer: 0
   m_Name: salidaD1
   m_TagString: Untagged
@@ -1820,6 +1919,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1327641032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327641026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b48d7772db28d48987a36060226ba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntoGPS: {fileID: 1327641027}
 --- !u!1 &1378826493
 GameObject:
   m_ObjectHideFlags: 0
@@ -1833,6 +1945,7 @@ GameObject:
   - component: {fileID: 1378826496}
   - component: {fileID: 1378826495}
   - component: {fileID: 1378826494}
+  - component: {fileID: 1378826499}
   m_Layer: 0
   m_Name: bloque10
   m_TagString: Untagged
@@ -1943,6 +2056,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1378826499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378826493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b48d7772db28d48987a36060226ba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntoGPS: {fileID: 1378826494}
 --- !u!224 &1387812528 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 404525511281881153, guid: b8018f376b760564aa38f8a97b0a1bd6,
@@ -1962,6 +2088,7 @@ GameObject:
   - component: {fileID: 1432780759}
   - component: {fileID: 1432780758}
   - component: {fileID: 1432780757}
+  - component: {fileID: 1432780762}
   m_Layer: 0
   m_Name: canchagrandecaguan
   m_TagString: Untagged
@@ -2072,6 +2199,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1432780762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432780756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b48d7772db28d48987a36060226ba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntoGPS: {fileID: 1432780757}
 --- !u!1001 &1470905789
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2157,6 +2297,7 @@ GameObject:
   - component: {fileID: 1480180502}
   - component: {fileID: 1480180501}
   - component: {fileID: 1480180500}
+  - component: {fileID: 1480180505}
   m_Layer: 0
   m_Name: fuenteteatro
   m_TagString: Untagged
@@ -2267,6 +2408,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1480180505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480180499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b48d7772db28d48987a36060226ba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntoGPS: {fileID: 1480180500}
 --- !u!1 &1499149859 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5103405340282408325, guid: 3c6b9b83987cf444fa2912337841e18b,
@@ -2576,6 +2730,7 @@ GameObject:
   - component: {fileID: 1744642505}
   - component: {fileID: 1744642504}
   - component: {fileID: 1744642503}
+  - component: {fileID: 1744642508}
   m_Layer: 0
   m_Name: CPTV
   m_TagString: Untagged
@@ -2615,7 +2770,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
@@ -2626,7 +2781,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1744642502}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2686,6 +2841,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1744642508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744642502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b48d7772db28d48987a36060226ba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntoGPS: {fileID: 1744642503}
 --- !u!1 &1963408060
 GameObject:
   m_ObjectHideFlags: 0

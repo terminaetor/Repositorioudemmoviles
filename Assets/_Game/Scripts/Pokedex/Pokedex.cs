@@ -50,6 +50,11 @@ public class Pokedex : ScriptableObject
         return GetCriaturaPorID(criaturaEnemigaActivaID);
     }
 
+    public void CargarDesdePlayerPrefs()
+    {
+        criaturaEnemigaActivaID = PlayerPrefs.GetInt("CriaturaEnemigaActivaID", -1);
+    }
+
     
 }
 [System.Serializable]

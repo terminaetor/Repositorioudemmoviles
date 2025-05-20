@@ -28,7 +28,6 @@ public class PuntoGPS : MonoBehaviour
     public void InstanciarPokemon(int id)
     {
         Criatura criatura = Previsualizador.singleton.pokedex.GetCriaturaPorID(id);//oBTENER ID POKEMON
-        Debug.Log("Este es la criatura: " + criatura.nombre);
         GameObject udemon = Instantiate(criatura.prefab, transform.position, transform.rotation);//Instanciar pokemon
         udemon.transform.localScale = new Vector3(0.25f, 0.25f, 0.25f);//mANIPULAR SU ESCALA
     }
