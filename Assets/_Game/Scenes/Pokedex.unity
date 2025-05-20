@@ -4258,72 +4258,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec38b0955bd3e4142a7db1e227f3358c, type: 3}
---- !u!1 &1334096724
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1334096727}
-  - component: {fileID: 1334096728}
-  - component: {fileID: 1334096729}
-  m_Layer: 0
-  m_Name: ACPokedex
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1334096727
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1334096724}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1334096728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1334096724}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8945e0828cb65649b61ee02b44df063, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  capturas:
-    capturas: 
-  nivelJugador: 0
-  nivelAnterior: 0
-  nivel: {fileID: 1234474284}
-  nAtrapados: {fileID: 450398179}
-  panelNuevoNivel: {fileID: 1242757019}
-  cantidadObtenida: 0
---- !u!114 &1334096729
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1334096724}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cb79ce74c4c1cc42b917626949c1706, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  idCapturar: 0
 --- !u!1 &1358747752
 GameObject:
   m_ObjectHideFlags: 0
@@ -6786,6 +6720,89 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8018f376b760564aa38f8a97b0a1bd6, type: 3}
+--- !u!1001 &3367140424049944389
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 255948354789783942, guid: 5821989cfabd1ca499666c2e1840c29a,
+        type: 3}
+      propertyPath: nivel
+      value: 
+      objectReference: {fileID: 1234474284}
+    - target: {fileID: 255948354789783942, guid: 5821989cfabd1ca499666c2e1840c29a,
+        type: 3}
+      propertyPath: nAtrapados
+      value: 
+      objectReference: {fileID: 450398179}
+    - target: {fileID: 255948354789783942, guid: 5821989cfabd1ca499666c2e1840c29a,
+        type: 3}
+      propertyPath: panelNuevoNivel
+      value: 
+      objectReference: {fileID: 1242757019}
+    - target: {fileID: 2145846197025369876, guid: 5821989cfabd1ca499666c2e1840c29a,
+        type: 3}
+      propertyPath: m_Name
+      value: ACPokedex
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716902145703963174, guid: 5821989cfabd1ca499666c2e1840c29a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716902145703963174, guid: 5821989cfabd1ca499666c2e1840c29a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716902145703963174, guid: 5821989cfabd1ca499666c2e1840c29a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716902145703963174, guid: 5821989cfabd1ca499666c2e1840c29a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716902145703963174, guid: 5821989cfabd1ca499666c2e1840c29a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716902145703963174, guid: 5821989cfabd1ca499666c2e1840c29a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716902145703963174, guid: 5821989cfabd1ca499666c2e1840c29a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716902145703963174, guid: 5821989cfabd1ca499666c2e1840c29a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716902145703963174, guid: 5821989cfabd1ca499666c2e1840c29a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716902145703963174, guid: 5821989cfabd1ca499666c2e1840c29a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5821989cfabd1ca499666c2e1840c29a, type: 3}
 --- !u!1001 &6145148774869007469
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7043,7 +7060,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 929154833}
   - {fileID: 1249665417}
-  - {fileID: 1334096727}
+  - {fileID: 3367140424049944389}
   - {fileID: 1896032827}
   - {fileID: 645225832}
   - {fileID: 61756598}
