@@ -64,6 +64,7 @@ public class CombatBehaviour : MonoBehaviour
     void AtaqueJugador() {
         float d = Random.Range(_playerCriatura.ataque.x,_playerCriatura.ataque.y);
         vidaenemigo -= d;
+        anim2.SetBool("isAttack", false);
         anim1.SetBool("isAttack", true);
         print(">> Le cause " + d + " de da�o, queda en " + vidaenemigo);
         if (vidaenemigo <= 0) {
@@ -75,6 +76,8 @@ public class CombatBehaviour : MonoBehaviour
     void AtaqueEnemigo() {
         float d = Random.Range(_enemyCriatura.ataque.x, _enemyCriatura.ataque.y);
         vidaplayer -= d;
+        anim1.SetBool("isAttack", false);
+        anim2.SetBool("isAttack", true);
         print("---> Te causaron " + d + "de da�o, queda en " + vidaplayer);
         if (vidaplayer <= 0) {
 
@@ -90,6 +93,7 @@ public class CombatBehaviour : MonoBehaviour
 
     void Derrota() {
         print("perdiste");
+        anim2.SetBool("isAttack", false);
     }
 
 }

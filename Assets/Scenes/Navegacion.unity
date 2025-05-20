@@ -429,7 +429,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   punto: {x: 6.23182, y: 0, z: 75.6099}
   ubicador: {fileID: 282850461}
-  id: 20
+  id: 24
 --- !u!135 &185923741
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1693,7 +1693,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   punto: {x: 6.23103, y: 0, z: 75.61001}
   ubicador: {fileID: 282850461}
-  id: 3
+  id: 23
 --- !u!135 &1281324010
 SphereCollider:
   m_ObjectHideFlags: 0
