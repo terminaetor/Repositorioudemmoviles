@@ -216,7 +216,7 @@ MonoBehaviour:
     prefab: {fileID: 7856444023175183905, guid: aff8f9aeb528ce6498c6565e346ec3fb,
       type: 3}
     img: {fileID: 21300000, guid: ecfbca008e65d1e458bd6ad0e5455e62, type: 3}
-    nivel: 1
+    nivel: 2
     tipo: 2
     descripcion: 
   - nombre: Banaba
@@ -263,5 +263,5 @@ MonoBehaviour:
     nivel: 1
     tipo: 2
     descripcion: 
-  criaturaActivaID: 13
-  criaturaEnemigaActivaID: 3
+  criaturaActivaID: 23
+  criaturaEnemigaActivaID: 24
