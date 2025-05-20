@@ -113,7 +113,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 693756abc7cc93d4e97e11697ace37c3,
         type: 3}
       propertyPath: m_Name
-      value: GUAYABA
+      value: anim
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

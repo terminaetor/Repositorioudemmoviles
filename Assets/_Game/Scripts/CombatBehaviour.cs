@@ -16,6 +16,8 @@ public class CombatBehaviour : MonoBehaviour
     private Animator anim2;
     public int idenemy;
     bool _combatiendo = true;
+    private GameObject instanciaPlayer;
+    private GameObject instanciaEnemy;
 
     private void Awake() {
         idcreatura = pokedex.criaturaActivaID;
@@ -28,13 +30,20 @@ public class CombatBehaviour : MonoBehaviour
 
     private void Start() {
         StartCoroutine(Combate());
-        Instantiate(_playerCriatura.prefab, _ScenePlayer.position, _ScenePlayer.rotation);
-        Instantiate(_enemyCriatura.prefab, _sceneEnemy.position, _sceneEnemy.rotation);
-        GameObject playerCriatura = _playerCriatura.prefab.transform.Find("anim").gameObject;
-        GameObject enemyCriatura = _enemyCriatura.prefab.transform.Find("anim").gameObject;
-        anim1 = playerCriatura.GetComponent<Animator>();
-        anim2 = enemyCriatura.GetComponent<Animator>();
-        
+        instanciaPlayer = Instantiate(_playerCriatura.prefab, _ScenePlayer.position, _ScenePlayer.rotation);
+        instanciaEnemy = Instantiate(_enemyCriatura.prefab, _sceneEnemy.position, _sceneEnemy.rotation);
+        Transform playerAnim = instanciaPlayer.transform.Find("anim");
+        Transform enemyAnim = instanciaEnemy.transform.Find("anim");
+
+        if (playerAnim != null)
+            anim1 = playerAnim.GetComponent<Animator>();
+        else
+            Debug.LogWarning("No se encontró 'anim' en el prefab del jugador");
+
+        if (enemyAnim != null)
+            anim2 = enemyAnim.GetComponent<Animator>();
+        else
+            Debug.LogWarning("No se encontró 'anim' en el prefab del enemigo");
     }
 
     public IEnumerator Combate() {

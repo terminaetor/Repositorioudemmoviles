@@ -93,7 +93,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 75221575a54dcae48bcd41a5da93764a,
         type: 3}
       propertyPath: m_Name
-      value: Cambulo
+      value: anim
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

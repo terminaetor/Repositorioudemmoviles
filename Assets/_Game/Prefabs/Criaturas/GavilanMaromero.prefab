@@ -133,7 +133,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6631337b800bd634f97ae2b9f33619c7,
         type: 3}
       propertyPath: m_Name
-      value: Elanus leucurus (GavilanMaromero)
+      value: anim
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:

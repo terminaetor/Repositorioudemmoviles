@@ -93,7 +93,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fcc851480b07a8548ad6f0f5d861d59b,
         type: 3}
       propertyPath: m_Name
-      value: Guadua angustifolia Kunth@Idle
+      value: anim
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
