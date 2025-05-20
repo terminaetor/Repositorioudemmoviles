@@ -18,7 +18,7 @@ public class NavigationManager : MonoBehaviour
 
     public void GoToPersonalizacion()
     {
-        SceneManager.LoadScene("personalizacion");
+        SceneManager.LoadScene("Personalizacion");
     }
 
     public void GoToCombate()
