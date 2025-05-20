@@ -153,7 +153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   punto: {x: 6.23141, y: 0, z: 75.61197}
   ubicador: {fileID: 282850461}
-  id: 0
+  id: 11
 --- !u!135 &41463433
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   punto: {x: 6.23231, y: 0, z: 75.61141}
   ubicador: {fileID: 282850461}
-  id: 0
+  id: 18
 --- !u!135 &131862950
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1173,7 +1173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   punto: {x: 6.23173, y: 0, z: 75.61188}
   ubicador: {fileID: 282850461}
-  id: 0
+  id: 10
 --- !u!135 &705667575
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1608,7 +1608,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   punto: {x: 6.23103, y: 0, z: 75.61001}
   ubicador: {fileID: 282850461}
-  id: 0
+  id: 3
 --- !u!135 &1281324010
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1983,7 +1983,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   punto: {x: 6.22998, y: 0, z: 75.61328}
   ubicador: {fileID: 282850461}
-  id: 0
+  id: 28
 --- !u!135 &1432780758
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2178,7 +2178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   punto: {x: 6.23263, y: 0, z: 75.61081}
   ubicador: {fileID: 282850461}
-  id: 0
+  id: 2
 --- !u!135 &1480180501
 SphereCollider:
   m_ObjectHideFlags: 0
