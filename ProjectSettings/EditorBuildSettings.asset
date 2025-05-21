@@ -21,6 +21,8 @@ EditorBuildSettings:
     path: Assets/_Game/Scenes/Combate.unity
     guid: 53af0ff59fe4ca146a6388124d056aa4
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 5ce87a99b0380f44b9f16436430a3e2d,
+      type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 96171088cf6b9614599f0e084877b6be,
       type: 2}
   m_UseUCBPForAssetBundles: 0
