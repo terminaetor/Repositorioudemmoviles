@@ -271,6 +271,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &555378938 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 255948354789783942, guid: 5821989cfabd1ca499666c2e1840c29a,
+    type: 3}
+  m_PrefabInstance: {fileID: 794401944}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8945e0828cb65649b61ee02b44df063, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &593414180
 GameObject:
   m_ObjectHideFlags: 0
@@ -1555,6 +1567,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67414158958d3539a93a3af9c0cbc69e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  captura: {fileID: 555378938}
+  criaturaCaptura:
+    capturas: 
   _playerCriatura:
     nombre: 
     ubicacion: {x: 0, y: 0, z: 0}

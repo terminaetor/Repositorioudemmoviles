@@ -6,6 +6,8 @@ using TMPro;
 
 public class CombatBehaviour : MonoBehaviour
 {
+    public Capturados captura;
+    public Capturas criaturaCaptura;
     public Criatura _playerCriatura;
     public Criatura _enemyCriatura;
     public Pokedex pokedex;
@@ -26,6 +28,7 @@ public class CombatBehaviour : MonoBehaviour
     public TMP_Text nombreenemigo;
 
     private void Awake() {
+        criaturaCaptura = captura.capturas;
         idcreatura = pokedex.criaturaActivaID;
         idenemy = pokedex.criaturaEnemigaActivaID;
         _playerCriatura = pokedex.GetCriaturaPorID(idcreatura);
@@ -100,7 +103,8 @@ public class CombatBehaviour : MonoBehaviour
     void Victoria() {
         Debug.Log("GANASTE");
         anim1.SetBool("isAttack", false);
-        Capturados.singleton.Capturar(idenemy);
+        criaturaCaptura.Capturar(idenemy);
+
     }
 
     void Derrota() {
