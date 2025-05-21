@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class CombatBehaviour : MonoBehaviour
 {
@@ -21,6 +22,8 @@ public class CombatBehaviour : MonoBehaviour
     private GameObject instanciaEnemy;
     public Image healthbarenemy;
     public Image healthbarplayer;
+    public TMP_Text nombreplayer;
+    public TMP_Text nombreenemigo;
 
     private void Awake() {
         idcreatura = pokedex.criaturaActivaID;
@@ -35,6 +38,8 @@ public class CombatBehaviour : MonoBehaviour
         
         instanciaPlayer = Instantiate(_playerCriatura.prefab, _ScenePlayer.position, _ScenePlayer.rotation);
         instanciaEnemy = Instantiate(_enemyCriatura.prefab, _sceneEnemy.position, _sceneEnemy.rotation);
+        nombreplayer.text = _playerCriatura.nombre;
+        nombreenemigo.text = _enemyCriatura.nombre;
         Transform playerAnim = instanciaPlayer.transform.Find("anim");
         Transform enemyAnim = instanciaEnemy.transform.Find("anim");
 
@@ -71,6 +76,7 @@ public class CombatBehaviour : MonoBehaviour
         anim1.SetBool("isAttack", true);
         print(">> Le cause " + d + " de da�o, queda en " + vidaenemigo);
         healthbarenemy.fillAmount = vidaenemigo / _enemyCriatura.vida;
+        Debug.Log("la barra de vida esta" + healthbarenemy.fillAmount);
         if (vidaenemigo <= 0) {
             Victoria();
             _combatiendo = false;
