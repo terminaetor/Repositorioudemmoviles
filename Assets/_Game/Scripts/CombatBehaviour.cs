@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CombatBehaviour : MonoBehaviour
 {
@@ -18,6 +19,8 @@ public class CombatBehaviour : MonoBehaviour
     bool _combatiendo = true;
     private GameObject instanciaPlayer;
     private GameObject instanciaEnemy;
+    public Image healthbarenemy;
+    public Image healthbarplayer;
 
     private void Awake() {
         idcreatura = pokedex.criaturaActivaID;
@@ -67,6 +70,7 @@ public class CombatBehaviour : MonoBehaviour
         anim2.SetBool("isAttack", false);
         anim1.SetBool("isAttack", true);
         print(">> Le cause " + d + " de da�o, queda en " + vidaenemigo);
+        healthbarenemy.fillAmount = vidaenemigo / _enemyCriatura.vida;
         if (vidaenemigo <= 0) {
             Victoria();
             _combatiendo = false;
@@ -79,6 +83,7 @@ public class CombatBehaviour : MonoBehaviour
         anim1.SetBool("isAttack", false);
         anim2.SetBool("isAttack", true);
         print("---> Te causaron " + d + "de da�o, queda en " + vidaplayer);
+        healthbarplayer.fillAmount = vidaplayer / _playerCriatura.vida;
         if (vidaplayer <= 0) {
 
             Derrota();
