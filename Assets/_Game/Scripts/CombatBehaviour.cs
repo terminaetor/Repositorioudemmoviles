@@ -7,6 +7,7 @@ using TMPro;
 public class CombatBehaviour : MonoBehaviour
 {
     public Capturados captura;
+    public GameObject ganaste, perdiste;
     public Capturas criaturaCaptura;
     public Criatura _playerCriatura;
     public Criatura _enemyCriatura;
@@ -104,12 +105,24 @@ public class CombatBehaviour : MonoBehaviour
         Debug.Log("GANASTE");
         anim1.SetBool("isAttack", false);
         criaturaCaptura.Capturar(idenemy);
+        ganaste.SetActive(true);
+        OcultarPokemones();
 
     }
 
     void Derrota() {
         print("perdiste");
         anim2.SetBool("isAttack", false);
+        perdiste.SetActive(true);
+        OcultarPokemones();
+    }
+
+    void OcultarPokemones()
+    {
+        instanciaEnemy.SetActive(false);
+        instanciaPlayer.SetActive(false);
+        nombreenemigo.text = " ";
+        nombreplayer.text = " ";
     }
 
 }
