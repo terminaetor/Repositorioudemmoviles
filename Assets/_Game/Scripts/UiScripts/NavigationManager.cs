@@ -14,7 +14,7 @@ public class NavigationManager : MonoBehaviour
     }
     public void GoToRealidadAumentada()
     {
-        SceneManager.LoadScene("realidadAumentada");
+        SceneManager.LoadScene("AR");
     }
 
     public void GoToPokedex()

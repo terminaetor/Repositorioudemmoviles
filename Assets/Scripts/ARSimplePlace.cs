@@ -22,7 +22,7 @@ public class ARSimplePlace : MonoBehaviour
     private void Awake()
     {
         id = pokedex.criaturaEnemigaActivaID;
-        criatura = pokedex.GetCriaturaPorID(18);
+        criatura = pokedex.GetCriaturaPorID(id);
     }
 
     private void Start()
