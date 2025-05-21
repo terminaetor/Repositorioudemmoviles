@@ -17,11 +17,12 @@ public class ARSimplePlace : MonoBehaviour
     public float islandHeight;
     public float criaturaHeight;
     public bool placed;
+    private Quaternion rotation = Quaternion.Euler(0f, -180f, 0f);
 
     private void Awake()
     {
         id = pokedex.criaturaEnemigaActivaID;
-        criatura = pokedex.GetCriaturaPorID(id);
+        criatura = pokedex.GetCriaturaPorID(18);
     }
 
     private void Start()
@@ -29,7 +30,7 @@ public class ARSimplePlace : MonoBehaviour
 
         placed = false;
         islandHeight = 0.08f;
-        criaturaHeight = 0.2f;
+        criaturaHeight = 0.1f;
         criaturaToPlace = criatura.prefab;
         criaturaToPlace.transform.localScale = Vector3.one*0.2f;
     }
@@ -42,8 +43,8 @@ public class ARSimplePlace : MonoBehaviour
             Instantiate(island, spawnPos, Quaternion.identity);
 
             //calcular la posicion de la criatura encima de la isla
-            Vector3 criaturaPos = spawnPos + new Vector3(0, (islandHeight/2f) + (criaturaHeight/2f), 0);
-            Instantiate(criaturaToPlace, criaturaPos, Quaternion.identity);
+            Vector3 criaturaPos = spawnPos + new Vector3(0, (islandHeight/2), 0);
+            Instantiate(criaturaToPlace, criaturaPos, rotation);
             
             placed = true;
         }
