@@ -5,19 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Game/Scenes/MenuScene.unity
     guid: 85a198518a636014185701eccc8fa110
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Navegacion.unity
     guid: 301dc2119c741fd43b3881b6ea5bc23d
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Game/Scenes/Pokedex.unity
     guid: e673bb7fa0e514642b05c391a2931088
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Game/Scenes/Personalizacion.unity
     guid: 26b280afb0a941249b6ac56a4339b662
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Game/Scenes/Combate.unity
     guid: 53af0ff59fe4ca146a6388124d056aa4
   - enabled: 1

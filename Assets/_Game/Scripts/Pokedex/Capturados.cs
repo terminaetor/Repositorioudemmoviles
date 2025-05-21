@@ -95,6 +95,7 @@ public class Capturas
         {
             capturas.Add(id);
             Debug.Log("Capturaste a " + id);
+            Capturados.singleton.Guardar();
         }
     }
 
