@@ -12667,6 +12667,11 @@ PrefabInstance:
       objectReference: {fileID: 1234474284}
     - target: {fileID: 255948354789783942, guid: 5821989cfabd1ca499666c2e1840c29a,
         type: 3}
+      propertyPath: seleccion
+      value: 
+      objectReference: {fileID: 851934030}
+    - target: {fileID: 255948354789783942, guid: 5821989cfabd1ca499666c2e1840c29a,
+        type: 3}
       propertyPath: nAtrapados
       value: 
       objectReference: {fileID: 450398179}

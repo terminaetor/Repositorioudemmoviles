@@ -14,6 +14,7 @@ public class Capturados : MonoBehaviour
     public TextMeshProUGUI nAtrapados;
     public GameObject panelNuevoNivel;
     public int cantidadObtenida;
+    public SeleccionadorCriaturas seleccion;
 
     public void Awake()
     {
@@ -26,7 +27,10 @@ public class Capturados : MonoBehaviour
         else
         {
             capturas = new Capturas();
+            seleccion.idActivo = 1;
+            seleccion.SeleccionarCriaturaPorID();
             Capturar(1);
+            
         }
         ActualizarNivelJugador();
         cantidadObtenida = capturas.capturas.Count;
