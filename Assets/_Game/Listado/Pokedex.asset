@@ -45,7 +45,7 @@ MonoBehaviour:
     id: 4
     prefab: {fileID: 7904294700429271967, guid: ec38b0955bd3e4142a7db1e227f3358c,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: 27625f49769785d48abbb994987dc13d, type: 3}
     nivel: 4
     tipo: 2
     descripcion: 
@@ -63,7 +63,7 @@ MonoBehaviour:
     id: 6
     prefab: {fileID: 5605443589492128866, guid: ccf29446b37a1b542b425dcf568c2512,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: 01e30d10847c06643a83d40f49c686a6, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
@@ -116,7 +116,7 @@ MonoBehaviour:
     id: 12
     prefab: {fileID: 7076986963321752202, guid: 5b8a6eb853fbabe4bb76e60ddcd808f5,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: f37ac973802d6d346ad2a5109c0f4d47, type: 3}
     nivel: 5
     tipo: 2
     descripcion: 
@@ -187,7 +187,7 @@ MonoBehaviour:
     id: 20
     prefab: {fileID: 1362603210010550059, guid: 88dd7e4d09531934a984cc06b2249aea,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: 3c9a051ac8bbd8641b1a9c7521191c71, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
@@ -195,7 +195,7 @@ MonoBehaviour:
     ubicacion: {x: 0, y: 0, z: 0}
     id: 21
     prefab: {fileID: 810258845340048781, guid: 6febf8a3be93c21459efaf42dd63519c, type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: 8945653bbbeff3840a9f3b8dad593cda, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
@@ -213,7 +213,7 @@ MonoBehaviour:
     id: 23
     prefab: {fileID: 2465937070147434795, guid: 1b15101fb5113db4da56f8ec14142225,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: 02cda49cd9f438544bea09af9f391bb4, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
@@ -222,7 +222,7 @@ MonoBehaviour:
     id: 24
     prefab: {fileID: 7429087600479364227, guid: 5105c120bbff8da459ca06c1ea067faf,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: d7b262e7e076cbf448fbe4d885694fb9, type: 3}
     nivel: 1
     tipo: 2
     descripcion: 
