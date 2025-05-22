@@ -21,17 +21,15 @@ public class MensajeCaptura : MonoBehaviour
     public void MostrarMensaje(int id)
     {
         Criatura criatura = pokedex.GetCriaturaPorID(id);
-        if (Capturados.singleton.VerificarCaptura(criatura.id))
-        {
-            Previsualizador.singleton.Limpiar();
-            mensajeAtrapado.SetActive(true);
-            //pokedexUI.SetActive(false);
-            _creado = Instantiate(criatura.prefab, transform.position, transform.rotation);
-            nombreTexto.text = criatura.nombre;
-            //Previsualizador.singleton.Previsualizar(id);
+       
+        Previsualizador.singleton.Limpiar();
+        mensajeAtrapado.SetActive(true);
+        //pokedexUI.SetActive(false);
+        _creado = Instantiate(criatura.prefab, transform.position, transform.rotation);
+        nombreTexto.text = criatura.nombre;
+        //Previsualizador.singleton.Previsualizar(id);
            
             
-        }
     }
 
     public void OcultarMensaje()

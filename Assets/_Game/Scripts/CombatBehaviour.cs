@@ -124,4 +124,9 @@ public class CombatBehaviour : MonoBehaviour
         nombreplayer.text = " ";
     }
 
+    public void MostrarCaptura()
+    {
+        MensajeCaptura.singleton.MostrarMensaje(idenemy);
+    }
+
 }
