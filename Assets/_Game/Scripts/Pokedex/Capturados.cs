@@ -41,7 +41,7 @@ public class Capturados : MonoBehaviour
     public void Capturar(int id)
     {
         capturas.Capturar(id);
-        MensajeCaptura.singleton.MostrarMensaje(id);
+        //MensajeCaptura.singleton.MostrarMensaje(id);
         ACUIDexManager.singleton.ActualizarCajas();
         
 

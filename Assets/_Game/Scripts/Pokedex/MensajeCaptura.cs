@@ -22,7 +22,7 @@ public class MensajeCaptura : MonoBehaviour
     {
         Criatura criatura = pokedex.GetCriaturaPorID(id);
        
-        Previsualizador.singleton.Limpiar();
+
         mensajeAtrapado.SetActive(true);
         //pokedexUI.SetActive(false);
         _creado = Instantiate(criatura.prefab, transform.position, transform.rotation);

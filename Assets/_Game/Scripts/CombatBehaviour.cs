@@ -127,6 +127,7 @@ public class CombatBehaviour : MonoBehaviour
     public void MostrarCaptura()
     {
         MensajeCaptura.singleton.MostrarMensaje(idenemy);
+        ganaste.SetActive(false);
     }
 
 }
