@@ -16,8 +16,7 @@ MonoBehaviour:
   - nombre: Ardilla
     ubicacion: {x: 0, y: 0, z: 0}
     id: 1
-    prefab: {fileID: 6243772395542237736, guid: 47d8165626b41a243b1a0222655960b7,
-      type: 3}
+    prefab: {fileID: 12771100394891457, guid: 733af4d1b4361014398640ddd8d35b56, type: 3}
     img: {fileID: 21300000, guid: e6bb2e1203209e04694c7548f967c052, type: 3}
     nivel: 1
     tipo: 2
@@ -28,7 +27,7 @@ MonoBehaviour:
     id: 2
     prefab: {fileID: 6935963030467419587, guid: 6c44e331a07e66a4f9eeb3df3a95d167,
       type: 3}
-    img: {fileID: 21300000, guid: bf15c2e47ec473747be737ddb2fe99a7, type: 3}
+    img: {fileID: 21300000, guid: d30fc1e8e5fe90845a65d9e3597713a6, type: 3}
     nivel: 1
     tipo: 2
     descripcion: Lo mismo este
