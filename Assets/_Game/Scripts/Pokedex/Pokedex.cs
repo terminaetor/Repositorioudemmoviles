@@ -6,7 +6,7 @@ public class Pokedex : ScriptableObject
 {
     public List<Criatura> criaturas = new List<Criatura>();
 
-    public int criaturaActivaID = -1;
+    public int criaturaActivaID = 1;
 
     public int criaturaEnemigaActivaID = -1;
 
