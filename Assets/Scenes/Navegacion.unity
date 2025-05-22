@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 70e48c3dd622e8f4f8dd1a2c3a079188, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.25658697, g: 0.6713862, b: 0.51530194, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -93,7 +93,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 0240573df6bf92645a69c8ff15702795,
+    type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -969,22 +970,22 @@ PrefabInstance:
     - target: {fileID: 404525511281881153, guid: b8018f376b760564aa38f8a97b0a1bd6,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 404525511281881153, guid: b8018f376b760564aa38f8a97b0a1bd6,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 404525511281881153, guid: b8018f376b760564aa38f8a97b0a1bd6,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 404525511281881153, guid: b8018f376b760564aa38f8a97b0a1bd6,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 404525511281881153, guid: b8018f376b760564aa38f8a97b0a1bd6,
         type: 3}
@@ -994,7 +995,7 @@ PrefabInstance:
     - target: {fileID: 404525511281881153, guid: b8018f376b760564aa38f8a97b0a1bd6,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 73.291
+      value: 73.291016
       objectReference: {fileID: 0}
     - target: {fileID: 404525511281881153, guid: b8018f376b760564aa38f8a97b0a1bd6,
         type: 3}
@@ -1034,12 +1035,12 @@ PrefabInstance:
     - target: {fileID: 404525511281881153, guid: b8018f376b760564aa38f8a97b0a1bd6,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -616
+      value: -206
       objectReference: {fileID: 0}
     - target: {fileID: 404525511281881153, guid: b8018f376b760564aa38f8a97b0a1bd6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1378
+      value: -512
       objectReference: {fileID: 0}
     - target: {fileID: 404525511281881153, guid: b8018f376b760564aa38f8a97b0a1bd6,
         type: 3}
@@ -1065,7 +1066,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -99389580, guid: eefeb3e80ec40844cade93e3f237fe54,
+      objectReference: {fileID: 1694575186, guid: eefeb3e80ec40844cade93e3f237fe54,
         type: 3}
     - target: {fileID: 8656520665408474611, guid: b8018f376b760564aa38f8a97b0a1bd6,
         type: 3}
@@ -2654,22 +2655,22 @@ PrefabInstance:
     - target: {fileID: 404525511281881153, guid: b8018f376b760564aa38f8a97b0a1bd6,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 404525511281881153, guid: b8018f376b760564aa38f8a97b0a1bd6,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 404525511281881153, guid: b8018f376b760564aa38f8a97b0a1bd6,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 404525511281881153, guid: b8018f376b760564aa38f8a97b0a1bd6,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 404525511281881153, guid: b8018f376b760564aa38f8a97b0a1bd6,
         type: 3}
@@ -2679,7 +2680,7 @@ PrefabInstance:
     - target: {fileID: 404525511281881153, guid: b8018f376b760564aa38f8a97b0a1bd6,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 73.291
+      value: 73.291016
       objectReference: {fileID: 0}
     - target: {fileID: 404525511281881153, guid: b8018f376b760564aa38f8a97b0a1bd6,
         type: 3}
@@ -2719,12 +2720,12 @@ PrefabInstance:
     - target: {fileID: 404525511281881153, guid: b8018f376b760564aa38f8a97b0a1bd6,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -220
+      value: 210
       objectReference: {fileID: 0}
     - target: {fileID: 404525511281881153, guid: b8018f376b760564aa38f8a97b0a1bd6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1378
+      value: -512
       objectReference: {fileID: 0}
     - target: {fileID: 404525511281881153, guid: b8018f376b760564aa38f8a97b0a1bd6,
         type: 3}
@@ -2746,6 +2747,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mas
       objectReference: {fileID: 0}
+    - target: {fileID: 7551003263516651542, guid: b8018f376b760564aa38f8a97b0a1bd6,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 875427754, guid: eefeb3e80ec40844cade93e3f237fe54,
+        type: 3}
     - target: {fileID: 8656520665408474611, guid: b8018f376b760564aa38f8a97b0a1bd6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -2965,8 +2972,8 @@ Camera:
   m_GameObject: {fileID: 1963408060}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.63529414, g: 0.64705884, b: 0.91372555, a: 1}
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
