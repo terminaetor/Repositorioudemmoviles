@@ -94,6 +94,8 @@ public class Capturas
         if (!capturas.Contains(id))
         {
             capturas.Add(id);
+            Debug.Log("Capturaste a " + id);
+            Capturados.singleton.Guardar();
         }
     }
 

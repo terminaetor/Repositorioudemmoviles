@@ -1947,7 +1947,8 @@ PrefabInstance:
       propertyPath: mensajeAtrapado
       value: 
       objectReference: {fileID: 5427684}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 423749216629563894, guid: 3c6b9b83987cf444fa2912337841e18b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
