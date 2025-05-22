@@ -116,7 +116,8 @@ PrefabInstance:
       value: anim
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 9119259220617699050, guid: a048f67c14062f94d8a0067cb8029fd7, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a048f67c14062f94d8a0067cb8029fd7,
