@@ -27,7 +27,7 @@ public class Menudetalles : MonoBehaviour
         {
             panelDetalles.SetActive(true);
             nombreTexto.text = criatura.nombre;
-            descripcionTexto.text = "Tipo: " + criatura.tipo + "\n\n" + "Nivel: " + criatura.nivel + "\n\n" + "Vida: " + criatura.vida + "\n\n" + "Ataque: " + criatura.ataque + "\n\n" + criatura.nombre + " " + criatura.descripcion;
+            descripcionTexto.text = criatura.descripcion;
         }
     }
 

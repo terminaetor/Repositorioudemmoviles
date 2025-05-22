@@ -20,8 +20,9 @@ MonoBehaviour:
     img: {fileID: 21300000, guid: e6bb2e1203209e04694c7548f967c052, type: 3}
     nivel: 1
     tipo: 2
-    descripcion: Este monstruo es una criatura de prueba para luego seguir describiendo
-      ooooooooooodkkkkkkkkkkk
+    descripcion: "Sciurus granatensis \u2013 Ardilla \\n\\n Alimentaci\xF3n: Principalmente
+      frutas, semillas y nueces; tambi\xE9n consume hojas, corteza, hongos y ocasionalmente
+      insectos. \\n\\n  Vulnerabilidad: Clasificada como de \"Preocupaci\xF3n Menor\""
   - nombre: Maromero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 2
@@ -30,7 +31,9 @@ MonoBehaviour:
     img: {fileID: 21300000, guid: d30fc1e8e5fe90845a65d9e3597713a6, type: 3}
     nivel: 1
     tipo: 2
-    descripcion: Lo mismo este
+    descripcion: "Elanus leucurus \u2013 Gavil\xE1n maromero \\n\\n Alimentaci\xF3n:
+      Peque\xF1os mam\xEDferos, aves, reptiles e insectos. \\n\\n Vulnerabilidad:
+      Clasificado como de \"Preocupaci\xF3n Menor\""
   - nombre: "Gavil\xE1n Pollero"
     ubicacion: {x: 0, y: 0, z: 0}
     id: 3
@@ -39,7 +42,9 @@ MonoBehaviour:
     img: {fileID: 21300000, guid: bc4203410ce3b804aa62009c12e6d3ce, type: 3}
     nivel: 2
     tipo: 2
-    descripcion: 
+    descripcion: "Rupornis magnirostris \u2013 Gavil\xE1n pollero \\n\\n Alimentaci\xF3n:
+      Aves peque\xF1as, reptiles, mam\xEDferos e insectos. \\n\\n  Vulnerabilidad:
+      Clasificado como de \"Preocupaci\xF3n Menor\""
   - nombre: Picaflor
     ubicacion: {x: 0, y: 0, z: 0}
     id: 4
@@ -48,7 +53,9 @@ MonoBehaviour:
     img: {fileID: 21300000, guid: 27625f49769785d48abbb994987dc13d, type: 3}
     nivel: 2
     tipo: 2
-    descripcion: 
+    descripcion: "Anthracothorax nigricollis \u2013 Picaflor vientre negro\\n\\n
+      Alimentaci\xF3n: N\xE9ctar de flores y peque\xF1os insectos.\\n\\n Vulnerabilidad:
+      Clasificado como de \u201CPreocupaci\xF3n Menor\u201D"
   - nombre: Tero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 5
@@ -57,7 +64,9 @@ MonoBehaviour:
     img: {fileID: 21300000, guid: fe8f353336a091344801c607ef269c2a, type: 3}
     nivel: 2
     tipo: 2
-    descripcion: 
+    descripcion: "Vanellus chilensis \u2013 Tero\\n\\n Alimentaci\xF3n: Invertebrados
+      como insectos, lombrices y caracoles.\\n\\n Vulnerabilidad: Clasificado como
+      de \u201CPreocupaci\xF3n Menor\u201D"
   - nombre: Garrapatero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 6
@@ -66,7 +75,9 @@ MonoBehaviour:
     img: {fileID: 21300000, guid: 01e30d10847c06643a83d40f49c686a6, type: 3}
     nivel: 2
     tipo: 2
-    descripcion: 
+    descripcion: "Crotophaga major \u2013 Garrapatero mayor\\n\\n Alimentaci\xF3n:
+      Insectos, frutas y peque\xF1os vertebrados.\\n\\n Vulnerabilidad: Clasificado
+      como de \u201CPreocupaci\xF3n Menor\u201D"
   - nombre: Platanero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 7
@@ -75,7 +86,9 @@ MonoBehaviour:
     img: {fileID: 21300000, guid: 1d82107cdb05bb241944d510757a9126, type: 3}
     nivel: 1
     tipo: 2
-    descripcion: 
+    descripcion: "Volatinia jacarina \u2013 Semillero volatinero\\n\\n Alimentaci\xF3n:
+      Semillas e insectos.\\n\\n Vulnerabilidad: Clasificado como de \u201CPreocupaci\xF3n
+      Menor\u201D"
   - nombre: Volatinero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 8
@@ -84,7 +97,9 @@ MonoBehaviour:
     img: {fileID: 21300000, guid: 5e5b48298637f3545b7fde4b992229b4, type: 3}
     nivel: 3
     tipo: 2
-    descripcion: 
+    descripcion: "Volatinia jacarina \u2013 Semillero volatinero\\n\\n Alimentaci\xF3n:
+      Semillas e insectos.\\n\\n Vulnerabilidad: Clasificado como de \u201CPreocupaci\xF3n
+      Menor\u201D"
   - nombre: Silbon
     ubicacion: {x: 0, y: 0, z: 0}
     id: 9
@@ -93,7 +108,9 @@ MonoBehaviour:
     img: {fileID: 21300000, guid: a425dc4a804593548a4d2e7528c9313b, type: 3}
     nivel: 3
     tipo: 2
-    descripcion: 
+    descripcion: "Camptostoma obsoletum \u2013 Mosquerito silb\xF3n\\n\\n Alimentaci\xF3n:
+      Insectos y bayas.\\n\\n Vulnerabilidad: Clasificado como de \u201CPreocupaci\xF3n
+      Menor\u201D"
   - nombre: "mastin com\xFAn"
     ubicacion: {x: 0, y: 0, z: 0}
     id: 10
@@ -101,7 +118,9 @@ MonoBehaviour:
     img: {fileID: 21300000, guid: 383df32e0c7a0ae44b0fdb273da3f825, type: 3}
     nivel: 1
     tipo: 2
-    descripcion: 
+    descripcion: "Molossus molossus \u2013 Murci\xE9lago mast\xEDn com\xFAn\\n\\n
+      Alimentaci\xF3n: Insectos voladores.\\n\\n Vulnerabilidad: Clasificado como
+      de \u201CPreocupaci\xF3n Menor\u201D"
   - nombre: 'Sombrerete '
     ubicacion: {x: 0, y: 0, z: 0}
     id: 11
@@ -110,7 +129,9 @@ MonoBehaviour:
     img: {fileID: 21300000, guid: 56889290ea19177458b0be9e97c6e21b, type: 3}
     nivel: 3
     tipo: 2
-    descripcion: 
+    descripcion: "Eumops glaucinus \u2013 Murci\xE9lago de sombrerete blanquecino\\n\\n
+      Alimentaci\xF3n: Insectos voladores.\\n\\n Vulnerabilidad: Clasificado como
+      de \u201CPreocupaci\xF3n Menor\u201D"
   - nombre: Comadreja Andina
     ubicacion: {x: 0, y: 0, z: 0}
     id: 12
@@ -119,7 +140,9 @@ MonoBehaviour:
     img: {fileID: 21300000, guid: f37ac973802d6d346ad2a5109c0f4d47, type: 3}
     nivel: 3
     tipo: 2
-    descripcion: 
+    descripcion: "Mustela frenata \u2013 Comadreja andina\\n\\n Alimentaci\xF3n:
+      Roedores, aves, insectos y reptiles.\\n\\n Vulnerabilidad: Clasificada como
+      de \u201CPreocupaci\xF3n Menor\u201D"
   - nombre: "Kinkaj\xFA"
     ubicacion: {x: 0, y: 0, z: 0}
     id: 13
@@ -128,7 +151,9 @@ MonoBehaviour:
     img: {fileID: 21300000, guid: bfa884de118682842b3d7f15ad25ebaf, type: 3}
     nivel: 4
     tipo: 2
-    descripcion: 
+    descripcion: "Potos flavus \u2013 Kinkaj\xFA\\n\\n Alimentaci\xF3n: Frutas, n\xE9ctar,
+      insectos y peque\xF1os vertebrados.\\n\\n Vulnerabilidad: Preocupaci\xF3n menor,
+      aunque amenazada por p\xE9rdida de h\xE1bitat"
   - nombre: 'Mango '
     ubicacion: {x: 0, y: 0, z: 0}
     id: 14
@@ -137,7 +162,9 @@ MonoBehaviour:
     img: {fileID: 21300000, guid: 5efb7dfbb019544479fb9408893c232e, type: 3}
     nivel: 1
     tipo: 2
-    descripcion: 
+    descripcion: "Mangifera indica \u2013 Mango\\n\\n Alimentaci\xF3n: Planta fotosint\xE9tica;
+      produce frutos consumidos por animales.\\n\\n Vulnerabilidad: No amenazada;
+      ampliamente cultivada."
   - nombre: Palmera
     ubicacion: {x: 0, y: 0, z: 0}
     id: 15
@@ -145,7 +172,8 @@ MonoBehaviour:
     img: {fileID: 21300000, guid: b7e7d4f704f781044959637965e7b28e, type: 3}
     nivel: 4
     tipo: 2
-    descripcion: 
+    descripcion: "Washingtonia robusta \u2013 Palmera\\n\\n Alimentaci\xF3n: Planta
+      fotosint\xE9tica.\\n\\n Vulnerabilidad: No amenazada; cultivada ornamentalmente."
   - nombre: Yuca
     ubicacion: {x: 0, y: 0, z: 0}
     id: 16
@@ -154,7 +182,8 @@ MonoBehaviour:
     img: {fileID: 21300000, guid: d9363b12e92601b458a3ffb1ded8556d, type: 3}
     nivel: 4
     tipo: 2
-    descripcion: 
+    descripcion: "Yucca gigantea \u2013 Yuca gigante\\n\\n Alimentaci\xF3n: Planta
+      fotosint\xE9tica.\\n\\n Vulnerabilidad: No amenazada; cultivada."
   - nombre: Gualanday
     ubicacion: {x: 0, y: 0, z: 0}
     id: 17
@@ -163,7 +192,8 @@ MonoBehaviour:
     img: {fileID: 21300000, guid: 1124ee283fb39f34aa50bd281b22f841, type: 3}
     nivel: 4
     tipo: 2
-    descripcion: 
+    descripcion: "Jacaranda mimosifolia \u2013 Gualanday\\n\\n Alimentaci\xF3n: Planta
+      fotosint\xE9tica.\\n\\n Vulnerabilidad: No amenazada; com\xFAn en jardiner\xEDa."
   - nombre: Rosa
     ubicacion: {x: 0, y: 0, z: 0}
     id: 18
@@ -172,7 +202,8 @@ MonoBehaviour:
     img: {fileID: 21300000, guid: c0cccf80b7dac394b81b9624d258a62f, type: 3}
     nivel: 5
     tipo: 2
-    descripcion: 
+    descripcion: "Tabebuia rosea \u2013 Palo de rosa\\n\\n Alimentaci\xF3n: Planta
+      fotosint\xE9tica.\\n\\n Vulnerabilidad: No amenazada; ornamental y forestal."
   - nombre: Cambulo
     ubicacion: {x: 0, y: 0, z: 0}
     id: 19
@@ -181,7 +212,9 @@ MonoBehaviour:
     img: {fileID: 21300000, guid: ecfbca008e65d1e458bd6ad0e5455e62, type: 3}
     nivel: 5
     tipo: 2
-    descripcion: 
+    descripcion: "Erythrina poeppigiana \u2013 C\xE1mbulo\\n\\n Alimentaci\xF3n:
+      Planta fotosint\xE9tica.\\n\\n Vulnerabilidad: No amenazada; usada como sombra
+      en cultivos."
   - nombre: Banaba
     ubicacion: {x: 0, y: 0, z: 0}
     id: 20
@@ -190,7 +223,8 @@ MonoBehaviour:
     img: {fileID: 21300000, guid: 3c9a051ac8bbd8641b1a9c7521191c71, type: 3}
     nivel: 5
     tipo: 2
-    descripcion: 
+    descripcion: " Lagerstroemia speciosa \u2013 Banaba\\n\\n Alimentaci\xF3n: Planta
+      fotosint\xE9tica.\\n\\n Vulnerabilidad: No amenazada; valor ornamental y medicinal."
   - nombre: Guayabo
     ubicacion: {x: 0, y: 0, z: 0}
     id: 21
@@ -198,7 +232,8 @@ MonoBehaviour:
     img: {fileID: 21300000, guid: 8945653bbbeff3840a9f3b8dad593cda, type: 3}
     nivel: 5
     tipo: 2
-    descripcion: 
+    descripcion: "Psidium guajava \u2013 Guayabo\\n\\n Alimentaci\xF3n: Planta fotosint\xE9tica;
+      produce guayabas.\\n\\n Vulnerabilidad: No amenazada; frutal ampliamente cultivado."
   - nombre: Guadua
     ubicacion: {x: 0, y: 0, z: 0}
     id: 22
@@ -207,7 +242,8 @@ MonoBehaviour:
     img: {fileID: 21300000, guid: ea0cc8a7d677c374c849f0ed1f15107a, type: 3}
     nivel: 5
     tipo: 2
-    descripcion: 
+    descripcion: "Guadua angustifolia \u2013 Guadua\\n\\n Alimentaci\xF3n: Planta
+      fotosint\xE9tica.\\n\\n Vulnerabilidad: No amenazada; de gran uso en construcci\xF3n."
   - nombre: Limonero
     ubicacion: {x: 0, y: 0, z: 0}
     id: 23
@@ -216,7 +252,9 @@ MonoBehaviour:
     img: {fileID: 21300000, guid: 02cda49cd9f438544bea09af9f391bb4, type: 3}
     nivel: 5
     tipo: 2
-    descripcion: 
+    descripcion: "Citrus limon \u2013 Limonero\\n\\n Alimentaci\xF3n: Planta fotosint\xE9tica;
+      sus frutos son consumidos por muchas especies.\\n\\n Vulnerabilidad: No amenazada;
+      frutal de uso mundial."
   - nombre: Zorro Perro
     ubicacion: {x: 0, y: 0, z: 0}
     id: 24
@@ -225,6 +263,8 @@ MonoBehaviour:
     img: {fileID: 21300000, guid: d7b262e7e076cbf448fbe4d885694fb9, type: 3}
     nivel: 6
     tipo: 2
-    descripcion: 
+    descripcion: "Cerdocyon thous \u2013 Zorro perro\\n\\n Alimentaci\xF3n: Omn\xEDvoro;
+      come frutas, peque\xF1os vertebrados e insectos.\\n\\n Vulnerabilidad: Clasificado
+      como de \u201CPreocupaci\xF3n Menor\u201D "
   criaturaActivaID: 28
   criaturaEnemigaActivaID: 24
