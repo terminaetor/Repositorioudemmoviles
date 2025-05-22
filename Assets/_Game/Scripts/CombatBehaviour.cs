@@ -29,7 +29,7 @@ public class CombatBehaviour : MonoBehaviour
     public TMP_Text nombreenemigo;
 
     private void Awake() {
-        captura = capturados.capturas;
+        
         idcreatura = pokedex.criaturaActivaID;
         idenemy = pokedex.criaturaEnemigaActivaID;
         _playerCriatura = pokedex.GetCriaturaPorID(idcreatura);
@@ -39,7 +39,7 @@ public class CombatBehaviour : MonoBehaviour
     }
 
     private void Start() {
-        
+        captura = capturados.capturas;
         instanciaPlayer = Instantiate(_playerCriatura.prefab, _ScenePlayer.position, _ScenePlayer.rotation);
         instanciaEnemy = Instantiate(_enemyCriatura.prefab, _sceneEnemy.position, _sceneEnemy.rotation);
         nombreplayer.text = _playerCriatura.nombre;
