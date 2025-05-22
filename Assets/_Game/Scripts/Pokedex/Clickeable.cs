@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Clickeable : MonoBehaviour
 {
-    public PuntoGPS puntoGPS; // Asignar desde el Inspector
+    public CriaturaGPS criaturaGPS; // Asignar desde el Inspector
 
     void OnMouseDown()
     {
-        SeleccionadorEnemigo.singleton.idIndicado = puntoGPS.id;
+        SeleccionadorEnemigo.singleton.idIndicado = criaturaGPS.id;
         Debug.Log("Acabo de tocar a " + SeleccionadorEnemigo.singleton.idIndicado);
         SeleccionadorEnemigo.singleton.SeleccionarCriaturaPorID();
         NavigationManager.singleton.GoToCombate();
