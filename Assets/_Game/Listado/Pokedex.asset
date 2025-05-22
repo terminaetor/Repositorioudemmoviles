@@ -37,7 +37,7 @@ MonoBehaviour:
     prefab: {fileID: 9075596173643432991, guid: ca4a8a6828956a3458eaf638b61b41a1,
       type: 3}
     img: {fileID: 21300000, guid: bc4203410ce3b804aa62009c12e6d3ce, type: 3}
-    nivel: 1
+    nivel: 2
     tipo: 2
     descripcion: 
   - nombre: Picaflor
@@ -46,7 +46,7 @@ MonoBehaviour:
     prefab: {fileID: 7904294700429271967, guid: ec38b0955bd3e4142a7db1e227f3358c,
       type: 3}
     img: {fileID: 21300000, guid: 27625f49769785d48abbb994987dc13d, type: 3}
-    nivel: 4
+    nivel: 2
     tipo: 2
     descripcion: 
   - nombre: Tero
@@ -55,7 +55,7 @@ MonoBehaviour:
     prefab: {fileID: 2279696326053243446, guid: 8b7c688e0a9986943a82b7fb25708724,
       type: 3}
     img: {fileID: 21300000, guid: fe8f353336a091344801c607ef269c2a, type: 3}
-    nivel: 1
+    nivel: 2
     tipo: 2
     descripcion: 
   - nombre: Garrapatero
@@ -64,7 +64,7 @@ MonoBehaviour:
     prefab: {fileID: 5605443589492128866, guid: ccf29446b37a1b542b425dcf568c2512,
       type: 3}
     img: {fileID: 21300000, guid: 01e30d10847c06643a83d40f49c686a6, type: 3}
-    nivel: 1
+    nivel: 2
     tipo: 2
     descripcion: 
   - nombre: Platanero
@@ -82,7 +82,7 @@ MonoBehaviour:
     prefab: {fileID: 1829884057294870062, guid: 890b768f031481f40b548e0ea8d8dc3b,
       type: 3}
     img: {fileID: 21300000, guid: 5e5b48298637f3545b7fde4b992229b4, type: 3}
-    nivel: 1
+    nivel: 3
     tipo: 2
     descripcion: 
   - nombre: Silbon
@@ -91,7 +91,7 @@ MonoBehaviour:
     prefab: {fileID: 6611137293045913539, guid: e6015e6f91208db45ab2d44b6098734a,
       type: 3}
     img: {fileID: 21300000, guid: a425dc4a804593548a4d2e7528c9313b, type: 3}
-    nivel: 1
+    nivel: 3
     tipo: 2
     descripcion: 
   - nombre: "mastin com\xFAn"
@@ -108,7 +108,7 @@ MonoBehaviour:
     prefab: {fileID: 3236733419751907781, guid: 2d729aba8a2925b41aa546c7e9b48710,
       type: 3}
     img: {fileID: 21300000, guid: 56889290ea19177458b0be9e97c6e21b, type: 3}
-    nivel: 1
+    nivel: 3
     tipo: 2
     descripcion: 
   - nombre: Comadreja Andina
@@ -117,7 +117,7 @@ MonoBehaviour:
     prefab: {fileID: 7076986963321752202, guid: 5b8a6eb853fbabe4bb76e60ddcd808f5,
       type: 3}
     img: {fileID: 21300000, guid: f37ac973802d6d346ad2a5109c0f4d47, type: 3}
-    nivel: 5
+    nivel: 3
     tipo: 2
     descripcion: 
   - nombre: "Kinkaj\xFA"
@@ -126,7 +126,7 @@ MonoBehaviour:
     prefab: {fileID: 5373449809097105722, guid: 686b324b0f16cc54cb430a6292d8627d,
       type: 3}
     img: {fileID: 21300000, guid: bfa884de118682842b3d7f15ad25ebaf, type: 3}
-    nivel: 1
+    nivel: 4
     tipo: 2
     descripcion: 
   - nombre: 'Mango '
@@ -143,7 +143,7 @@ MonoBehaviour:
     id: 15
     prefab: {fileID: 904219321301456793, guid: 5d4c9d521fe245c4db9ce086572dcf25, type: 3}
     img: {fileID: 21300000, guid: b7e7d4f704f781044959637965e7b28e, type: 3}
-    nivel: 1
+    nivel: 4
     tipo: 2
     descripcion: 
   - nombre: Yuca
@@ -152,7 +152,7 @@ MonoBehaviour:
     prefab: {fileID: 7341128527512164842, guid: 1fd5338afadc77d4ea140fa0dd16661a,
       type: 3}
     img: {fileID: 21300000, guid: d9363b12e92601b458a3ffb1ded8556d, type: 3}
-    nivel: 3
+    nivel: 4
     tipo: 2
     descripcion: 
   - nombre: Gualanday
@@ -161,7 +161,7 @@ MonoBehaviour:
     prefab: {fileID: 9047516162159825090, guid: 3b3ad79f17d04bc459c20fea6265c4f1,
       type: 3}
     img: {fileID: 21300000, guid: 1124ee283fb39f34aa50bd281b22f841, type: 3}
-    nivel: 1
+    nivel: 4
     tipo: 2
     descripcion: 
   - nombre: Rosa
@@ -170,7 +170,7 @@ MonoBehaviour:
     prefab: {fileID: 1050295315506128213, guid: 6e67da0f789b1714c93ff3b850e8b8df,
       type: 3}
     img: {fileID: 21300000, guid: c0cccf80b7dac394b81b9624d258a62f, type: 3}
-    nivel: 1
+    nivel: 5
     tipo: 2
     descripcion: 
   - nombre: Cambulo
@@ -179,7 +179,7 @@ MonoBehaviour:
     prefab: {fileID: 7856444023175183905, guid: aff8f9aeb528ce6498c6565e346ec3fb,
       type: 3}
     img: {fileID: 21300000, guid: ecfbca008e65d1e458bd6ad0e5455e62, type: 3}
-    nivel: 3
+    nivel: 5
     tipo: 2
     descripcion: 
   - nombre: Banaba
@@ -188,7 +188,7 @@ MonoBehaviour:
     prefab: {fileID: 1362603210010550059, guid: 88dd7e4d09531934a984cc06b2249aea,
       type: 3}
     img: {fileID: 21300000, guid: 3c9a051ac8bbd8641b1a9c7521191c71, type: 3}
-    nivel: 1
+    nivel: 5
     tipo: 2
     descripcion: 
   - nombre: Guayabo
@@ -196,7 +196,7 @@ MonoBehaviour:
     id: 21
     prefab: {fileID: 810258845340048781, guid: 6febf8a3be93c21459efaf42dd63519c, type: 3}
     img: {fileID: 21300000, guid: 8945653bbbeff3840a9f3b8dad593cda, type: 3}
-    nivel: 1
+    nivel: 5
     tipo: 2
     descripcion: 
   - nombre: Guadua
@@ -205,7 +205,7 @@ MonoBehaviour:
     prefab: {fileID: 1161142193061363993, guid: aa56eea4c0ddc4a49a64205487abff8b,
       type: 3}
     img: {fileID: 21300000, guid: ea0cc8a7d677c374c849f0ed1f15107a, type: 3}
-    nivel: 1
+    nivel: 5
     tipo: 2
     descripcion: 
   - nombre: Limonero
@@ -214,7 +214,7 @@ MonoBehaviour:
     prefab: {fileID: 2465937070147434795, guid: 1b15101fb5113db4da56f8ec14142225,
       type: 3}
     img: {fileID: 21300000, guid: 02cda49cd9f438544bea09af9f391bb4, type: 3}
-    nivel: 1
+    nivel: 5
     tipo: 2
     descripcion: 
   - nombre: Zorro Perro
@@ -223,7 +223,7 @@ MonoBehaviour:
     prefab: {fileID: 7429087600479364227, guid: 5105c120bbff8da459ca06c1ea067faf,
       type: 3}
     img: {fileID: 21300000, guid: d7b262e7e076cbf448fbe4d885694fb9, type: 3}
-    nivel: 1
+    nivel: 6
     tipo: 2
     descripcion: 
   criaturaActivaID: 28
